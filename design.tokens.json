@@ -30,7 +30,7 @@
           },
           "$value": {
             "hex": "#fff0cc",
-            "alpha": 1
+            "alpha": 0.41999998688697815
           },
           "$type": "color"
         },
@@ -454,11 +454,11 @@
             "dsys.styleId": "S:3c34743e7fc8745de677e12b44e0147b063ec625,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
-            "fontStyle": "normal",
+            "fontFamily": "Open Sans",
+            "fontStyle": "italic",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
-              "style": "Regular"
+              "family": "Open Sans",
+              "style": "Italic"
             },
             "fontWeight": 400,
             "fontSize": 29,
@@ -467,7 +467,8 @@
               "value": 0
             },
             "lineHeight": {
-              "unit": "AUTO"
+              "unit": "PIXELS",
+              "value": 34
             },
             "listSpacing": 0,
             "paragraphIndent": 0,
@@ -498,7 +499,8 @@
               "value": 0
             },
             "lineHeight": {
-              "unit": "AUTO"
+              "unit": "PERCENT",
+              "value": 50
             },
             "listSpacing": 0,
             "paragraphIndent": 0,
