@@ -1,0 +1,157 @@
+{
+  "$description": "Horse Design System (hds) Design Tokens",
+  "hds": {
+    "$extensions": {
+      "dsys.level": "sheet",
+      "dsys.prefix": "hds",
+      "dsys.fullName": "Horse Design System"
+    },
+    "colors": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "ColorSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the colors in this design system",
+      "primary": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "primary",
+          "dsys.nodeId": "2:7278"
+        },
+        "$description": "primary color tokens",
+        "primary-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-1",
+            "dsys.index": 0,
+            "dsys.styleId": "S:7cd5344bbc471db37f3270aa58c40d1e3473601a,"
+          },
+          "$value": {
+            "hex": "#fff0cc",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-2",
+            "dsys.index": 1,
+            "dsys.styleId": "S:efb4e9c4b684815d0fae74be6de264caa97911c5,"
+          },
+          "$value": {
+            "hex": "#f7db98",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-3",
+            "dsys.index": 2,
+            "dsys.styleId": "S:2062cd33b7f2270cbc228b40c406fdc0eeeb0bca,"
+          },
+          "$value": {
+            "hex": "#f0c767",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-4",
+            "dsys.index": 3,
+            "dsys.styleId": "S:4a708e1fc0ea826f3f0661675e75eabaaefef32f,"
+          },
+          "$value": {
+            "hex": "#e8b339",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-5",
+            "dsys.index": 4,
+            "dsys.styleId": "S:eca929eab55775cb2401ac7fa256f2f39ed4cf1c,"
+          },
+          "$value": {
+            "hex": "#e0a10d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary",
+            "dsys.index": 5,
+            "dsys.styleId": "S:2c5387a7d74b388025ac0095829720a5c069beaf,"
+          },
+          "$value": {
+            "hex": "#e0a10d",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-6",
+            "dsys.index": 6,
+            "dsys.styleId": "S:dfbd445dc1e199adf2ddca87105b83af259c6436,"
+          },
+          "$value": {
+            "hex": "#bf8809",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-7",
+            "dsys.index": 7,
+            "dsys.styleId": "S:8ca4137fee3c22d6229a21cec2f5e309c5fe189c,"
+          },
+          "$value": {
+            "hex": "#9e7005",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-8",
+            "dsys.index": 8,
+            "dsys.styleId": "S:c0615a0932b391a757a99270b60fb5be34eb654e,"
+          },
+          "$value": {
+            "hex": "#7d5802",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "primary-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "primary-9",
+            "dsys.index": 9,
+            "dsys.styleId": "S:7172583fdb12b17878040182907e90d8f107efca,"
+          },
+          "$value": {
+            "hex": "#5c4000",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
+      }
+    }
+  }
+}
