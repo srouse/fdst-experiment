@@ -12,7 +12,7 @@
         "dsys.type": "ColorSet",
         "dsys.nodeIds": []
       },
-      "$description": "All the colors in this design system",
+      "$description": "All the colors tokens",
       "primary": {
         "$extensions": {
           "dsys.level": "tokenset",
@@ -150,6 +150,798 @@
             "alpha": 1
           },
           "$type": "color"
+        }
+      }
+    },
+    "spacing": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "Spacing",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the spacing tokens",
+      "spacing": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "Spacing",
+          "dsys.name": "spacing",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a set of spacing tokens",
+        "spacing-0": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-0",
+            "dsys.index": 0,
+            "dsys.uid": "_0_vn45pakdst"
+          },
+          "$type": "spacing",
+          "$value": 0
+        },
+        "spacing-0-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-0-3",
+            "dsys.index": 1,
+            "dsys.uid": "_1_1uznkiutxsh"
+          },
+          "$type": "spacing",
+          "$value": 2.5
+        },
+        "spacing-0-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-0-6",
+            "dsys.index": 2,
+            "dsys.uid": "_2_2c4753hfcjx"
+          },
+          "$type": "spacing",
+          "$value": 5
+        },
+        "spacing-0-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-0-9",
+            "dsys.index": 3,
+            "dsys.uid": "_3_6sdj37sd37"
+          },
+          "$type": "spacing",
+          "$value": 7.5
+        },
+        "spacing-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-1",
+            "dsys.index": 4,
+            "dsys.uid": "_4_9rfug1onan"
+          },
+          "$type": "spacing",
+          "$value": 10
+        },
+        "spacing-1-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-1-3",
+            "dsys.index": 5,
+            "dsys.uid": "_5_1mf4mi0ecw9"
+          },
+          "$type": "spacing",
+          "$value": 12.5
+        },
+        "spacing-1-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-1-6",
+            "dsys.index": 6,
+            "dsys.uid": "_6_29ocurc89lj"
+          },
+          "$type": "spacing",
+          "$value": 15
+        },
+        "spacing-1-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-1-9",
+            "dsys.index": 7,
+            "dsys.uid": "_7_2861z1qc37v"
+          },
+          "$type": "spacing",
+          "$value": 17.5
+        },
+        "spacing-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-2",
+            "dsys.index": 8,
+            "dsys.uid": "_8_19o6kdygrkv"
+          },
+          "$type": "spacing",
+          "$value": 20
+        },
+        "spacing-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-3",
+            "dsys.index": 9,
+            "dsys.uid": "_9_ps3du6ks63"
+          },
+          "$type": "spacing",
+          "$value": 30
+        },
+        "spacing-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-4",
+            "dsys.index": 10,
+            "dsys.uid": "_a_1lpgadw74gj"
+          },
+          "$type": "spacing",
+          "$value": 40
+        },
+        "spacing-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-5",
+            "dsys.index": 11,
+            "dsys.uid": "_b_7a9ds5ge2v"
+          },
+          "$type": "spacing",
+          "$value": 50
+        },
+        "spacing-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-6",
+            "dsys.index": 12,
+            "dsys.uid": "_c_2s8xt46zmr"
+          },
+          "$type": "spacing",
+          "$value": 60
+        },
+        "spacing-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-7",
+            "dsys.index": 13,
+            "dsys.uid": "_d_26irljhtrb1"
+          },
+          "$type": "spacing",
+          "$value": 70
+        },
+        "spacing-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-8",
+            "dsys.index": 14,
+            "dsys.uid": "_e_8dgm4oqxhb"
+          },
+          "$type": "spacing",
+          "$value": 80
+        }
+      }
+    },
+    "icons": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "IconSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the icons tokens",
+      "my-icons": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "IconSet",
+          "dsys.name": "my icons",
+          "dsys.nodeId": "2:11543"
+        },
+        "$description": "my icons icon tokens",
+        "default": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "default",
+            "dsys.componentId": "2:11925",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": []
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M51.9375 6.375H8.0625C5.26652 6.375 3 8.64152 3 11.4375V48.5625C3 51.3574 5.26652 53.625 8.0625 53.625H51.9375C54.7335 53.625 57 51.3585 57 48.5625V11.4375C57 8.64152 54.7324 6.375 51.9375 6.375ZM8.0625 51.9375C6.20203 51.9375 4.6875 50.423 4.6875 48.5625V43.1509L15.8988 31.9396C16.2284 31.61 16.7624 31.61 17.0917 31.9396L25.4269 40.2748L13.7684 51.9375H8.0625ZM55.3125 48.5625C55.3125 50.423 53.798 51.9375 51.9375 51.9375H16.152L42.9094 25.1801C43.239 24.8505 43.773 24.8505 44.1022 25.1801L55.3125 36.402V48.5625ZM55.3125 34.0184L45.2898 23.9957C44.301 23.0102 42.6995 23.0102 41.7102 23.9957L26.625 39.0809L18.198 30.7383C17.2093 29.7528 15.6077 29.7528 14.6184 30.7383L4.6875 40.7684V11.4375C4.6875 9.57703 6.20203 8.0625 8.0625 8.0625H51.9375C53.798 8.0625 55.3125 9.57703 55.3125 11.4375V34.0184ZM16.5 13.9688C13.2379 13.9688 10.5938 16.616 10.5938 19.875C10.5938 23.134 13.2379 25.7812 16.5 25.7812C19.7621 25.7812 22.4062 23.134 22.4062 19.875C22.4062 16.616 19.759 13.9688 16.5 13.9688ZM16.5 24.0938C14.1691 24.0938 12.2812 22.2059 12.2812 19.875C12.2812 17.5484 14.1744 15.6562 16.5 15.6562C18.8256 15.6562 20.7188 17.5441 20.7188 19.875C20.7188 22.2059 18.8309 24.0938 16.5 24.0938Z\" fill=\"#353739\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "horse": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "horse",
+            "dsys.componentId": "2:11933",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": []
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2_11933)\">\n<path d=\"M45 28.3219V21H46.5L47.4187 22.8375C48.5906 25.1906 51.375 26.25 53.8219 25.275C55.7437 24.5063 57 22.65 57 20.5781V13.5C57 11.7094 56.2125 10.0969 54.9656 9H55.5C56.325 9 57 8.325 57 7.5C57 6.675 56.325 6 55.5 6H48H45C38.3719 6 33 11.3719 33 18H24H22.05H16.95C14.0719 18 11.55 19.5281 10.1531 21.825C6.1125 22.3594 3 25.8188 3 30V35.25C3 36.4969 4.00312 37.5 5.25 37.5C6.49688 37.5 7.5 36.4969 7.5 35.25V30C7.5 28.7438 8.11875 27.6375 9.06562 26.9531C9.21562 28.1719 9.65625 29.3344 10.3406 30.3656L12.9844 34.3406C13.7625 35.5031 13.5844 37.0312 12.8719 38.2406C11.325 40.8656 10.9406 44.0719 11.9344 47.0437L13.575 51.9563C13.9875 53.1844 15.1312 54.0094 16.425 54.0094H19.5844C21.6281 54.0094 23.0813 52.0031 22.4344 50.0625L20.4844 44.2031C20.2875 43.6031 20.4375 42.9469 20.8875 42.4969L22.0781 41.3063C23.3156 40.0688 24.0094 38.3906 24.0094 36.6469C24.0094 36.4312 24 36.2156 23.9813 36L31.8562 38.25C32.2406 38.3625 32.625 38.4469 33.0094 38.5125V51C33.0094 52.6594 34.35 54 36.0094 54H39.0094C40.6688 54 42.0094 52.6594 42.0094 51V35.5969C43.8094 33.7969 44.9625 31.3125 45.0094 28.5V28.3219H45ZM49.5 15C48.675 15 48 14.325 48 13.5C48 12.675 48.675 12 49.5 12C50.325 12 51 12.675 51 13.5C51 14.325 50.325 15 49.5 15Z\" fill=\"#353739\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2_11933\">\n<rect width=\"54\" height=\"48\" fill=\"white\" transform=\"translate(3 6)\"/>\n</clipPath>\n</defs>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        }
+      },
+      "another-set-of-tokens": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "IconSet",
+          "dsys.name": "Another Set of Tokens",
+          "dsys.nodeId": "2:12356"
+        },
+        "$description": "Another Set of Tokens icon tokens",
+        "piggy-bank": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "piggy-bank",
+            "dsys.componentId": "2:12748",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": []
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2_12748)\">\n<path d=\"M40.5 15V15.0656C40.0031 15.0281 39.5063 15 39 15H27C25.4531 15 23.9531 15.1969 22.5187 15.5625C22.5094 15.375 22.5 15.1875 22.5 15C22.5 10.0312 26.5312 6 31.5 6C36.4688 6 40.5 10.0312 40.5 15ZM39 18C39.3281 18 39.6562 18.0094 39.975 18.0281C40.3687 18.0563 40.7625 18.0938 41.1562 18.15C42.8063 16.2281 45.2625 15 48 15H51L49.2375 22.0406C50.7188 23.4281 51.9281 25.1156 52.7531 27H54C55.6594 27 57 28.3406 57 30V39C57 40.6594 55.6594 42 54 42H51C50.1469 43.1344 49.1344 44.1469 48 45V51C48 52.6594 46.6594 54 45 54H42C40.3406 54 39 52.6594 39 51V48H27V51C27 52.6594 25.6594 54 24 54H21C19.3406 54 18 52.6594 18 51V45C14.7281 42.5437 12.4969 38.7844 12.075 34.5H9.375C5.85 34.5 3 31.65 3 28.125C3 24.6 5.85 21.75 9.375 21.75H9.75C10.9969 21.75 12 22.7531 12 24C12 25.2469 10.9969 26.25 9.75 26.25H9.375C8.34375 26.25 7.5 27.0938 7.5 28.125C7.5 29.1562 8.34375 30 9.375 30H12.3C13.4344 24.3938 17.7094 19.9219 23.2031 18.4875C24.4125 18.1687 25.6875 18 27 18H39V18ZM45 30.75C45 29.5031 43.9969 28.5 42.75 28.5C41.5031 28.5 40.5 29.5031 40.5 30.75C40.5 31.9969 41.5031 33 42.75 33C43.9969 33 45 31.9969 45 30.75Z\" fill=\"#353739\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2_12748\">\n<rect width=\"54\" height=\"48\" fill=\"white\" transform=\"translate(3 6)\"/>\n</clipPath>\n</defs>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        }
+      }
+    },
+    "components": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "ComponentSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the components tokens",
+      "my-first-component": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "My First Component",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "My First Component"
+          },
+          "$type": "component",
+          "$value": "2:13265"
+        }
+      }
+    },
+    "typography": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "TypographySet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the typography tokens",
+      "text": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "TypographySet",
+          "dsys.name": "text",
+          "dsys.nodeId": "2:13423"
+        },
+        "$description": "text typography tokens",
+        "text-10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-10",
+            "dsys.index": 0,
+            "dsys.styleId": "S:3c34743e7fc8745de677e12b44e0147b063ec625,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 29,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-9",
+            "dsys.index": 1,
+            "dsys.styleId": "S:08ec98f5496035a7a8dcb861132584e2aa829744,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 24,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-8",
+            "dsys.index": 2,
+            "dsys.styleId": "S:4fd5ef73237e21a68b0067fc1e1b446881b125a0,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 21,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-7",
+            "dsys.index": 3,
+            "dsys.styleId": "S:9d329ee4444929448a014e0ecd6aee761881a2fa,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 19,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-6",
+            "dsys.index": 4,
+            "dsys.styleId": "S:6da4336cbf189f53dd32de023e07e6c556f53393,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 17,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-5",
+            "dsys.index": 5,
+            "dsys.styleId": "S:d1794ee4c24660bef8de350e91c8c691c0e99b7d,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text",
+            "dsys.index": 6,
+            "dsys.styleId": "S:b617f1d19cdcadffb182eefa35002dee7f5470da,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 16,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-4",
+            "dsys.index": 7,
+            "dsys.styleId": "S:605033c1600156b0e26e49cc10da7825c1aa58be,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 15,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-3",
+            "dsys.index": 8,
+            "dsys.styleId": "S:bffb576e76a9d02fbdf0ae6b96e85f9614eaf698,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 14,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-2",
+            "dsys.index": 9,
+            "dsys.styleId": "S:89230e633f3b46dab67960897d754882dca26cf9,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 12,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        },
+        "text-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "text-1",
+            "dsys.index": 10,
+            "dsys.styleId": "S:ab3df62bc360eae0ac1abaa00b39119c1656a223,"
+          },
+          "$value": {
+            "fontFamily": "Allerta Stencil",
+            "fontStyle": "normal",
+            "figmaFontObj": {
+              "family": "Allerta Stencil",
+              "style": "Regular"
+            },
+            "fontWeight": 400,
+            "fontSize": 11,
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "lineHeight": {
+              "unit": "AUTO"
+            },
+            "listSpacing": 0,
+            "paragraphIndent": 0,
+            "paragraphSpacing": 0,
+            "textCase": "ORIGINAL",
+            "textDecoration": "NONE"
+          },
+          "$type": "typography"
+        }
+      }
+    },
+    "effects": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "EffectSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the effects tokens",
+      "my-effects": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "EffectSet",
+          "dsys.name": "My Effects",
+          "dsys.nodeId": "2:13811"
+        },
+        "$description": "My Effects effect tokens",
+        "new-effect": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "new-effect",
+            "dsys.index": 0,
+            "dsys.styleId": "S:e5d2f701a729e42d97b4624884dca2d9451c4dfc,"
+          },
+          "$value": {
+            "color": "#000000",
+            "alpha": 0.15000000596046448,
+            "blur": 10,
+            "offsetX": 0,
+            "offsetY": 0,
+            "radius": 10,
+            "spread": 0
+          },
+          "$type": "shadow"
+        },
+        "new-effect-9171": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "new-effect-9171",
+            "dsys.index": 1,
+            "dsys.styleId": "S:d83f4862ff1758ed9d4bc3bc7cb60748bb9045a0,"
+          },
+          "$value": {
+            "radius": 10
+          },
+          "$type": "blur"
+        }
+      }
+    },
+    "breakpoints": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "BreakpointSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the breakpoints tokens",
+      "breakpoints": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "BreakpointSet",
+          "dsys.name": "breakpoints",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a set of custom tokens",
+        "phone-only": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "phone-only",
+            "dsys.index": 0,
+            "dsys.uid": "_0_1odya4kuw35"
+          },
+          "$type": "breakpoint",
+          "$direction": "down",
+          "$value": 599
+        },
+        "tablet-portrat-up": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "tablet-portrat-up",
+            "dsys.index": 1,
+            "dsys.uid": "_1_1qq9ebffxtf"
+          },
+          "$type": "breakpoint",
+          "$direction": "up",
+          "$value": 600
+        },
+        "tablet-landscape-up": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "tablet-landscape-up",
+            "dsys.index": 2,
+            "dsys.uid": "_2_styumpzwt7"
+          },
+          "$type": "breakpoint",
+          "$direction": "up",
+          "$value": 900
+        },
+        "desktop-up": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "desktop-up",
+            "dsys.index": 3,
+            "dsys.uid": "_3_axooynka0r"
+          },
+          "$type": "breakpoint",
+          "$direction": "up",
+          "$value": 1200
+        },
+        "big-desktop-up": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "big-desktop-up",
+            "dsys.index": 4,
+            "dsys.uid": "_4_14nfskkb9zj"
+          },
+          "$type": "breakpoint",
+          "$direction": "up",
+          "$value": 1800
+        }
+      }
+    },
+    "custom": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "CustomSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the custom tokens",
+      "my-custom": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "CustomSet",
+          "dsys.name": "My Custom",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a set of custom tokens",
+        "bubba": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "bubba",
+            "dsys.index": 1,
+            "dsys.uid": "_0_13e45sllio9"
+          },
+          "$type": "custom",
+          "$value": "dog"
+        },
+        "turkey": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "turkey",
+            "dsys.index": 0,
+            "dsys.uid": "_1_12qxfhcuysb"
+          },
+          "$type": "custom",
+          "$value": "5"
         }
       }
     }
