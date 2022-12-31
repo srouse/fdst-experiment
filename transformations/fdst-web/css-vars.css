@@ -9,6 +9,13 @@
   --fds-color-primary-7: #095f91;
   --fds-color-primary-8: #044d78;
   --fds-color-primary-9: #003a5c;
+  --fds-color-bonkers-lightest: #ffcccc;
+  --fds-color-bonkers-lighter: #ff8888;
+  --fds-color-bonkers-light: #ff4444;
+  --fds-color-bonkers: #ff0000;
+  --fds-color-bonkers-dark: #c90000;
+  --fds-color-bonkers-darker: #920000;
+  --fds-color-bonkers-darkest: #5c0000;
   --fds-type-text-10: 400 1.813em/2.175em 'Inter';
   --fds-type-text-9: 400 1.5em/1.8em 'Inter';
   --fds-type-text-8: 400 1.313em/1.575em 'Inter';
