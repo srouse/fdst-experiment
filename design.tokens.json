@@ -1,10 +1,10 @@
 {
-  "$description": "Horse Design System (hds) Design Tokens",
-  "hds": {
+  "$description": "First Design System (FDS) Design Tokens",
+  "FDS": {
     "$extensions": {
       "dsys.level": "sheet",
-      "dsys.prefix": "hds",
-      "dsys.fullName": "Horse Design System"
+      "dsys.prefix": "FDS",
+      "dsys.fullName": "First Design System"
     },
     "color": {
       "$extensions": {
@@ -18,7 +18,7 @@
           "dsys.level": "tokenset",
           "dsys.type": "ColorSet",
           "dsys.name": "primary",
-          "dsys.nodeId": "2:7278"
+          "dsys.nodeId": "10:14446"
         },
         "$description": "primary color tokens",
         "primary-1": {
@@ -26,11 +26,11 @@
             "dsys.level": "token",
             "dsys.name": "primary-1",
             "dsys.index": 0,
-            "dsys.styleId": "S:7cd5344bbc471db37f3270aa58c40d1e3473601a,"
+            "dsys.styleId": "S:a1c0885880b3d4c1610e92b42edf6052f45135c9,"
           },
           "$value": {
-            "hex": "#fff0cc",
-            "alpha": 0.41999998688697815
+            "hex": "#ccecff",
+            "alpha": 1
           },
           "$type": "color"
         },
@@ -39,10 +39,10 @@
             "dsys.level": "token",
             "dsys.name": "primary-2",
             "dsys.index": 1,
-            "dsys.styleId": "S:efb4e9c4b684815d0fae74be6de264caa97911c5,"
+            "dsys.styleId": "S:3f89500d8b01e446925451162d2b04d3bb3e8228,"
           },
           "$value": {
-            "hex": "#f7db98",
+            "hex": "#99d1f2",
             "alpha": 1
           },
           "$type": "color"
@@ -52,10 +52,10 @@
             "dsys.level": "token",
             "dsys.name": "primary-3",
             "dsys.index": 2,
-            "dsys.styleId": "S:2062cd33b7f2270cbc228b40c406fdc0eeeb0bca,"
+            "dsys.styleId": "S:63cf749f2ad1b1c3fc7dc0051d2ee32661b71d95,"
           },
           "$value": {
-            "hex": "#f0c767",
+            "hex": "#6bb7e3",
             "alpha": 1
           },
           "$type": "color"
@@ -65,10 +65,10 @@
             "dsys.level": "token",
             "dsys.name": "primary-4",
             "dsys.index": 3,
-            "dsys.styleId": "S:4a708e1fc0ea826f3f0661675e75eabaaefef32f,"
+            "dsys.styleId": "S:6f68115dd5b0a3a73c5f95701fc64db16d00e7f9,"
           },
           "$value": {
-            "hex": "#e8b339",
+            "hex": "#409fd6",
             "alpha": 1
           },
           "$type": "color"
@@ -78,10 +78,10 @@
             "dsys.level": "token",
             "dsys.name": "primary-5",
             "dsys.index": 4,
-            "dsys.styleId": "S:eca929eab55775cb2401ac7fa256f2f39ed4cf1c,"
+            "dsys.styleId": "S:4ba2092e247d2403b00c94613d37a3642cd8d585,"
           },
           "$value": {
-            "hex": "#e0a10d",
+            "hex": "#1e83bd",
             "alpha": 1
           },
           "$type": "color"
@@ -91,10 +91,10 @@
             "dsys.level": "token",
             "dsys.name": "primary",
             "dsys.index": 5,
-            "dsys.styleId": "S:2c5387a7d74b388025ac0095829720a5c069beaf,"
+            "dsys.styleId": "S:a4a1a4d1580dec212e05872fe45c3b53dfead0d4,"
           },
           "$value": {
-            "hex": "#e0a10d",
+            "hex": "#1e83bd",
             "alpha": 1
           },
           "$type": "color"
@@ -104,10 +104,10 @@
             "dsys.level": "token",
             "dsys.name": "primary-6",
             "dsys.index": 6,
-            "dsys.styleId": "S:dfbd445dc1e199adf2ddca87105b83af259c6436,"
+            "dsys.styleId": "S:5aa148369d94032070403a0bed0247677838bda7,"
           },
           "$value": {
-            "hex": "#bf8809",
+            "hex": "#1172ab",
             "alpha": 1
           },
           "$type": "color"
@@ -117,10 +117,10 @@
             "dsys.level": "token",
             "dsys.name": "primary-7",
             "dsys.index": 7,
-            "dsys.styleId": "S:8ca4137fee3c22d6229a21cec2f5e309c5fe189c,"
+            "dsys.styleId": "S:dfc2058a6392da33e5bb326a12caae696f34fc21,"
           },
           "$value": {
-            "hex": "#9e7005",
+            "hex": "#095f91",
             "alpha": 1
           },
           "$type": "color"
@@ -130,10 +130,10 @@
             "dsys.level": "token",
             "dsys.name": "primary-8",
             "dsys.index": 8,
-            "dsys.styleId": "S:c0615a0932b391a757a99270b60fb5be34eb654e,"
+            "dsys.styleId": "S:57bcdb0d9618f4c036576bd09f09a1cef6f932e5,"
           },
           "$value": {
-            "hex": "#7d5802",
+            "hex": "#044d78",
             "alpha": 1
           },
           "$type": "color"
@@ -143,291 +143,13 @@
             "dsys.level": "token",
             "dsys.name": "primary-9",
             "dsys.index": 9,
-            "dsys.styleId": "S:7172583fdb12b17878040182907e90d8f107efca,"
+            "dsys.styleId": "S:cc3ed3bca554fccb1a2a0c11cba55f6f0491dd01,"
           },
           "$value": {
-            "hex": "#5c4000",
+            "hex": "#003a5c",
             "alpha": 1
           },
           "$type": "color"
-        }
-      }
-    },
-    "spacing": {
-      "$extensions": {
-        "dsys.level": "group",
-        "dsys.type": "Spacing",
-        "dsys.nodeIds": []
-      },
-      "$description": "All the spacing tokens",
-      "spacing": {
-        "$extensions": {
-          "dsys.level": "tokenset",
-          "dsys.type": "Spacing",
-          "dsys.name": "spacing",
-          "dsys.nodeId": "?"
-        },
-        "$description": "a set of spacing tokens",
-        "spacing-0": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-0",
-            "dsys.index": 0,
-            "dsys.uid": "_0_vn45pakdst"
-          },
-          "$type": "spacing",
-          "$value": 0
-        },
-        "spacing-0-3": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-0-3",
-            "dsys.index": 1,
-            "dsys.uid": "_1_1uznkiutxsh"
-          },
-          "$type": "spacing",
-          "$value": 2.5
-        },
-        "spacing-0-6": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-0-6",
-            "dsys.index": 2,
-            "dsys.uid": "_2_2c4753hfcjx"
-          },
-          "$type": "spacing",
-          "$value": 5
-        },
-        "spacing-0-9": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-0-9",
-            "dsys.index": 3,
-            "dsys.uid": "_3_6sdj37sd37"
-          },
-          "$type": "spacing",
-          "$value": 7.5
-        },
-        "spacing-1": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-1",
-            "dsys.index": 4,
-            "dsys.uid": "_4_9rfug1onan"
-          },
-          "$type": "spacing",
-          "$value": 10
-        },
-        "spacing-1-3": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-1-3",
-            "dsys.index": 5,
-            "dsys.uid": "_5_1mf4mi0ecw9"
-          },
-          "$type": "spacing",
-          "$value": 12.5
-        },
-        "spacing-1-6": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-1-6",
-            "dsys.index": 6,
-            "dsys.uid": "_6_29ocurc89lj"
-          },
-          "$type": "spacing",
-          "$value": 15
-        },
-        "spacing-1-9": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-1-9",
-            "dsys.index": 7,
-            "dsys.uid": "_7_2861z1qc37v"
-          },
-          "$type": "spacing",
-          "$value": 17.5
-        },
-        "spacing-2": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-2",
-            "dsys.index": 8,
-            "dsys.uid": "_8_19o6kdygrkv"
-          },
-          "$type": "spacing",
-          "$value": 20
-        },
-        "spacing-3": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-3",
-            "dsys.index": 9,
-            "dsys.uid": "_9_ps3du6ks63"
-          },
-          "$type": "spacing",
-          "$value": 30
-        },
-        "spacing-4": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-4",
-            "dsys.index": 10,
-            "dsys.uid": "_a_1lpgadw74gj"
-          },
-          "$type": "spacing",
-          "$value": 40
-        },
-        "spacing-5": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-5",
-            "dsys.index": 11,
-            "dsys.uid": "_b_7a9ds5ge2v"
-          },
-          "$type": "spacing",
-          "$value": 50
-        },
-        "spacing-6": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-6",
-            "dsys.index": 12,
-            "dsys.uid": "_c_2s8xt46zmr"
-          },
-          "$type": "spacing",
-          "$value": 60
-        },
-        "spacing-7": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-7",
-            "dsys.index": 13,
-            "dsys.uid": "_d_26irljhtrb1"
-          },
-          "$type": "spacing",
-          "$value": 70
-        },
-        "spacing-8": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "spacing-8",
-            "dsys.index": 14,
-            "dsys.uid": "_e_8dgm4oqxhb"
-          },
-          "$type": "spacing",
-          "$value": 80
-        }
-      }
-    },
-    "icon": {
-      "$extensions": {
-        "dsys.level": "group",
-        "dsys.type": "IconSet",
-        "dsys.nodeIds": []
-      },
-      "$description": "All the icon tokens",
-      "my-icons": {
-        "$extensions": {
-          "dsys.level": "tokenset",
-          "dsys.type": "IconSet",
-          "dsys.name": "my icons",
-          "dsys.nodeId": "2:11543"
-        },
-        "$description": "my icons icon tokens",
-        "default": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "default",
-            "dsys.componentId": "2:11925",
-            "dsys.scale": 0.1,
-            "dsys.offsetX": 0,
-            "dsys.offsetY": 0,
-            "dsys.sizes": []
-          },
-          "$value": {
-            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M51.9375 6.375H8.0625C5.26652 6.375 3 8.64152 3 11.4375V48.5625C3 51.3574 5.26652 53.625 8.0625 53.625H51.9375C54.7335 53.625 57 51.3585 57 48.5625V11.4375C57 8.64152 54.7324 6.375 51.9375 6.375ZM8.0625 51.9375C6.20203 51.9375 4.6875 50.423 4.6875 48.5625V43.1509L15.8988 31.9396C16.2284 31.61 16.7624 31.61 17.0917 31.9396L25.4269 40.2748L13.7684 51.9375H8.0625ZM55.3125 48.5625C55.3125 50.423 53.798 51.9375 51.9375 51.9375H16.152L42.9094 25.1801C43.239 24.8505 43.773 24.8505 44.1022 25.1801L55.3125 36.402V48.5625ZM55.3125 34.0184L45.2898 23.9957C44.301 23.0102 42.6995 23.0102 41.7102 23.9957L26.625 39.0809L18.198 30.7383C17.2093 29.7528 15.6077 29.7528 14.6184 30.7383L4.6875 40.7684V11.4375C4.6875 9.57703 6.20203 8.0625 8.0625 8.0625H51.9375C53.798 8.0625 55.3125 9.57703 55.3125 11.4375V34.0184ZM16.5 13.9688C13.2379 13.9688 10.5938 16.616 10.5938 19.875C10.5938 23.134 13.2379 25.7812 16.5 25.7812C19.7621 25.7812 22.4062 23.134 22.4062 19.875C22.4062 16.616 19.759 13.9688 16.5 13.9688ZM16.5 24.0938C14.1691 24.0938 12.2812 22.2059 12.2812 19.875C12.2812 17.5484 14.1744 15.6562 16.5 15.6562C18.8256 15.6562 20.7188 17.5441 20.7188 19.875C20.7188 22.2059 18.8309 24.0938 16.5 24.0938Z\" fill=\"#353739\"/>\n</svg>\n",
-            "sizes": [
-              12,
-              24,
-              32
-            ]
-          },
-          "$type": "svg"
-        },
-        "horse": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "horse",
-            "dsys.componentId": "2:11933",
-            "dsys.scale": 0.1,
-            "dsys.offsetX": 0,
-            "dsys.offsetY": 0,
-            "dsys.sizes": []
-          },
-          "$value": {
-            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2_11933)\">\n<path d=\"M45 28.3219V21H46.5L47.4187 22.8375C48.5906 25.1906 51.375 26.25 53.8219 25.275C55.7437 24.5063 57 22.65 57 20.5781V13.5C57 11.7094 56.2125 10.0969 54.9656 9H55.5C56.325 9 57 8.325 57 7.5C57 6.675 56.325 6 55.5 6H48H45C38.3719 6 33 11.3719 33 18H24H22.05H16.95C14.0719 18 11.55 19.5281 10.1531 21.825C6.1125 22.3594 3 25.8188 3 30V35.25C3 36.4969 4.00312 37.5 5.25 37.5C6.49688 37.5 7.5 36.4969 7.5 35.25V30C7.5 28.7438 8.11875 27.6375 9.06562 26.9531C9.21562 28.1719 9.65625 29.3344 10.3406 30.3656L12.9844 34.3406C13.7625 35.5031 13.5844 37.0312 12.8719 38.2406C11.325 40.8656 10.9406 44.0719 11.9344 47.0437L13.575 51.9563C13.9875 53.1844 15.1312 54.0094 16.425 54.0094H19.5844C21.6281 54.0094 23.0813 52.0031 22.4344 50.0625L20.4844 44.2031C20.2875 43.6031 20.4375 42.9469 20.8875 42.4969L22.0781 41.3063C23.3156 40.0688 24.0094 38.3906 24.0094 36.6469C24.0094 36.4312 24 36.2156 23.9813 36L31.8562 38.25C32.2406 38.3625 32.625 38.4469 33.0094 38.5125V51C33.0094 52.6594 34.35 54 36.0094 54H39.0094C40.6688 54 42.0094 52.6594 42.0094 51V35.5969C43.8094 33.7969 44.9625 31.3125 45.0094 28.5V28.3219H45ZM49.5 15C48.675 15 48 14.325 48 13.5C48 12.675 48.675 12 49.5 12C50.325 12 51 12.675 51 13.5C51 14.325 50.325 15 49.5 15Z\" fill=\"#353739\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2_11933\">\n<rect width=\"54\" height=\"48\" fill=\"white\" transform=\"translate(3 6)\"/>\n</clipPath>\n</defs>\n</svg>\n",
-            "sizes": [
-              12,
-              24,
-              32
-            ]
-          },
-          "$type": "svg"
-        }
-      },
-      "another-set-of-tokens": {
-        "$extensions": {
-          "dsys.level": "tokenset",
-          "dsys.type": "IconSet",
-          "dsys.name": "Another Set of Tokens",
-          "dsys.nodeId": "2:12356"
-        },
-        "$description": "Another Set of Tokens icon tokens",
-        "piggy-bank": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "piggy-bank",
-            "dsys.componentId": "2:12748",
-            "dsys.scale": 0.1,
-            "dsys.offsetX": 0,
-            "dsys.offsetY": 0,
-            "dsys.sizes": []
-          },
-          "$value": {
-            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_2_12748)\">\n<path d=\"M40.5 15V15.0656C40.0031 15.0281 39.5063 15 39 15H27C25.4531 15 23.9531 15.1969 22.5187 15.5625C22.5094 15.375 22.5 15.1875 22.5 15C22.5 10.0312 26.5312 6 31.5 6C36.4688 6 40.5 10.0312 40.5 15ZM39 18C39.3281 18 39.6562 18.0094 39.975 18.0281C40.3687 18.0563 40.7625 18.0938 41.1562 18.15C42.8063 16.2281 45.2625 15 48 15H51L49.2375 22.0406C50.7188 23.4281 51.9281 25.1156 52.7531 27H54C55.6594 27 57 28.3406 57 30V39C57 40.6594 55.6594 42 54 42H51C50.1469 43.1344 49.1344 44.1469 48 45V51C48 52.6594 46.6594 54 45 54H42C40.3406 54 39 52.6594 39 51V48H27V51C27 52.6594 25.6594 54 24 54H21C19.3406 54 18 52.6594 18 51V45C14.7281 42.5437 12.4969 38.7844 12.075 34.5H9.375C5.85 34.5 3 31.65 3 28.125C3 24.6 5.85 21.75 9.375 21.75H9.75C10.9969 21.75 12 22.7531 12 24C12 25.2469 10.9969 26.25 9.75 26.25H9.375C8.34375 26.25 7.5 27.0938 7.5 28.125C7.5 29.1562 8.34375 30 9.375 30H12.3C13.4344 24.3938 17.7094 19.9219 23.2031 18.4875C24.4125 18.1687 25.6875 18 27 18H39V18ZM45 30.75C45 29.5031 43.9969 28.5 42.75 28.5C41.5031 28.5 40.5 29.5031 40.5 30.75C40.5 31.9969 41.5031 33 42.75 33C43.9969 33 45 31.9969 45 30.75Z\" fill=\"#353739\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2_12748\">\n<rect width=\"54\" height=\"48\" fill=\"white\" transform=\"translate(3 6)\"/>\n</clipPath>\n</defs>\n</svg>\n",
-            "sizes": [
-              12,
-              24,
-              32
-            ]
-          },
-          "$type": "svg"
-        }
-      }
-    },
-    "component": {
-      "$extensions": {
-        "dsys.level": "group",
-        "dsys.type": "ComponentSet",
-        "dsys.nodeIds": []
-      },
-      "$description": "All the component tokens",
-      "my-first-component": {
-        "$extensions": {
-          "dsys.level": "tokenset",
-          "dsys.type": "ComponentSet",
-          "dsys.name": "My First Component",
-          "dsys.nodeId": "?"
-        },
-        "$description": "a component token",
-        "component": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "My First Component"
-          },
-          "$type": "component",
-          "$value": "2:13265"
         }
       }
     },
@@ -443,7 +165,7 @@
           "dsys.level": "tokenset",
           "dsys.type": "TypographySet",
           "dsys.name": "text",
-          "dsys.nodeId": "2:13423"
+          "dsys.nodeId": "10:14883"
         },
         "$description": "text typography tokens",
         "text-10": {
@@ -451,14 +173,14 @@
             "dsys.level": "token",
             "dsys.name": "text-10",
             "dsys.index": 0,
-            "dsys.styleId": "S:3c34743e7fc8745de677e12b44e0147b063ec625,"
+            "dsys.styleId": "S:b6ce1bfff6a177230415f73fa4e863456dc1bc3b,"
           },
           "$value": {
-            "fontFamily": "Open Sans",
-            "fontStyle": "italic",
+            "fontFamily": "Inter",
+            "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Open Sans",
-              "style": "Italic"
+              "family": "Inter",
+              "style": "Regular"
             },
             "fontWeight": 400,
             "fontSize": 29,
@@ -467,8 +189,7 @@
               "value": 0
             },
             "lineHeight": {
-              "unit": "PIXELS",
-              "value": 34
+              "unit": "AUTO"
             },
             "listSpacing": 0,
             "paragraphIndent": 0,
@@ -483,7 +204,7 @@
             "dsys.level": "token",
             "dsys.name": "text-9",
             "dsys.index": 1,
-            "dsys.styleId": "S:08ec98f5496035a7a8dcb861132584e2aa829744,"
+            "dsys.styleId": "S:1d4f331ca6e0d4fa8ed61b1b22a59069fd1d5e88,"
           },
           "$value": {
             "fontFamily": "Inter",
@@ -493,7 +214,7 @@
               "style": "Regular"
             },
             "fontWeight": 400,
-            "fontSize": 33,
+            "fontSize": 24,
             "letterSpacing": {
               "unit": "PERCENT",
               "value": 0
@@ -504,7 +225,7 @@
             "listSpacing": 0,
             "paragraphIndent": 0,
             "paragraphSpacing": 0,
-            "textCase": "UPPER",
+            "textCase": "ORIGINAL",
             "textDecoration": "NONE"
           },
           "$type": "typography"
@@ -514,13 +235,13 @@
             "dsys.level": "token",
             "dsys.name": "text-8",
             "dsys.index": 2,
-            "dsys.styleId": "S:4fd5ef73237e21a68b0067fc1e1b446881b125a0,"
+            "dsys.styleId": "S:717d74aed9f7076ffdb998a0b59e6b32280e79a0,"
           },
           "$value": {
-            "fontFamily": "Roboto Condensed",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Roboto Condensed",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -545,13 +266,13 @@
             "dsys.level": "token",
             "dsys.name": "text-7",
             "dsys.index": 3,
-            "dsys.styleId": "S:9d329ee4444929448a014e0ecd6aee761881a2fa,"
+            "dsys.styleId": "S:b626e1bbbb3c6a27545ad24a55b60e4ae6052f51,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -576,13 +297,13 @@
             "dsys.level": "token",
             "dsys.name": "text-6",
             "dsys.index": 4,
-            "dsys.styleId": "S:6da4336cbf189f53dd32de023e07e6c556f53393,"
+            "dsys.styleId": "S:807d511bbad00fc138b0202701a67ff8c9b4db64,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -607,13 +328,13 @@
             "dsys.level": "token",
             "dsys.name": "text-5",
             "dsys.index": 5,
-            "dsys.styleId": "S:d1794ee4c24660bef8de350e91c8c691c0e99b7d,"
+            "dsys.styleId": "S:cf319d11d4e5cd1ea30300ba2f7cfa31c9d2d628,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -638,13 +359,13 @@
             "dsys.level": "token",
             "dsys.name": "text",
             "dsys.index": 6,
-            "dsys.styleId": "S:b617f1d19cdcadffb182eefa35002dee7f5470da,"
+            "dsys.styleId": "S:c8d3952d11daa2dba545f26a1561d30860c929b2,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -669,13 +390,13 @@
             "dsys.level": "token",
             "dsys.name": "text-4",
             "dsys.index": 7,
-            "dsys.styleId": "S:605033c1600156b0e26e49cc10da7825c1aa58be,"
+            "dsys.styleId": "S:0cf0ee63973db667d4a356c864a1c6388719a2eb,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -700,13 +421,13 @@
             "dsys.level": "token",
             "dsys.name": "text-3",
             "dsys.index": 8,
-            "dsys.styleId": "S:bffb576e76a9d02fbdf0ae6b96e85f9614eaf698,"
+            "dsys.styleId": "S:2c68124fd585a403b64757e577d633853ad05f9f,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -731,13 +452,13 @@
             "dsys.level": "token",
             "dsys.name": "text-2",
             "dsys.index": 9,
-            "dsys.styleId": "S:89230e633f3b46dab67960897d754882dca26cf9,"
+            "dsys.styleId": "S:c8b06ce8a99e69459509d8eff6b5d0304ac192cf,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -762,13 +483,13 @@
             "dsys.level": "token",
             "dsys.name": "text-1",
             "dsys.index": 10,
-            "dsys.styleId": "S:ab3df62bc360eae0ac1abaa00b39119c1656a223,"
+            "dsys.styleId": "S:e46052895d93632d2629a97db2c58855cab5d466,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -797,20 +518,20 @@
         "dsys.nodeIds": []
       },
       "$description": "All the effect tokens",
-      "my-effects": {
+      "effect": {
         "$extensions": {
           "dsys.level": "tokenset",
           "dsys.type": "EffectSet",
-          "dsys.name": "My Effects",
-          "dsys.nodeId": "2:13811"
+          "dsys.name": "effect",
+          "dsys.nodeId": "10:15267"
         },
-        "$description": "My Effects effect tokens",
-        "new-effect": {
+        "$description": "effect effect tokens",
+        "shadow": {
           "$extensions": {
             "dsys.level": "token",
-            "dsys.name": "new-effect",
+            "dsys.name": "shadow",
             "dsys.index": 0,
-            "dsys.styleId": "S:e5d2f701a729e42d97b4624884dca2d9451c4dfc,"
+            "dsys.styleId": "S:dee7af93b834ea3a8792ed50db4c143df2b3ea1a,"
           },
           "$value": {
             "color": "#000000",
@@ -823,17 +544,230 @@
           },
           "$type": "shadow"
         },
-        "new-effect-9171": {
+        "blur": {
           "$extensions": {
             "dsys.level": "token",
-            "dsys.name": "new-effect-9171",
+            "dsys.name": "blur",
             "dsys.index": 1,
-            "dsys.styleId": "S:d83f4862ff1758ed9d4bc3bc7cb60748bb9045a0,"
+            "dsys.styleId": "S:5156a51f8888abd6643b8eea2e2b429d8aaa5ec2,"
           },
           "$value": {
             "radius": 10
           },
           "$type": "blur"
+        }
+      }
+    },
+    "icon": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "IconSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the icon tokens",
+      "icon": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "IconSet",
+          "dsys.name": "icon",
+          "dsys.nodeId": "10:15560"
+        },
+        "$description": "icon icon tokens",
+        "default": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "default",
+            "dsys.componentId": "10:15833",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": []
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M51.9375 6.375H8.0625C5.26652 6.375 3 8.64152 3 11.4375V48.5625C3 51.3574 5.26652 53.625 8.0625 53.625H51.9375C54.7335 53.625 57 51.3585 57 48.5625V11.4375C57 8.64152 54.7324 6.375 51.9375 6.375ZM8.0625 51.9375C6.20203 51.9375 4.6875 50.423 4.6875 48.5625V43.1509L15.8988 31.9396C16.2284 31.61 16.7624 31.61 17.0917 31.9396L25.4269 40.2748L13.7684 51.9375H8.0625ZM55.3125 48.5625C55.3125 50.423 53.798 51.9375 51.9375 51.9375H16.152L42.9094 25.1801C43.239 24.8505 43.773 24.8505 44.1022 25.1801L55.3125 36.402V48.5625ZM55.3125 34.0184L45.2898 23.9957C44.301 23.0102 42.6995 23.0102 41.7102 23.9957L26.625 39.0809L18.198 30.7383C17.2093 29.7528 15.6077 29.7528 14.6184 30.7383L4.6875 40.7684V11.4375C4.6875 9.57703 6.20203 8.0625 8.0625 8.0625H51.9375C53.798 8.0625 55.3125 9.57703 55.3125 11.4375V34.0184ZM16.5 13.9688C13.2379 13.9688 10.5938 16.616 10.5938 19.875C10.5938 23.134 13.2379 25.7812 16.5 25.7812C19.7621 25.7812 22.4062 23.134 22.4062 19.875C22.4062 16.616 19.759 13.9688 16.5 13.9688ZM16.5 24.0938C14.1691 24.0938 12.2812 22.2059 12.2812 19.875C12.2812 17.5484 14.1744 15.6562 16.5 15.6562C18.8256 15.6562 20.7188 17.5441 20.7188 19.875C20.7188 22.2059 18.8309 24.0938 16.5 24.0938Z\" fill=\"#353739\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "frog": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "frog",
+            "dsys.componentId": "10:15841",
+            "dsys.scale": 0.18,
+            "dsys.offsetX": 0.02,
+            "dsys.offsetY": 0,
+            "dsys.sizes": []
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_10_15841)\">\n<path d=\"M38.0334 10.8667C41.5953 10.8667 44.5166 13.5829 44.8411 17.0594L52.1528 19.3058C54.3224 19.9721 55.8086 21.9794 55.8086 24.2515C55.8086 26.1135 54.8093 27.8304 53.1864 28.7529L40.8351 35.7656L48.7361 43.6667H53.0668C54.5786 43.6667 55.8001 44.8881 55.8001 46.4C55.8001 47.9119 54.5786 49.1333 53.0668 49.1333H47.6001C46.8741 49.1333 46.1822 48.8429 45.6697 48.3304L36.2311 38.9004C37.2305 35.8254 36.5045 32.3148 34.0616 29.8719C30.5936 26.404 24.9818 26.404 21.5139 29.8633L15.2272 35.8425C14.6805 36.3635 14.6549 37.2262 15.1759 37.7729C15.697 38.3196 16.5597 38.3367 17.1063 37.8242L23.4101 31.8279L23.4186 31.8194L23.4272 31.8108C23.7261 31.5119 24.0507 31.2471 24.3924 31.025C26.7755 29.4448 30.0214 29.7096 32.1226 31.8108C34.2324 33.9206 34.4886 37.1835 32.8914 39.5752C32.6693 39.8998 32.413 40.2158 32.1226 40.5062L28.9622 43.6667H36.6668C38.1786 43.6667 39.4001 44.8881 39.4001 46.4C39.4001 47.9119 38.1786 49.1333 36.6668 49.1333H12.0668C9.05156 49.1333 6.6001 46.6819 6.6001 43.6667C6.6001 29.4533 17.448 17.7769 31.3111 16.4615C31.9005 13.2754 34.6851 10.8667 38.0334 10.8667ZM38.0334 19.75C39.1695 19.75 40.0834 18.836 40.0834 17.7C40.0834 16.564 39.1695 15.65 38.0334 15.65C36.8974 15.65 35.9834 16.564 35.9834 17.7C35.9834 18.836 36.8974 19.75 38.0334 19.75Z\" fill=\"#353739\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_10_15841\">\n<rect width=\"49.2\" height=\"43.7333\" fill=\"white\" transform=\"translate(6.6001 8.13333)\"/>\n</clipPath>\n</defs>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        }
+      },
+      "other": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "IconSet",
+          "dsys.name": "other",
+          "dsys.nodeId": "10:15848"
+        },
+        "$description": "other icon tokens",
+        "cube": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "cube",
+            "dsys.componentId": "10:16132",
+            "dsys.scale": 0.02,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": []
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M29.8162 5.30679C29.5494 5.32973 29.2883 5.39808 29.0445 5.50891L7.87648 14.9169C7.46071 15.1018 7.10748 15.4033 6.85961 15.7849C6.61174 16.1665 6.47987 16.6118 6.47998 17.0668V42.9388C6.47987 43.3939 6.61174 43.8391 6.85961 44.2207C7.10748 44.6023 7.4607 44.9038 7.87648 45.0887L29.0445 54.4967C29.3453 54.6304 29.6708 54.6995 30 54.6995C30.3292 54.6995 30.6547 54.6304 30.9555 54.4967L52.1235 45.0887C52.5393 44.9038 52.8925 44.6023 53.1404 44.2207C53.3882 43.8391 53.5201 43.3939 53.52 42.9388V17.0668C53.5201 16.6118 53.3882 16.1665 53.1404 15.7849C52.8925 15.4033 52.5393 15.1018 52.1235 14.9169L30.9555 5.50891C30.5985 5.34773 30.2069 5.27826 29.8162 5.30679ZM30 10.2313L45.3798 17.0668L30 23.9023L14.6201 17.0668L30 10.2313ZM11.184 20.6867L27.648 27.9999V48.727L11.184 41.4137V20.6867V20.6867ZM48.816 20.6867V41.4137L32.352 48.727V27.9999L48.816 20.6867V20.6867Z\" fill=\"#353739\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        },
+        "default": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "default",
+            "dsys.componentId": "10:16123",
+            "dsys.scale": 0.1,
+            "dsys.offsetX": 0,
+            "dsys.offsetY": 0,
+            "dsys.sizes": []
+          },
+          "$value": {
+            "svg": "<svg width=\"60\" height=\"60\" viewBox=\"0 0 60 60\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<path d=\"M51.9375 6.375H8.0625C5.26652 6.375 3 8.64152 3 11.4375V48.5625C3 51.3574 5.26652 53.625 8.0625 53.625H51.9375C54.7335 53.625 57 51.3585 57 48.5625V11.4375C57 8.64152 54.7324 6.375 51.9375 6.375ZM8.0625 51.9375C6.20203 51.9375 4.6875 50.423 4.6875 48.5625V43.1509L15.8988 31.9396C16.2284 31.61 16.7624 31.61 17.0917 31.9396L25.4269 40.2748L13.7684 51.9375H8.0625ZM55.3125 48.5625C55.3125 50.423 53.798 51.9375 51.9375 51.9375H16.152L42.9094 25.1801C43.239 24.8505 43.773 24.8505 44.1022 25.1801L55.3125 36.402V48.5625ZM55.3125 34.0184L45.2898 23.9957C44.301 23.0102 42.6995 23.0102 41.7102 23.9957L26.625 39.0809L18.198 30.7383C17.2093 29.7528 15.6077 29.7528 14.6184 30.7383L4.6875 40.7684V11.4375C4.6875 9.57703 6.20203 8.0625 8.0625 8.0625H51.9375C53.798 8.0625 55.3125 9.57703 55.3125 11.4375V34.0184ZM16.5 13.9688C13.2379 13.9688 10.5938 16.616 10.5938 19.875C10.5938 23.134 13.2379 25.7812 16.5 25.7812C19.7621 25.7812 22.4062 23.134 22.4062 19.875C22.4062 16.616 19.759 13.9688 16.5 13.9688ZM16.5 24.0938C14.1691 24.0938 12.2812 22.2059 12.2812 19.875C12.2812 17.5484 14.1744 15.6562 16.5 15.6562C18.8256 15.6562 20.7188 17.5441 20.7188 19.875C20.7188 22.2059 18.8309 24.0938 16.5 24.0938Z\" fill=\"#353739\"/>\n</svg>\n",
+            "sizes": [
+              12,
+              24,
+              32
+            ]
+          },
+          "$type": "svg"
+        }
+      }
+    },
+    "spacing": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "Spacing",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the spacing tokens",
+      "spacing": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "Spacing",
+          "dsys.name": "spacing",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a set of spacing tokens",
+        "spacing-0": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-0",
+            "dsys.index": 0,
+            "dsys.uid": "_0_1adm6bjad2f"
+          },
+          "$type": "spacing",
+          "$value": 0
+        },
+        "spacing-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-1",
+            "dsys.index": 1,
+            "dsys.uid": "_1_fjdbesimlj"
+          },
+          "$type": "spacing",
+          "$value": 10
+        },
+        "spacing-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-2",
+            "dsys.index": 2,
+            "dsys.uid": "_2_1654kkf0k67"
+          },
+          "$type": "spacing",
+          "$value": 20
+        },
+        "spacing-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-3",
+            "dsys.index": 3,
+            "dsys.uid": "_3_1qvju2n69f3"
+          },
+          "$type": "spacing",
+          "$value": 30
+        },
+        "spacing-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-4",
+            "dsys.index": 4,
+            "dsys.uid": "_4_1cz7fou83dz"
+          },
+          "$type": "spacing",
+          "$value": 40
+        },
+        "spacing-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-5",
+            "dsys.index": 5,
+            "dsys.uid": "_5_tm3ylu5ppn"
+          },
+          "$type": "spacing",
+          "$value": 50
+        },
+        "spacing-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-6",
+            "dsys.index": 6,
+            "dsys.uid": "_6_5zhs3msl83"
+          },
+          "$type": "spacing",
+          "$value": 60
+        },
+        "spacing-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-7",
+            "dsys.index": 7,
+            "dsys.uid": "_7_k5ja7o29h"
+          },
+          "$type": "spacing",
+          "$value": 70
+        },
+        "spacing-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-8",
+            "dsys.index": 8,
+            "dsys.uid": "_8_23kmsk0g9x3"
+          },
+          "$type": "spacing",
+          "$value": 80
         }
       }
     },
@@ -857,7 +791,7 @@
             "dsys.level": "token",
             "dsys.name": "phone-only",
             "dsys.index": 0,
-            "dsys.uid": "_0_1odya4kuw35"
+            "dsys.uid": "_0_17bfapxnns5"
           },
           "$type": "breakpoint",
           "$direction": "down",
@@ -868,7 +802,7 @@
             "dsys.level": "token",
             "dsys.name": "tablet-portrat-up",
             "dsys.index": 1,
-            "dsys.uid": "_1_1qq9ebffxtf"
+            "dsys.uid": "_1_1mkhbhrtrxx"
           },
           "$type": "breakpoint",
           "$direction": "up",
@@ -879,7 +813,7 @@
             "dsys.level": "token",
             "dsys.name": "tablet-landscape-up",
             "dsys.index": 2,
-            "dsys.uid": "_2_styumpzwt7"
+            "dsys.uid": "_2_15so87ch9zx"
           },
           "$type": "breakpoint",
           "$direction": "up",
@@ -890,7 +824,7 @@
             "dsys.level": "token",
             "dsys.name": "desktop-up",
             "dsys.index": 3,
-            "dsys.uid": "_3_axooynka0r"
+            "dsys.uid": "_3_15zornq71vp"
           },
           "$type": "breakpoint",
           "$direction": "up",
@@ -901,7 +835,7 @@
             "dsys.level": "token",
             "dsys.name": "big-desktop-up",
             "dsys.index": 4,
-            "dsys.uid": "_4_14nfskkb9zj"
+            "dsys.uid": "_4_1oxa4go899b"
           },
           "$type": "breakpoint",
           "$direction": "up",
@@ -916,33 +850,58 @@
         "dsys.nodeIds": []
       },
       "$description": "All the custom tokens",
-      "my-custom": {
+      "other": {
         "$extensions": {
           "dsys.level": "tokenset",
           "dsys.type": "CustomSet",
-          "dsys.name": "My Custom",
+          "dsys.name": "other",
           "dsys.nodeId": "?"
         },
         "$description": "a set of custom tokens",
-        "bubba": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "bubba",
-            "dsys.index": 1,
-            "dsys.uid": "_0_13e45sllio9"
-          },
-          "$type": "custom",
-          "$value": "dog"
-        },
         "turkey": {
           "$extensions": {
             "dsys.level": "token",
             "dsys.name": "turkey",
-            "dsys.index": 0,
-            "dsys.uid": "_1_12qxfhcuysb"
+            "dsys.index": 1,
+            "dsys.uid": "_0_uznghotycx"
           },
           "$type": "custom",
-          "$value": "5"
+          "$value": "gravy"
+        },
+        "nice": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "nice",
+            "dsys.index": 0,
+            "dsys.uid": "_1_1qqx16gtxd"
+          },
+          "$type": "custom",
+          "$value": "34"
+        }
+      }
+    },
+    "component": {
+      "$extensions": {
+        "dsys.level": "group",
+        "dsys.type": "ComponentSet",
+        "dsys.nodeIds": []
+      },
+      "$description": "All the component tokens",
+      "my-first-component": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ComponentSet",
+          "dsys.name": "My First Component",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a component token",
+        "component": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "My First Component"
+          },
+          "$type": "component",
+          "$value": "2:13265"
         }
       }
     }
