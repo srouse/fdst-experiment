@@ -769,7 +769,7 @@
             "dsys.uid": "_0_uznghotycx"
           },
           "$type": "custom",
-          "$value": "'gravy'"
+          "$value": "\"gravy\""
         }
       }
     },
