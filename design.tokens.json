@@ -769,6 +769,205 @@
           "$type": "spacing",
           "$value": 80
         }
+      },
+      "spacing-v2": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "Spacing",
+          "dsys.name": "spacing-v2",
+          "dsys.nodeId": "?"
+        },
+        "$description": "a set of spacing tokens",
+        "spacing-v2-0": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-0",
+            "dsys.index": 0,
+            "dsys.uid": "_0_14bdl459q5t"
+          },
+          "$type": "spacing",
+          "$value": 0
+        },
+        "spacing-v2-0-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-0-3",
+            "dsys.index": 1,
+            "dsys.uid": "_1_1x1sve2al7x"
+          },
+          "$type": "spacing",
+          "$value": 2
+        },
+        "spacing-v2-0-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-0-6",
+            "dsys.index": 2,
+            "dsys.uid": "_2_1ufq8rcj79j"
+          },
+          "$type": "spacing",
+          "$value": 4
+        },
+        "spacing-v2-0-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-0-9",
+            "dsys.index": 3,
+            "dsys.uid": "_3_1o4t7xenxpt"
+          },
+          "$type": "spacing",
+          "$value": 6
+        },
+        "spacing-v2-1": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-1",
+            "dsys.index": 4,
+            "dsys.uid": "_4_1gcvdkx2i25"
+          },
+          "$type": "spacing",
+          "$value": 8
+        },
+        "spacing-v2-1-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-1-3",
+            "dsys.index": 5,
+            "dsys.uid": "_5_ig32vyocbz"
+          },
+          "$type": "spacing",
+          "$value": 10
+        },
+        "spacing-v2-1-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-1-6",
+            "dsys.index": 6,
+            "dsys.uid": "_6_bvw4eecz0j"
+          },
+          "$type": "spacing",
+          "$value": 12
+        },
+        "spacing-v2-1-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-1-9",
+            "dsys.index": 7,
+            "dsys.uid": "_7_w6v8fjb631"
+          },
+          "$type": "spacing",
+          "$value": 14
+        },
+        "spacing-v2-2": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-2",
+            "dsys.index": 8,
+            "dsys.uid": "_8_9v4vb395oj"
+          },
+          "$type": "spacing",
+          "$value": 16
+        },
+        "spacing-v2-3": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-3",
+            "dsys.index": 9,
+            "dsys.uid": "_9_12hzzb14qdr"
+          },
+          "$type": "spacing",
+          "$value": 24
+        },
+        "spacing-v2-4": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-4",
+            "dsys.index": 10,
+            "dsys.uid": "_a_274fbv78mbj"
+          },
+          "$type": "spacing",
+          "$value": 32
+        },
+        "spacing-v2-5": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-5",
+            "dsys.index": 11,
+            "dsys.uid": "_b_1x4ke4whdp7"
+          },
+          "$type": "spacing",
+          "$value": 40
+        },
+        "spacing-v2-6": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-6",
+            "dsys.index": 12,
+            "dsys.uid": "_c_n05uw0xeaz"
+          },
+          "$type": "spacing",
+          "$value": 48
+        },
+        "spacing-v2-7": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-7",
+            "dsys.index": 13,
+            "dsys.uid": "_d_1dwzylkbc4j"
+          },
+          "$type": "spacing",
+          "$value": 56
+        },
+        "spacing-v2-8": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-8",
+            "dsys.index": 14,
+            "dsys.uid": "_e_1mb04uf1073"
+          },
+          "$type": "spacing",
+          "$value": 64
+        },
+        "spacing-v2-9": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-9",
+            "dsys.index": 15,
+            "dsys.uid": "_f_6bwr958pi9"
+          },
+          "$type": "spacing",
+          "$value": 72
+        },
+        "spacing-v2-10": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-10",
+            "dsys.index": 16,
+            "dsys.uid": "_g_25h9uofqno9"
+          },
+          "$type": "spacing",
+          "$value": 80
+        },
+        "spacing-v2-11": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-11",
+            "dsys.index": 17,
+            "dsys.uid": "_h_wddh0no63h"
+          },
+          "$type": "spacing",
+          "$value": 88
+        },
+        "spacing-v2-12": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "spacing-v2-12",
+            "dsys.index": 18,
+            "dsys.uid": "_i_1b5hzvw4knz"
+          },
+          "$type": "spacing",
+          "$value": 96
+        }
       }
     },
     "breakpoint": {
