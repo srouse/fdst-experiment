@@ -35,7 +35,8 @@
   --hds-type-text-3: 400 0.875em/1.050em 'Allerta Stencil';
   --hds-type-text-2: 400 0.750em/0.900em 'Allerta Stencil';
   --hds-type-text-1: 400 0.688em/0.825em 'Allerta Stencil';
-  --hds-effect-new-effect-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.150);
+  --hds-effect-new-effect-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.150
+          );
   --hds-effect-new-effect-9171-blur-radius: 10px;
   --hds-breakpoint-phone-only-down: 599px;
   --hds-breakpoint-tablet-portrat-up-up: 600px;
