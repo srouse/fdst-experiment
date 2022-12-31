@@ -15,7 +15,7 @@ export type FDSColorValue =
   '--fds-color-bonkers' |
   '--fds-color-bonkers-dark' |
   '--fds-color-bonkers-darker' |
-  '--fds-color-bonkers-darkest'
+  '--fds-color-bonkers-darkest';
 
 export type FDSTypeValue =
   '--fds-type-text-10' |
@@ -28,22 +28,22 @@ export type FDSTypeValue =
   '--fds-type-text-4' |
   '--fds-type-text-3' |
   '--fds-type-text-2' |
-  '--fds-type-text-1'
+  '--fds-type-text-1';
 
 export type FDSEffectValue =
   '--fds-effect-shadow-shadow' |
-  '--fds-effect-blur-blur-radius'
+  '--fds-effect-blur-blur-radius';
 
 export type FDSBreakpointValue =
   '--fds-breakpoint-phone-only-down' |
   '--fds-breakpoint-tablet-portrat-up-up' |
   '--fds-breakpoint-tablet-landscape-up-up' |
   '--fds-breakpoint-desktop-up-up' |
-  '--fds-breakpoint-big-desktop-up-up'
+  '--fds-breakpoint-big-desktop-up-up';
 
 export type FDSCustomValue =
   '--fds-custom-nice' |
-  '--fds-custom-turkey'
+  '--fds-custom-turkey';
 
 export type FDSSpacingValue =
   '--fds-spacing-0' |
@@ -130,7 +130,7 @@ export type FDSSpacingValue =
   '--fds-spacing-colvw-9' |
   '--fds-spacing-colvw-10' |
   '--fds-spacing-colvw-11' |
-  '--fds-spacing-colvw-12'
+  '--fds-spacing-colvw-12';
 
 export type FDSValue =
   FDSColorValue |
@@ -138,4 +138,4 @@ export type FDSValue =
   FDSEffectValue |
   FDSBreakpointValue |
   FDSCustomValue |
-  FDSSpacingValue
+  FDSSpacingValue;
