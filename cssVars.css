@@ -37,6 +37,11 @@
   --hds-type-text-1: 400 0.688em/0.825em 'Allerta Stencil';
   --hds-effect-new-effect-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.150);
   --hds-effect-new-effect-9171-blur-radius: 10px;
+  --hds-breakpoint-phone-only-down: 599px;
+  --hds-breakpoint-tablet-portrat-up-up: 600px;
+  --hds-breakpoint-tablet-landscape-up-up: 900px;
+  --hds-breakpoint-desktop-up-up: 1200px;
+  --hds-breakpoint-big-desktop-up-up: 1800px;
   --hds-custom-bubba: dog;
   --hds-custom-turkey: 5;
 }
