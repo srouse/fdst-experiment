@@ -486,26 +486,25 @@
             "dsys.styleId": "S:08ec98f5496035a7a8dcb861132584e2aa829744,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Inter",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Inter",
               "style": "Regular"
             },
             "fontWeight": 400,
-            "fontSize": 24,
+            "fontSize": 33,
             "letterSpacing": {
               "unit": "PERCENT",
               "value": 0
             },
             "lineHeight": {
-              "unit": "PERCENT",
-              "value": 50
+              "unit": "AUTO"
             },
             "listSpacing": 0,
             "paragraphIndent": 0,
             "paragraphSpacing": 0,
-            "textCase": "ORIGINAL",
+            "textCase": "UPPER",
             "textDecoration": "NONE"
           },
           "$type": "typography"
@@ -518,10 +517,10 @@
             "dsys.styleId": "S:4fd5ef73237e21a68b0067fc1e1b446881b125a0,"
           },
           "$value": {
-            "fontFamily": "Allerta Stencil",
+            "fontFamily": "Roboto Condensed",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Allerta Stencil",
+              "family": "Roboto Condensed",
               "style": "Regular"
             },
             "fontWeight": 400,
