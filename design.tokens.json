@@ -6,13 +6,13 @@
       "dsys.prefix": "hds",
       "dsys.fullName": "Horse Design System"
     },
-    "colors": {
+    "color": {
       "$extensions": {
         "dsys.level": "group",
         "dsys.type": "ColorSet",
         "dsys.nodeIds": []
       },
-      "$description": "All the colors tokens",
+      "$description": "All the color tokens",
       "primary": {
         "$extensions": {
           "dsys.level": "tokenset",
@@ -320,13 +320,13 @@
         }
       }
     },
-    "icons": {
+    "icon": {
       "$extensions": {
         "dsys.level": "group",
         "dsys.type": "IconSet",
         "dsys.nodeIds": []
       },
-      "$description": "All the icons tokens",
+      "$description": "All the icon tokens",
       "my-icons": {
         "$extensions": {
           "dsys.level": "tokenset",
@@ -406,13 +406,13 @@
         }
       }
     },
-    "components": {
+    "component": {
       "$extensions": {
         "dsys.level": "group",
         "dsys.type": "ComponentSet",
         "dsys.nodeIds": []
       },
-      "$description": "All the components tokens",
+      "$description": "All the component tokens",
       "my-first-component": {
         "$extensions": {
           "dsys.level": "tokenset",
@@ -431,13 +431,13 @@
         }
       }
     },
-    "typography": {
+    "type": {
       "$extensions": {
         "dsys.level": "group",
         "dsys.type": "TypographySet",
         "dsys.nodeIds": []
       },
-      "$description": "All the typography tokens",
+      "$description": "All the type tokens",
       "text": {
         "$extensions": {
           "dsys.level": "tokenset",
@@ -790,13 +790,13 @@
         }
       }
     },
-    "effects": {
+    "effect": {
       "$extensions": {
         "dsys.level": "group",
         "dsys.type": "EffectSet",
         "dsys.nodeIds": []
       },
-      "$description": "All the effects tokens",
+      "$description": "All the effect tokens",
       "my-effects": {
         "$extensions": {
           "dsys.level": "tokenset",
@@ -837,13 +837,13 @@
         }
       }
     },
-    "breakpoints": {
+    "breakpoint": {
       "$extensions": {
         "dsys.level": "group",
         "dsys.type": "BreakpointSet",
         "dsys.nodeIds": []
       },
-      "$description": "All the breakpoints tokens",
+      "$description": "All the breakpoint tokens",
       "breakpoints": {
         "$extensions": {
           "dsys.level": "tokenset",
