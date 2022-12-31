@@ -151,6 +151,106 @@
           },
           "$type": "color"
         }
+      },
+      "bonkers": {
+        "$extensions": {
+          "dsys.level": "tokenset",
+          "dsys.type": "ColorSet",
+          "dsys.name": "bonkers",
+          "dsys.nodeId": "10:31506"
+        },
+        "$description": "bonkers color tokens",
+        "bonkers-lightest": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "bonkers-lightest",
+            "dsys.index": 0,
+            "dsys.styleId": "S:9fc3448b114fd9a069815c94d41f0af4895cb4b1,"
+          },
+          "$value": {
+            "hex": "#ffcccc",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "bonkers-lighter": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "bonkers-lighter",
+            "dsys.index": 1,
+            "dsys.styleId": "S:bf652094d58cebfb9d535601a597423233b4aab5,"
+          },
+          "$value": {
+            "hex": "#ff8888",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "bonkers-light": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "bonkers-light",
+            "dsys.index": 2,
+            "dsys.styleId": "S:02cc5748ed0a4426c03d8f8691a6084c38471415,"
+          },
+          "$value": {
+            "hex": "#ff4444",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "bonkers": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "bonkers",
+            "dsys.index": 3,
+            "dsys.styleId": "S:8920d2255f20513f18289dea0ba750981c4d15f8,"
+          },
+          "$value": {
+            "hex": "#ff0000",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "bonkers-dark": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "bonkers-dark",
+            "dsys.index": 4,
+            "dsys.styleId": "S:5e70ff0216ed2740299e92fffbdb235c604f59b4,"
+          },
+          "$value": {
+            "hex": "#c90000",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "bonkers-darker": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "bonkers-darker",
+            "dsys.index": 5,
+            "dsys.styleId": "S:a6ec893a528d745b05686f55ea595bfee48f4005,"
+          },
+          "$value": {
+            "hex": "#920000",
+            "alpha": 1
+          },
+          "$type": "color"
+        },
+        "bonkers-darkest": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "bonkers-darkest",
+            "dsys.index": 6,
+            "dsys.styleId": "S:6b3d7d3be96b40366ccc19fc7fb2cfc854f26caa,"
+          },
+          "$value": {
+            "hex": "#5c0000",
+            "alpha": 1
+          },
+          "$type": "color"
+        }
       }
     },
     "type": {
