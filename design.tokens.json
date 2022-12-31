@@ -751,16 +751,6 @@
           "dsys.nodeId": "?"
         },
         "$description": "a set of custom tokens",
-        "turkey": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "turkey",
-            "dsys.index": 1,
-            "dsys.uid": "_0_uznghotycx"
-          },
-          "$type": "custom",
-          "$value": "gravy"
-        },
         "nice": {
           "$extensions": {
             "dsys.level": "token",
@@ -770,6 +760,16 @@
           },
           "$type": "custom",
           "$value": "34"
+        },
+        "turkey": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "turkey",
+            "dsys.index": 1,
+            "dsys.uid": "_0_uznghotycx"
+          },
+          "$type": "custom",
+          "$value": "'gravy'"
         }
       }
     },
