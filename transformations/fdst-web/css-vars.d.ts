@@ -35,11 +35,10 @@ export type FDSEffectValue =
   '--fds-effect-blur-blur-radius';
 
 export type FDSBreakpointValue =
-  '--fds-breakpoint-phone-only-down' |
-  '--fds-breakpoint-tablet-portrat-up-up' |
-  '--fds-breakpoint-tablet-landscape-up-up' |
-  '--fds-breakpoint-desktop-up-up' |
-  '--fds-breakpoint-big-desktop-up-up';
+  '--fds-breakpoint-sm-down' |
+  '--fds-breakpoint-xlg-up' |
+  '--fds-breakpoint-lg-up' |
+  '--fds-breakpoint-md-up';
 
 export type FDSCustomValue =
   '--fds-custom-nice' |
