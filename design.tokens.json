@@ -779,10 +779,10 @@
           "dsys.nodeId": "?"
         },
         "$description": "a set of custom tokens",
-        "phone-only": {
+        "sm": {
           "$extensions": {
             "dsys.level": "token",
-            "dsys.name": "phone-only",
+            "dsys.name": "sm",
             "dsys.index": 0,
             "dsys.uid": "_0_17bfapxnns5"
           },
@@ -790,32 +790,10 @@
           "$direction": "down",
           "$value": 599
         },
-        "tablet-portrat-up": {
+        "xlg": {
           "$extensions": {
             "dsys.level": "token",
-            "dsys.name": "tablet-portrat-up",
-            "dsys.index": 1,
-            "dsys.uid": "_1_1mkhbhrtrxx"
-          },
-          "$type": "breakpoint",
-          "$direction": "up",
-          "$value": 600
-        },
-        "tablet-landscape-up": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "tablet-landscape-up",
-            "dsys.index": 2,
-            "dsys.uid": "_2_15so87ch9zx"
-          },
-          "$type": "breakpoint",
-          "$direction": "up",
-          "$value": 900
-        },
-        "desktop-up": {
-          "$extensions": {
-            "dsys.level": "token",
-            "dsys.name": "desktop-up",
+            "dsys.name": "xlg",
             "dsys.index": 3,
             "dsys.uid": "_3_15zornq71vp"
           },
@@ -823,16 +801,27 @@
           "$direction": "up",
           "$value": 1200
         },
-        "big-desktop-up": {
+        "lg": {
           "$extensions": {
             "dsys.level": "token",
-            "dsys.name": "big-desktop-up",
-            "dsys.index": 4,
-            "dsys.uid": "_4_1oxa4go899b"
+            "dsys.name": "lg",
+            "dsys.index": 2,
+            "dsys.uid": "_2_15so87ch9zx"
           },
           "$type": "breakpoint",
           "$direction": "up",
-          "$value": 1800
+          "$value": 900
+        },
+        "md": {
+          "$extensions": {
+            "dsys.level": "token",
+            "dsys.name": "md",
+            "dsys.index": 1,
+            "dsys.uid": "_1_1mkhbhrtrxx"
+          },
+          "$type": "breakpoint",
+          "$direction": "up",
+          "$value": 600
         }
       }
     },
