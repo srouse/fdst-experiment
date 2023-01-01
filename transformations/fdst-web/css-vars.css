@@ -29,11 +29,10 @@
   --fds-type-text-1: 400 0.688em/0.825em 'Inter';
   --fds-effect-shadow-shadow: 0px 0px 10px 0px rgba(rgba(0, 0, 0, 0.15);
   --fds-effect-blur-blur-radius: 10px;
-  --fds-breakpoint-phone-only-down: 599px;
-  --fds-breakpoint-tablet-portrat-up-up: 600px;
-  --fds-breakpoint-tablet-landscape-up-up: 900px;
-  --fds-breakpoint-desktop-up-up: 1200px;
-  --fds-breakpoint-big-desktop-up-up: 1800px;
+  --fds-breakpoint-sm-down: 599px;
+  --fds-breakpoint-xlg-up: 1200px;
+  --fds-breakpoint-lg-up: 900px;
+  --fds-breakpoint-md-up: 600px;
   --fds-custom-nice: 34;
   --fds-custom-turkey: "gravy";
   --fds-spacing-0: 0px;
