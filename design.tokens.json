@@ -338,10 +338,10 @@
             "dsys.styleId": "S:717d74aed9f7076ffdb998a0b59e6b32280e79a0,"
           },
           "$value": {
-            "fontFamily": "Inter",
+            "fontFamily": "Itim",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Inter",
+              "family": "Itim",
               "style": "Regular"
             },
             "fontWeight": 400,
@@ -369,13 +369,13 @@
             "dsys.styleId": "S:b626e1bbbb3c6a27545ad24a55b60e4ae6052f51,"
           },
           "$value": {
-            "fontFamily": "Inter",
+            "fontFamily": "Open Sans",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Inter",
-              "style": "Regular"
+              "family": "Open Sans",
+              "style": "Light"
             },
-            "fontWeight": 400,
+            "fontWeight": 300,
             "fontSize": 19,
             "letterSpacing": {
               "unit": "PERCENT",
