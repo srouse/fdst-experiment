@@ -17,9 +17,9 @@ export default function style(
   return `style="${
     Object.entries(dsysStyles).map((entry) => {
       if (entry[1] === true) {
-        return `--FDS-${entry[0]}: 1;`;
+        return `--fds-${entry[0]}: 1;`;
       }else{
-        return `--FDS-${entry[0]}: var( --FDS-${entry[1]} );`;
+        return `--fds-${entry[0]}: var( --fds-${entry[1]} );`;
       }
     }).join('\n  ')}${
     Object.entries(otherStyles).map((entry) => {
