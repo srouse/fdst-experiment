@@ -5,7 +5,7 @@ import type * as CSS from 'csstype';
 /**
  * style
  * Function for dynamically creating and auto-completing
- * FDS design system files.
+ * FDS design system atoms.
  * @param {DSysProp} dsysStyles
  * @param {CSS.Properties} otherStyles
  * @return {string}
