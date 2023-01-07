@@ -10,7 +10,7 @@ import type * as CSS from 'csstype';
  * @param {Object} CSS.Properties
  * @return {CSS.Properties}
  */
-export function FDS(
+export default function fds(
   dsysStyles: FDSProp,
   otherStyles: CSS.Properties = {},
 ) : CSS.Properties {
