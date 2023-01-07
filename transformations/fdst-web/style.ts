@@ -3,27 +3,27 @@ import { FDSProp } from "./css-atoms.d.ts";
 import type * as CSS from 'csstype';
 
 /**
- * style
+ * FDS
  * Function for dynamically creating and auto-completing
- * FDS design system atoms.
+ * FDS design system files.
  * @param {DSysProp} dsysStyles
- * @param {CSS.Properties} otherStyles
- * @return {string}
+ * @param {Object} CSS.Properties
+ * @return {CSS.Properties}
  */
-export function style(
+export function FDS(
   dsysStyles: FDSProp,
   otherStyles: CSS.Properties = {},
-) : string {
-  return `style="${
-    Object.entries(dsysStyles).map((entry) => {
-      if (entry[1] === true) {
-        return `--FDS-${entry[0]}: 1;`;
-      }else{
-        return `--FDS-${entry[0]}: var( --FDS-${entry[1]} );`;
-      }
-    }).join('\n  ')}${
-    Object.entries(otherStyles).map((entry) => {
-      return `${entry[0]}: ${entry[1]};`;
-    }).join('\n  ')
-  }"`;
+) : CSS.Properties {
+  const dsysStylesObj: {[key:`--FDS-${string}`]: string} = {};
+  Object.entries(dsysStyles).map((entry) => {
+    if (entry[1] === true) {
+      dsysStylesObj[`--FDS-${entry[0]}`] = '1';
+    }else{
+      dsysStylesObj[`--FDS-${entry[0]}`] = `var( --ex-${entry[1]} )`;
+    }
+  });
+  return {
+    ...dsysStylesObj,
+    ...otherStyles,
+  };
 }
