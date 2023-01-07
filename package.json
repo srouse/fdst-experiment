@@ -1,6 +1,6 @@
 {
   "name": "@srouse/fdst-experiment",
-  "version": "v1.0.58",
+  "version": "v1.0.59",
   "main": "index.js",
   "repository": "git@github.com:srouse/fdst-experiment.git"
 }
