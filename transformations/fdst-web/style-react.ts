@@ -17,9 +17,9 @@ export default function fds(
   const dsysStylesObj: {[key:`--FDS-${string}`]: string} = {};
   Object.entries(dsysStyles).map((entry) => {
     if (entry[1] === true) {
-      dsysStylesObj[`--FDS-${entry[0]}`] = '1';
+      dsysStylesObj[`--fds-${entry[0]}`] = '1';
     }else{
-      dsysStylesObj[`--FDS-${entry[0]}`] = `var( --ex-${entry[1]} )`;
+      dsysStylesObj[`--fds-${entry[0]}`] = `var( --fds-${entry[1]} )`;
     }
   });
   return {
