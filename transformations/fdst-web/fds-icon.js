@@ -39,19 +39,15 @@ const template = document.createElement('template');
     async getSvg(icon) {
       let svg;
       switch (icon) {
-        
-          case 'default' :
-            svg = await import('./icons/default.js');
-            break;,
-          case 'frog' :
-            svg = await import('./icons/frog.js');
-            break;,
-          case 'cube' :
-            svg = await import('./icons/cube.js');
-            break;,
-          case 'default' :
-            svg = await import('./icons/default.js');
-            break;
+                case 'default' :
+          svg = await import('./icons/default.js');
+          break;        case 'frog' :
+          svg = await import('./icons/frog.js');
+          break;        case 'cube' :
+          svg = await import('./icons/cube.js');
+          break;        case 'default' :
+          svg = await import('./icons/default.js');
+          break;
       }
       if (svg) {
         this.shadowRoot.querySelector(
