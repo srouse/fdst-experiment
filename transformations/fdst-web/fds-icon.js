@@ -25,7 +25,7 @@ const template = document.createElement('template');
     <div id="root"></div>
   ';
   
-  class EXIcon extends HTMLElement {
+  class FDSIcon extends HTMLElement {
     constructor() {
       super();
       this.attachShadow({ mode: 'open' });
@@ -39,14 +39,20 @@ const template = document.createElement('template');
     async getSvg(icon) {
       let svg;
       switch (icon) {
-        case 'default' :
-          svg = await import('./default.js');
-          break;
-        case 'github' :
-          svg = await import('./github.js');
-          break;
+        
+          case 'default' :
+            svg = await import('./icons/default.js');
+            break;,
+          case 'frog' :
+            svg = await import('./icons/frog.js');
+            break;,
+          case 'cube' :
+            svg = await import('./icons/cube.js');
+            break;,
+          case 'default' :
+            svg = await import('./icons/default.js');
+            break;
       }
-  
       if (svg) {
         this.shadowRoot.querySelector(
           '#root'
@@ -65,4 +71,4 @@ const template = document.createElement('template');
     }
   }
   
-  window.customElements.define('ex-icon', EXIcon);
+  window.customElements.define('fds-icon', FDSIcon);
