@@ -1,10 +1,9 @@
 const template = document.createElement('template');
-  template.innerHTML = '
+  template.innerHTML = `
     <style>
       :host {
         width: 42px;
         height: 42px;
-        --color: #222;
       }
         :host, #root {
           display: inline-block;
@@ -14,7 +13,7 @@ const template = document.createElement('template');
             height: 100%;
           }
             svg, svg * {
-              fill: var( --color ) !important;
+              fill: var( --color, #222 ) !important;
             }
         .error {
           font-family: sans-serif;
@@ -23,7 +22,7 @@ const template = document.createElement('template');
         }
     </style>
     <div id="root"></div>
-  ';
+  `;
   
   class FDSIcon extends HTMLElement {
     constructor() {
