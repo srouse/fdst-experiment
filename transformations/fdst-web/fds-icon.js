@@ -50,6 +50,12 @@ const template = document.createElement('template');
         case 'default' :
           svg = await import('./icons/default.js');
           break;
+        case 'hand-middle-finger' :
+          svg = await import('./icons/hand-middle-finger.js');
+          break;
+        case 'water-ladder' :
+          svg = await import('./icons/water-ladder.js');
+          break;
       }
       if (svg) {
         this.shadowRoot.querySelector(
