@@ -1,49 +1,3 @@
-export type FDSColorValue =
-  '--fds-color-primary-1' |
-  '--fds-color-primary-2' |
-  '--fds-color-primary-3' |
-  '--fds-color-primary-4' |
-  '--fds-color-primary-5' |
-  '--fds-color-primary' |
-  '--fds-color-primary-6' |
-  '--fds-color-primary-7' |
-  '--fds-color-primary-8' |
-  '--fds-color-primary-9' |
-  '--fds-color-bonkers-lightest' |
-  '--fds-color-bonkers-lighter' |
-  '--fds-color-bonkers-light' |
-  '--fds-color-bonkers' |
-  '--fds-color-bonkers-dark' |
-  '--fds-color-bonkers-darker' |
-  '--fds-color-bonkers-darkest';
-
-export type FDSTypeValue =
-  '--fds-type-text-10' |
-  '--fds-type-text-9' |
-  '--fds-type-text-8' |
-  '--fds-type-text-7' |
-  '--fds-type-text-6' |
-  '--fds-type-text-5' |
-  '--fds-type-text' |
-  '--fds-type-text-4' |
-  '--fds-type-text-3' |
-  '--fds-type-text-2' |
-  '--fds-type-text-1';
-
-export type FDSEffectValue =
-  '--fds-effect-shadow-shadow' |
-  '--fds-effect-blur-blur-radius';
-
-export type FDSBreakpointValue =
-  '--fds-breakpoint-sm-down' |
-  '--fds-breakpoint-xlg-up' |
-  '--fds-breakpoint-lg-up' |
-  '--fds-breakpoint-md-up';
-
-export type FDSCustomValue =
-  '--fds-custom-nice' |
-  '--fds-custom-turkey';
-
 export type FDSSpacingValue =
   '--fds-spacing-0' |
   '--fds-spacing-0-3' |
@@ -131,10 +85,56 @@ export type FDSSpacingValue =
   '--fds-spacing-colvw-11' |
   '--fds-spacing-colvw-12';
 
+export type FDSColorValue =
+  '--fds-color-primary-1' |
+  '--fds-color-primary-2' |
+  '--fds-color-primary-3' |
+  '--fds-color-primary-4' |
+  '--fds-color-primary-5' |
+  '--fds-color-primary' |
+  '--fds-color-primary-6' |
+  '--fds-color-primary-7' |
+  '--fds-color-primary-8' |
+  '--fds-color-primary-9' |
+  '--fds-color-bonkers-lightest' |
+  '--fds-color-bonkers-lighter' |
+  '--fds-color-bonkers-light' |
+  '--fds-color-bonkers' |
+  '--fds-color-bonkers-dark' |
+  '--fds-color-bonkers-darker' |
+  '--fds-color-bonkers-darkest';
+
+export type FDSTypeValue =
+  '--fds-type-text-10' |
+  '--fds-type-text-9' |
+  '--fds-type-text-8' |
+  '--fds-type-text-7' |
+  '--fds-type-text-6' |
+  '--fds-type-text-5' |
+  '--fds-type-text' |
+  '--fds-type-text-4' |
+  '--fds-type-text-3' |
+  '--fds-type-text-2' |
+  '--fds-type-text-1';
+
+export type FDSEffectValue =
+  '--fds-effect-shadow-shadow' |
+  '--fds-effect-blur-blur-radius';
+
+export type FDSBreakpointValue =
+  '--fds-breakpoint-sm-down' |
+  '--fds-breakpoint-xlg-up' |
+  '--fds-breakpoint-lg-up' |
+  '--fds-breakpoint-md-up';
+
+export type FDSCustomValue =
+  '--fds-custom-nice' |
+  '--fds-custom-turkey';
+
 export type FDSValue =
+  FDSSpacingValue |
   FDSColorValue |
   FDSTypeValue |
   FDSEffectValue |
   FDSBreakpointValue |
-  FDSCustomValue |
-  FDSSpacingValue;
+  FDSCustomValue;
