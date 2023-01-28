@@ -143,53 +143,41 @@
   --jc-v: flex-start;
 }
 
-
 [style~="--fds-background-color:"] {
   --background-color: var( --fds-background-color );
   background-color: var( --background-color );
 }
-
 [style~="--fds-background-color-hover:"]:hover {
   background-color: var( --fds-background-color-hover );
 }
-
 [style~="--fds-color:"] {
   --color: var( --fds-color );
   color: var( --color );
 }
-
 [style~="--fds-color-hover:"]:hover {
   color: var( --fds-color-hover );
 }
-
 [style~="--fds-border-color:"] {
   border-color: var( --fds-border-color );
 }
-
 [style~="--fds-border:"] {
   border: 1px solid var( --fds-border );
 }
-
 [style~="--fds-border-top:"] {
   border-top: 1px solid var( --fds-border-top );
 }
-
 [style~="--fds-border-bottom:"] {
   border-bottom: 1px solid var( --fds-border-bottom );
 }
-
 [style~="--fds-border-left:"] {
   border-left: 1px solid var( --fds-border-left );
 }
-
 [style~="--fds-border-right:"] {
   border-right: 1px solid var( --fds-border-right );
 }
-
 [style~="--fds-font:"] {
   font: var( --fds-font );
 }
-
 fds-element,
 [style~="--fds-element:"] {
   /* element */
@@ -201,9 +189,8 @@ fds-element,
   --gap-v-int: initial;
   margin-right: var( --margin-right, var( --gap-h-int, initial ) );
   margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
-
+  display: block;
+}
 fds-layout,
 [style~="--fds-layout:"] {
   /* element */
@@ -215,9 +202,8 @@ fds-layout,
   --gap-v-int: initial;
   margin-right: var( --margin-right, var( --gap-h-int, initial ) );
   margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
-
+  display: block;
+}
 fds-text,
 [style~="--fds-text:"] {
   /* element */
@@ -229,9 +215,8 @@ fds-text,
   --gap-v-int: initial;
   margin-right: var( --margin-right, var( --gap-h-int, initial ) );
   margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: inline-block;}
-
+  display: inline-block;
+}
 fds-stack,
 [style~="--fds-stack:"] {
   /* element */
@@ -243,21 +228,18 @@ fds-stack,
   --gap-v-int: initial;
   margin-right: var( --margin-right, var( --gap-h-int, initial ) );
   margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
-
+  display: block;
+}
 fds-stack > *:nth-child(n),
 [style~="--fds-stack:"] > *:nth-child(n) {
   --gap-h-int: 0px;
   --gap-v-int: var( --gap, var( --gap-v, initial ));
   width: 100%;
 }
-
 fds-stack > *:last-child,
 [style~="--fds-stack:"] > *:last-child {
   --gap-v-int: 0px;
 }
-
 fds-layout,
 [style~="--fds-layout:"] {
   /* element */
@@ -269,21 +251,18 @@ fds-layout,
   --gap-v-int: initial;
   margin-right: var( --margin-right, var( --gap-h-int, initial ) );
   margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
-
+  display: block;
+}
 fds-layout > *:nth-child(n),
 [style~="--fds-layout:"] > *:nth-child(n) {
   --gap-h-int: 0px;
   --gap-v-int: var( --gap, var( --gap-v, initial ));
   width: 100%;
 }
-
 fds-layout > *:last-child,
 [style~="--fds-layout:"] > *:last-child {
   --gap-v-int: 0px;
 }
-
 fds-flex-h,
 [style~="--fds-flex-h:"] {
   /* element */
@@ -295,7 +274,6 @@ fds-flex-h,
   --gap-v-int: initial;
   margin-right: var( --margin-right, var( --gap-h-int, initial ) );
   margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
   /* flex element */
   position: relative;
   box-sizing: border-box;
@@ -303,7 +281,6 @@ fds-flex-h,
   --justify-content: initial;
   align-items: var( --align-items , var( --ai-int, flex-start ) );
   justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
   display: flex;
   flex-flow: row nowrap;
   --ai-h: flex-start;
@@ -311,18 +288,15 @@ fds-flex-h,
   --ai-int: var( --ai-h, initial );
   --jc-int: var( --jc-h, initial );
 }
-
 fds-flex-h > *:nth-child(n),
 [style~="--fds-flex-h:"] > *:nth-child(n) {
   --gap-h-int: var( --gap , var( --gap-h, initial ));
   --gap-v-int: 0px;
 }
-
 fds-flex-h > *:last-child,
 [style~="--fds-flex-h:"] > *:last-child {
   --gap-h-int: 0px;
 }
-
 fds-flex-v,
 [style~="--fds-flex-v:"] {
   /* element */
@@ -334,7 +308,6 @@ fds-flex-v,
   --gap-v-int: initial;
   margin-right: var( --margin-right, var( --gap-h-int, initial ) );
   margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
   /* flex element */
   position: relative;
   box-sizing: border-box;
@@ -342,7 +315,6 @@ fds-flex-v,
   --justify-content: initial;
   align-items: var( --align-items , var( --ai-int, flex-start ) );
   justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
   display: flex;
   flex-flow: column nowrap;
   --ai-v: flex-start;
@@ -350,18 +322,15 @@ fds-flex-v,
   --ai-int: var( --ai-v, initial );
   --jc-int: var( --jc-v, initial );
 }
-
 fds-flex-v > *:nth-child(n),
 [style~="--fds-flex-v:"] > *:nth-child(n) {
   --gap-h-int: 0px;
   --gap-v-int: var( --gap, var( --gap-v, initial ));
 }
-
 fds-flex-v > *:last-child,
 [style~="--fds-flex-v:"] > *:last-child {
   --gap-v-int: 0px;
 }
-
 fds-center,
 [style~="--fds-center:"] {
   /* element */
@@ -373,7 +342,6 @@ fds-center,
   --gap-v-int: initial;
   margin-right: var( --margin-right, var( --gap-h-int, initial ) );
   margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
   /* flex element */
   position: relative;
   box-sizing: border-box;
@@ -381,7 +349,6 @@ fds-center,
   --justify-content: initial;
   align-items: var( --align-items , var( --ai-int, flex-start ) );
   justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
   display: flex;
   flex-flow: column nowrap;
   --ai-v: center;
@@ -389,18 +356,15 @@ fds-center,
   --ai-int: var( --ai-v, initial );
   --jc-int: var( --jc-v, initial );
 }
-
 fds-center > *:nth-child(n),
 [style~="--fds-center:"] > *:nth-child(n) {
   --gap-h-int: 0px;
   --gap-v-int: var( --gap, var( --gap-v, initial ));
 }
-
 fds-center > *:last-child,
 [style~="--fds-center:"] > *:last-child {
   --gap-v-int: 0px;
 }
-
 fds-float,
 [style~="--fds-float:"] {
   /* element */
@@ -412,10 +376,8 @@ fds-float,
   --gap-v-int: initial;
   margin-right: var( --margin-right, var( --gap-h-int, initial ) );
   margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
   display: block;
 }
-
 fds-float > *:nth-child(n),
 [style~="--fds-float:"] > *:nth-child(n) {
   --gap-h-int: 0px;
@@ -424,46 +386,41 @@ fds-float > *:nth-child(n),
   float: left;
   clear: left;
 }
-
 fds-float > *:last-child,
 [style~="--fds-float:"] > *:last-child {
   --gap-v-int: 0px;
 }
-
 fds-float::after,
 [style~="--fds-float:"]::after {
   content: "";
   clear: both;
   display: table;
 }
-
-[style~="--fds-float-left:"] {
+@mixin fds-float-left {
   float: left;
 }
-
-[style~="--fds-float-right:"] {
+@mixin fds-float-right {
   float: right;
 }
-
-[style~="--fds-float-clear-left:"] {
+@mixin fds-float-clear-left {
   clear: left;
   float: left;
 }
-
-[style~="--fds-float-clear-right:"] {
+@mixin fds-float-clear-right {
   clear: right;
   float: right;
 }
-
-[style~="--fds-fill-children:"] > * {
-  flex: 1;
+@mixin fds-fill-children {
+  & > * {
+    flex: 1;
+  }
 }
-
-[style~="--fds-children-fill:"] > * {
-  flex: 1;
+@mixin fds-children-fill {
+  & > * {
+    flex: 1;
+  }
 }
-
-[style~="--fds-hide:"] {
+@mixin fds-hide {
   display: none;
 }
 
@@ -844,426 +801,343 @@ fds-float::after,
 }
 }
 
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-background-color-sm:"] {
-  --background-color: var( --fds-background-color-sm );
-  background-color: var( --background-color );
+  [style~="--fds-background-color-sm:"] {
+    --background-color: var( --fds-background-color-sm );
+    background-color: var( --background-color );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-background-color-hover-sm:"]:hover {
-  background-color: var( --fds-background-color-hover-sm );
+  [style~="--fds-background-color-hover-sm:"]:hover {
+    background-color: var( --fds-background-color-hover-sm );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-color-sm:"] {
-  --color: var( --fds-color-sm );
-  color: var( --color );
+  [style~="--fds-color-sm:"] {
+    --color: var( --fds-color-sm );
+    color: var( --color );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-color-hover-sm:"]:hover {
-  color: var( --fds-color-hover-sm );
+  [style~="--fds-color-hover-sm:"]:hover {
+    color: var( --fds-color-hover-sm );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-border-color-sm:"] {
-  border-color: var( --fds-border-color-sm );
+  [style~="--fds-border-color-sm:"] {
+    border-color: var( --fds-border-color-sm );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-border-sm:"] {
-  border: 1px solid var( --fds-border-sm );
+  [style~="--fds-border-sm:"] {
+    border: 1px solid var( --fds-border-sm );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-border-top-sm:"] {
-  border-top: 1px solid var( --fds-border-top-sm );
+  [style~="--fds-border-top-sm:"] {
+    border-top: 1px solid var( --fds-border-top-sm );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-border-bottom-sm:"] {
-  border-bottom: 1px solid var( --fds-border-bottom-sm );
+  [style~="--fds-border-bottom-sm:"] {
+    border-bottom: 1px solid var( --fds-border-bottom-sm );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-border-left-sm:"] {
-  border-left: 1px solid var( --fds-border-left-sm );
+  [style~="--fds-border-left-sm:"] {
+    border-left: 1px solid var( --fds-border-left-sm );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-border-right-sm:"] {
-  border-right: 1px solid var( --fds-border-right-sm );
+  [style~="--fds-border-right-sm:"] {
+    border-right: 1px solid var( --fds-border-right-sm );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-font-sm:"] {
-  font: var( --fds-font-sm );
+  [style~="--fds-font-sm:"] {
+    font: var( --fds-font-sm );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-element-sm:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-element-sm:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-layout-sm:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-layout-sm:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-text-sm:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: inline-block;}
+  [style~="--fds-text-sm:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
 }
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-stack-sm:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-stack-sm:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-stack-sm:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: 100%;
+  [style~="--fds-stack-sm:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-stack-sm:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-stack-sm:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-layout-sm:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-layout-sm:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-layout-sm:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: 100%;
+  [style~="--fds-layout-sm:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-layout-sm:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-layout-sm:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-flex-h-sm:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: row nowrap;
-  --ai-h: flex-start;
-  --jc-h: flex-start;
-  --ai-int: var( --ai-h, initial );
-  --jc-int: var( --jc-h, initial );
+  [style~="--fds-flex-h-sm:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-flex-h-sm:"] > *:nth-child(n) {
-  --gap-h-int: var( --gap , var( --gap-h, initial ));
-  --gap-v-int: 0px;
+  [style~="--fds-flex-h-sm:"] > *:nth-child(n) {
+    --gap-h-int: var( --gap , var( --gap-h, initial ));
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-flex-h-sm:"] > *:last-child {
-  --gap-h-int: 0px;
+  [style~="--fds-flex-h-sm:"] > *:last-child {
+    --gap-h-int: 0px;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-flex-v-sm:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: column nowrap;
-  --ai-v: flex-start;
-  --jc-v: flex-start;
-  --ai-int: var( --ai-v, initial );
-  --jc-int: var( --jc-v, initial );
+  [style~="--fds-flex-v-sm:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-flex-v-sm:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
+  [style~="--fds-flex-v-sm:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-flex-v-sm:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-flex-v-sm:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-center-sm:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: column nowrap;
-  --ai-v: center;
-  --jc-v: center;
-  --ai-int: var( --ai-v, initial );
-  --jc-int: var( --jc-v, initial );
+  [style~="--fds-center-sm:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-center-sm:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
+  [style~="--fds-center-sm:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-center-sm:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-center-sm:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-float-sm:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;
+  [style~="--fds-float-sm:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-float-sm:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: auto;
-  float: left;
-  clear: left;
+  [style~="--fds-float-sm:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: auto;
+    float: left;
+    clear: left;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-float-sm:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-float-sm:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen  and (max-width: 599px) {
-[style~="--fds-float-sm:"]::after {
-  content: "";
-  clear: both;
-  display: table;
+  [style~="--fds-float-sm:"]::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
+@mixin fds-float-left-sm {
+  @media screen  and (max-width: 599px) {
+    float: left;
+  }
 }
-
-
-@media screen  and (max-width: 599px) {
-[style~="--fds-float-left-sm:"] {
-  float: left;
+@mixin fds-float-right-sm {
+  @media screen  and (max-width: 599px) {
+    float: right;
+  }
 }
+@mixin fds-float-clear-left-sm {
+  @media screen  and (max-width: 599px) {
+    clear: left;
+    float: left;
+  }
 }
-
-
-@media screen  and (max-width: 599px) {
-[style~="--fds-float-right-sm:"] {
-  float: right;
+@mixin fds-float-clear-right-sm {
+  @media screen  and (max-width: 599px) {
+    clear: right;
+    float: right;
+  }
 }
+@mixin fds-fill-children-sm {
+  @media screen  and (max-width: 599px) {
+    & > * {
+      flex: 1;
+    }
+  }
 }
-
-
-@media screen  and (max-width: 599px) {
-[style~="--fds-float-clear-left-sm:"] {
-  clear: left;
-  float: left;
+@mixin fds-children-fill-sm {
+  @media screen  and (max-width: 599px) {
+    & > * {
+      flex: 1;
+    }
+  }
 }
-}
-
-
-@media screen  and (max-width: 599px) {
-[style~="--fds-float-clear-right-sm:"] {
-  clear: right;
-  float: right;
-}
-}
-
-
-@media screen  and (max-width: 599px) {
-[style~="--fds-fill-children-sm:"] > * {
-  flex: 1;
-}
-}
-
-
-@media screen  and (max-width: 599px) {
-[style~="--fds-children-fill-sm:"] > * {
-  flex: 1;
-}
-}
-
-
-@media screen  and (max-width: 599px) {
-[style~="--fds-hide-sm:"] {
-  display: none;
-}
+@mixin fds-hide-sm {
+  @media screen  and (max-width: 599px) {
+    display: none;
+  }
 }
 
 
@@ -1751,426 +1625,343 @@ fds-float::after,
 }
 }
 
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-background-color-md:"] {
-  --background-color: var( --fds-background-color-md );
-  background-color: var( --background-color );
+  [style~="--fds-background-color-md:"] {
+    --background-color: var( --fds-background-color-md );
+    background-color: var( --background-color );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-background-color-hover-md:"]:hover {
-  background-color: var( --fds-background-color-hover-md );
+  [style~="--fds-background-color-hover-md:"]:hover {
+    background-color: var( --fds-background-color-hover-md );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-color-md:"] {
-  --color: var( --fds-color-md );
-  color: var( --color );
+  [style~="--fds-color-md:"] {
+    --color: var( --fds-color-md );
+    color: var( --color );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-color-hover-md:"]:hover {
-  color: var( --fds-color-hover-md );
+  [style~="--fds-color-hover-md:"]:hover {
+    color: var( --fds-color-hover-md );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-border-color-md:"] {
-  border-color: var( --fds-border-color-md );
+  [style~="--fds-border-color-md:"] {
+    border-color: var( --fds-border-color-md );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-border-md:"] {
-  border: 1px solid var( --fds-border-md );
+  [style~="--fds-border-md:"] {
+    border: 1px solid var( --fds-border-md );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-border-top-md:"] {
-  border-top: 1px solid var( --fds-border-top-md );
+  [style~="--fds-border-top-md:"] {
+    border-top: 1px solid var( --fds-border-top-md );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-border-bottom-md:"] {
-  border-bottom: 1px solid var( --fds-border-bottom-md );
+  [style~="--fds-border-bottom-md:"] {
+    border-bottom: 1px solid var( --fds-border-bottom-md );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-border-left-md:"] {
-  border-left: 1px solid var( --fds-border-left-md );
+  [style~="--fds-border-left-md:"] {
+    border-left: 1px solid var( --fds-border-left-md );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-border-right-md:"] {
-  border-right: 1px solid var( --fds-border-right-md );
+  [style~="--fds-border-right-md:"] {
+    border-right: 1px solid var( --fds-border-right-md );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-font-md:"] {
-  font: var( --fds-font-md );
+  [style~="--fds-font-md:"] {
+    font: var( --fds-font-md );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-element-md:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-element-md:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-layout-md:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-layout-md:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-text-md:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: inline-block;}
+  [style~="--fds-text-md:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
 }
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-stack-md:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-stack-md:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-stack-md:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: 100%;
+  [style~="--fds-stack-md:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-stack-md:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-stack-md:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-layout-md:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-layout-md:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-layout-md:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: 100%;
+  [style~="--fds-layout-md:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-layout-md:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-layout-md:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-flex-h-md:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: row nowrap;
-  --ai-h: flex-start;
-  --jc-h: flex-start;
-  --ai-int: var( --ai-h, initial );
-  --jc-int: var( --jc-h, initial );
+  [style~="--fds-flex-h-md:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-flex-h-md:"] > *:nth-child(n) {
-  --gap-h-int: var( --gap , var( --gap-h, initial ));
-  --gap-v-int: 0px;
+  [style~="--fds-flex-h-md:"] > *:nth-child(n) {
+    --gap-h-int: var( --gap , var( --gap-h, initial ));
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-flex-h-md:"] > *:last-child {
-  --gap-h-int: 0px;
+  [style~="--fds-flex-h-md:"] > *:last-child {
+    --gap-h-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-flex-v-md:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: column nowrap;
-  --ai-v: flex-start;
-  --jc-v: flex-start;
-  --ai-int: var( --ai-v, initial );
-  --jc-int: var( --jc-v, initial );
+  [style~="--fds-flex-v-md:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-flex-v-md:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
+  [style~="--fds-flex-v-md:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-flex-v-md:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-flex-v-md:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-center-md:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: column nowrap;
-  --ai-v: center;
-  --jc-v: center;
-  --ai-int: var( --ai-v, initial );
-  --jc-int: var( --jc-v, initial );
+  [style~="--fds-center-md:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-center-md:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
+  [style~="--fds-center-md:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-center-md:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-center-md:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-float-md:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;
+  [style~="--fds-float-md:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-float-md:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: auto;
-  float: left;
-  clear: left;
+  [style~="--fds-float-md:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: auto;
+    float: left;
+    clear: left;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-float-md:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-float-md:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 600px) {
-[style~="--fds-float-md:"]::after {
-  content: "";
-  clear: both;
-  display: table;
+  [style~="--fds-float-md:"]::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
+@mixin fds-float-left-md {
+  @media screen and (min-width: 600px) {
+    float: left;
+  }
 }
-
-
-@media screen and (min-width: 600px) {
-[style~="--fds-float-left-md:"] {
-  float: left;
+@mixin fds-float-right-md {
+  @media screen and (min-width: 600px) {
+    float: right;
+  }
 }
+@mixin fds-float-clear-left-md {
+  @media screen and (min-width: 600px) {
+    clear: left;
+    float: left;
+  }
 }
-
-
-@media screen and (min-width: 600px) {
-[style~="--fds-float-right-md:"] {
-  float: right;
+@mixin fds-float-clear-right-md {
+  @media screen and (min-width: 600px) {
+    clear: right;
+    float: right;
+  }
 }
+@mixin fds-fill-children-md {
+  @media screen and (min-width: 600px) {
+    & > * {
+      flex: 1;
+    }
+  }
 }
-
-
-@media screen and (min-width: 600px) {
-[style~="--fds-float-clear-left-md:"] {
-  clear: left;
-  float: left;
+@mixin fds-children-fill-md {
+  @media screen and (min-width: 600px) {
+    & > * {
+      flex: 1;
+    }
+  }
 }
-}
-
-
-@media screen and (min-width: 600px) {
-[style~="--fds-float-clear-right-md:"] {
-  clear: right;
-  float: right;
-}
-}
-
-
-@media screen and (min-width: 600px) {
-[style~="--fds-fill-children-md:"] > * {
-  flex: 1;
-}
-}
-
-
-@media screen and (min-width: 600px) {
-[style~="--fds-children-fill-md:"] > * {
-  flex: 1;
-}
-}
-
-
-@media screen and (min-width: 600px) {
-[style~="--fds-hide-md:"] {
-  display: none;
-}
+@mixin fds-hide-md {
+  @media screen and (min-width: 600px) {
+    display: none;
+  }
 }
 
 
@@ -2658,426 +2449,343 @@ fds-float::after,
 }
 }
 
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-background-color-lg:"] {
-  --background-color: var( --fds-background-color-lg );
-  background-color: var( --background-color );
+  [style~="--fds-background-color-lg:"] {
+    --background-color: var( --fds-background-color-lg );
+    background-color: var( --background-color );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-background-color-hover-lg:"]:hover {
-  background-color: var( --fds-background-color-hover-lg );
+  [style~="--fds-background-color-hover-lg:"]:hover {
+    background-color: var( --fds-background-color-hover-lg );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-color-lg:"] {
-  --color: var( --fds-color-lg );
-  color: var( --color );
+  [style~="--fds-color-lg:"] {
+    --color: var( --fds-color-lg );
+    color: var( --color );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-color-hover-lg:"]:hover {
-  color: var( --fds-color-hover-lg );
+  [style~="--fds-color-hover-lg:"]:hover {
+    color: var( --fds-color-hover-lg );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-border-color-lg:"] {
-  border-color: var( --fds-border-color-lg );
+  [style~="--fds-border-color-lg:"] {
+    border-color: var( --fds-border-color-lg );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-border-lg:"] {
-  border: 1px solid var( --fds-border-lg );
+  [style~="--fds-border-lg:"] {
+    border: 1px solid var( --fds-border-lg );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-border-top-lg:"] {
-  border-top: 1px solid var( --fds-border-top-lg );
+  [style~="--fds-border-top-lg:"] {
+    border-top: 1px solid var( --fds-border-top-lg );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-border-bottom-lg:"] {
-  border-bottom: 1px solid var( --fds-border-bottom-lg );
+  [style~="--fds-border-bottom-lg:"] {
+    border-bottom: 1px solid var( --fds-border-bottom-lg );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-border-left-lg:"] {
-  border-left: 1px solid var( --fds-border-left-lg );
+  [style~="--fds-border-left-lg:"] {
+    border-left: 1px solid var( --fds-border-left-lg );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-border-right-lg:"] {
-  border-right: 1px solid var( --fds-border-right-lg );
+  [style~="--fds-border-right-lg:"] {
+    border-right: 1px solid var( --fds-border-right-lg );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-font-lg:"] {
-  font: var( --fds-font-lg );
+  [style~="--fds-font-lg:"] {
+    font: var( --fds-font-lg );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-element-lg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-element-lg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-layout-lg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-layout-lg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-text-lg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: inline-block;}
+  [style~="--fds-text-lg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
 }
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-stack-lg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-stack-lg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-stack-lg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: 100%;
+  [style~="--fds-stack-lg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-stack-lg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-stack-lg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-layout-lg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-layout-lg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-layout-lg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: 100%;
+  [style~="--fds-layout-lg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-layout-lg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-layout-lg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-flex-h-lg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: row nowrap;
-  --ai-h: flex-start;
-  --jc-h: flex-start;
-  --ai-int: var( --ai-h, initial );
-  --jc-int: var( --jc-h, initial );
+  [style~="--fds-flex-h-lg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-flex-h-lg:"] > *:nth-child(n) {
-  --gap-h-int: var( --gap , var( --gap-h, initial ));
-  --gap-v-int: 0px;
+  [style~="--fds-flex-h-lg:"] > *:nth-child(n) {
+    --gap-h-int: var( --gap , var( --gap-h, initial ));
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-flex-h-lg:"] > *:last-child {
-  --gap-h-int: 0px;
+  [style~="--fds-flex-h-lg:"] > *:last-child {
+    --gap-h-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-flex-v-lg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: column nowrap;
-  --ai-v: flex-start;
-  --jc-v: flex-start;
-  --ai-int: var( --ai-v, initial );
-  --jc-int: var( --jc-v, initial );
+  [style~="--fds-flex-v-lg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-flex-v-lg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
+  [style~="--fds-flex-v-lg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-flex-v-lg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-flex-v-lg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-center-lg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: column nowrap;
-  --ai-v: center;
-  --jc-v: center;
-  --ai-int: var( --ai-v, initial );
-  --jc-int: var( --jc-v, initial );
+  [style~="--fds-center-lg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-center-lg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
+  [style~="--fds-center-lg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-center-lg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-center-lg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-float-lg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;
+  [style~="--fds-float-lg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-float-lg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: auto;
-  float: left;
-  clear: left;
+  [style~="--fds-float-lg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: auto;
+    float: left;
+    clear: left;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-float-lg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-float-lg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 900px) {
-[style~="--fds-float-lg:"]::after {
-  content: "";
-  clear: both;
-  display: table;
+  [style~="--fds-float-lg:"]::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
+@mixin fds-float-left-lg {
+  @media screen and (min-width: 900px) {
+    float: left;
+  }
 }
-
-
-@media screen and (min-width: 900px) {
-[style~="--fds-float-left-lg:"] {
-  float: left;
+@mixin fds-float-right-lg {
+  @media screen and (min-width: 900px) {
+    float: right;
+  }
 }
+@mixin fds-float-clear-left-lg {
+  @media screen and (min-width: 900px) {
+    clear: left;
+    float: left;
+  }
 }
-
-
-@media screen and (min-width: 900px) {
-[style~="--fds-float-right-lg:"] {
-  float: right;
+@mixin fds-float-clear-right-lg {
+  @media screen and (min-width: 900px) {
+    clear: right;
+    float: right;
+  }
 }
+@mixin fds-fill-children-lg {
+  @media screen and (min-width: 900px) {
+    & > * {
+      flex: 1;
+    }
+  }
 }
-
-
-@media screen and (min-width: 900px) {
-[style~="--fds-float-clear-left-lg:"] {
-  clear: left;
-  float: left;
+@mixin fds-children-fill-lg {
+  @media screen and (min-width: 900px) {
+    & > * {
+      flex: 1;
+    }
+  }
 }
-}
-
-
-@media screen and (min-width: 900px) {
-[style~="--fds-float-clear-right-lg:"] {
-  clear: right;
-  float: right;
-}
-}
-
-
-@media screen and (min-width: 900px) {
-[style~="--fds-fill-children-lg:"] > * {
-  flex: 1;
-}
-}
-
-
-@media screen and (min-width: 900px) {
-[style~="--fds-children-fill-lg:"] > * {
-  flex: 1;
-}
-}
-
-
-@media screen and (min-width: 900px) {
-[style~="--fds-hide-lg:"] {
-  display: none;
-}
+@mixin fds-hide-lg {
+  @media screen and (min-width: 900px) {
+    display: none;
+  }
 }
 
 
@@ -3565,426 +3273,343 @@ fds-float::after,
 }
 }
 
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-background-color-xlg:"] {
-  --background-color: var( --fds-background-color-xlg );
-  background-color: var( --background-color );
+  [style~="--fds-background-color-xlg:"] {
+    --background-color: var( --fds-background-color-xlg );
+    background-color: var( --background-color );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-background-color-hover-xlg:"]:hover {
-  background-color: var( --fds-background-color-hover-xlg );
+  [style~="--fds-background-color-hover-xlg:"]:hover {
+    background-color: var( --fds-background-color-hover-xlg );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-color-xlg:"] {
-  --color: var( --fds-color-xlg );
-  color: var( --color );
+  [style~="--fds-color-xlg:"] {
+    --color: var( --fds-color-xlg );
+    color: var( --color );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-color-hover-xlg:"]:hover {
-  color: var( --fds-color-hover-xlg );
+  [style~="--fds-color-hover-xlg:"]:hover {
+    color: var( --fds-color-hover-xlg );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-border-color-xlg:"] {
-  border-color: var( --fds-border-color-xlg );
+  [style~="--fds-border-color-xlg:"] {
+    border-color: var( --fds-border-color-xlg );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-border-xlg:"] {
-  border: 1px solid var( --fds-border-xlg );
+  [style~="--fds-border-xlg:"] {
+    border: 1px solid var( --fds-border-xlg );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-border-top-xlg:"] {
-  border-top: 1px solid var( --fds-border-top-xlg );
+  [style~="--fds-border-top-xlg:"] {
+    border-top: 1px solid var( --fds-border-top-xlg );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-border-bottom-xlg:"] {
-  border-bottom: 1px solid var( --fds-border-bottom-xlg );
+  [style~="--fds-border-bottom-xlg:"] {
+    border-bottom: 1px solid var( --fds-border-bottom-xlg );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-border-left-xlg:"] {
-  border-left: 1px solid var( --fds-border-left-xlg );
+  [style~="--fds-border-left-xlg:"] {
+    border-left: 1px solid var( --fds-border-left-xlg );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-border-right-xlg:"] {
-  border-right: 1px solid var( --fds-border-right-xlg );
+  [style~="--fds-border-right-xlg:"] {
+    border-right: 1px solid var( --fds-border-right-xlg );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-font-xlg:"] {
-  font: var( --fds-font-xlg );
+  [style~="--fds-font-xlg:"] {
+    font: var( --fds-font-xlg );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-element-xlg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-element-xlg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-layout-xlg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-layout-xlg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-text-xlg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: inline-block;}
+  [style~="--fds-text-xlg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
 }
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-stack-xlg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-stack-xlg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-stack-xlg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: 100%;
+  [style~="--fds-stack-xlg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-stack-xlg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-stack-xlg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-layout-xlg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;}
+  [style~="--fds-layout-xlg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-layout-xlg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: 100%;
+  [style~="--fds-layout-xlg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-layout-xlg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-layout-xlg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-flex-h-xlg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: row nowrap;
-  --ai-h: flex-start;
-  --jc-h: flex-start;
-  --ai-int: var( --ai-h, initial );
-  --jc-int: var( --jc-h, initial );
+  [style~="--fds-flex-h-xlg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-flex-h-xlg:"] > *:nth-child(n) {
-  --gap-h-int: var( --gap , var( --gap-h, initial ));
-  --gap-v-int: 0px;
+  [style~="--fds-flex-h-xlg:"] > *:nth-child(n) {
+    --gap-h-int: var( --gap , var( --gap-h, initial ));
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-flex-h-xlg:"] > *:last-child {
-  --gap-h-int: 0px;
+  [style~="--fds-flex-h-xlg:"] > *:last-child {
+    --gap-h-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-flex-v-xlg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: column nowrap;
-  --ai-v: flex-start;
-  --jc-v: flex-start;
-  --ai-int: var( --ai-v, initial );
-  --jc-int: var( --jc-v, initial );
+  [style~="--fds-flex-v-xlg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-flex-v-xlg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
+  [style~="--fds-flex-v-xlg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-flex-v-xlg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-flex-v-xlg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-center-xlg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  /* flex element */
-  position: relative;
-  box-sizing: border-box;
-  --align-items: initial;
-  --justify-content: initial;
-  align-items: var( --align-items , var( --ai-int, flex-start ) );
-  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
-
-  display: flex;
-  flex-flow: column nowrap;
-  --ai-v: center;
-  --jc-v: center;
-  --ai-int: var( --ai-v, initial );
-  --jc-int: var( --jc-v, initial );
+  [style~="--fds-center-xlg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-center-xlg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
+  [style~="--fds-center-xlg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-center-xlg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-center-xlg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-float-xlg:"] {
-  /* element */
-  position: relative;
-  box-sizing: border-box;
-  --margin-right: initial;
-  --margin-bottom: initial;
-  --gap-h-int: initial;
-  --gap-v-int: initial;
-  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
-  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
-
-  display: block;
+  [style~="--fds-float-xlg:"] {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-float-xlg:"] > *:nth-child(n) {
-  --gap-h-int: 0px;
-  --gap-v-int: var( --gap, var( --gap-v, initial ));
-  width: auto;
-  float: left;
-  clear: left;
+  [style~="--fds-float-xlg:"] > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: auto;
+    float: left;
+    clear: left;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-float-xlg:"] > *:last-child {
-  --gap-v-int: 0px;
+  [style~="--fds-float-xlg:"] > *:last-child {
+    --gap-v-int: 0px;
+  }
 }
-}
-
-
 @media screen and (min-width: 1200px) {
-[style~="--fds-float-xlg:"]::after {
-  content: "";
-  clear: both;
-  display: table;
+  [style~="--fds-float-xlg:"]::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 }
+@mixin fds-float-left-xlg {
+  @media screen and (min-width: 1200px) {
+    float: left;
+  }
 }
-
-
-@media screen and (min-width: 1200px) {
-[style~="--fds-float-left-xlg:"] {
-  float: left;
+@mixin fds-float-right-xlg {
+  @media screen and (min-width: 1200px) {
+    float: right;
+  }
 }
+@mixin fds-float-clear-left-xlg {
+  @media screen and (min-width: 1200px) {
+    clear: left;
+    float: left;
+  }
 }
-
-
-@media screen and (min-width: 1200px) {
-[style~="--fds-float-right-xlg:"] {
-  float: right;
+@mixin fds-float-clear-right-xlg {
+  @media screen and (min-width: 1200px) {
+    clear: right;
+    float: right;
+  }
 }
+@mixin fds-fill-children-xlg {
+  @media screen and (min-width: 1200px) {
+    & > * {
+      flex: 1;
+    }
+  }
 }
-
-
-@media screen and (min-width: 1200px) {
-[style~="--fds-float-clear-left-xlg:"] {
-  clear: left;
-  float: left;
+@mixin fds-children-fill-xlg {
+  @media screen and (min-width: 1200px) {
+    & > * {
+      flex: 1;
+    }
+  }
 }
-}
-
-
-@media screen and (min-width: 1200px) {
-[style~="--fds-float-clear-right-xlg:"] {
-  clear: right;
-  float: right;
-}
-}
-
-
-@media screen and (min-width: 1200px) {
-[style~="--fds-fill-children-xlg:"] > * {
-  flex: 1;
-}
-}
-
-
-@media screen and (min-width: 1200px) {
-[style~="--fds-children-fill-xlg:"] > * {
-  flex: 1;
-}
-}
-
-
-@media screen and (min-width: 1200px) {
-[style~="--fds-hide-xlg:"] {
-  display: none;
-}
+@mixin fds-hide-xlg {
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 }
 
 
