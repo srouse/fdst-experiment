@@ -278,865 +278,908 @@
   --jc-v: flex-start;
 }
 
-
 @mixin background-color-primary-1 {
   --background-color: var( --fds-color-primary-1 );
   background-color: var( --background-color );
 }
-
 @mixin background-color-primary-2 {
   --background-color: var( --fds-color-primary-2 );
   background-color: var( --background-color );
 }
-
 @mixin background-color-primary-3 {
   --background-color: var( --fds-color-primary-3 );
   background-color: var( --background-color );
 }
-
 @mixin background-color-primary-4 {
   --background-color: var( --fds-color-primary-4 );
   background-color: var( --background-color );
 }
-
 @mixin background-color-primary-5 {
   --background-color: var( --fds-color-primary-5 );
   background-color: var( --background-color );
 }
-
 @mixin background-color-primary {
   --background-color: var( --fds-color-primary );
   background-color: var( --background-color );
 }
-
 @mixin background-color-primary-6 {
   --background-color: var( --fds-color-primary-6 );
   background-color: var( --background-color );
 }
-
 @mixin background-color-primary-7 {
   --background-color: var( --fds-color-primary-7 );
   background-color: var( --background-color );
 }
-
 @mixin background-color-primary-8 {
   --background-color: var( --fds-color-primary-8 );
   background-color: var( --background-color );
 }
-
 @mixin background-color-primary-9 {
   --background-color: var( --fds-color-primary-9 );
   background-color: var( --background-color );
 }
-
 @mixin background-color-bonkers-lightest {
   --background-color: var( --fds-color-bonkers-lightest );
   background-color: var( --background-color );
 }
-
 @mixin background-color-bonkers-lighter {
   --background-color: var( --fds-color-bonkers-lighter );
   background-color: var( --background-color );
 }
-
 @mixin background-color-bonkers-light {
   --background-color: var( --fds-color-bonkers-light );
   background-color: var( --background-color );
 }
-
 @mixin background-color-bonkers {
   --background-color: var( --fds-color-bonkers );
   background-color: var( --background-color );
 }
-
 @mixin background-color-bonkers-dark {
   --background-color: var( --fds-color-bonkers-dark );
   background-color: var( --background-color );
 }
-
 @mixin background-color-bonkers-darker {
   --background-color: var( --fds-color-bonkers-darker );
   background-color: var( --background-color );
 }
-
 @mixin background-color-bonkers-darkest {
   --background-color: var( --fds-color-bonkers-darkest );
   background-color: var( --background-color );
 }
-
 @mixin background-color-hover-primary-1 {
   &:hover {
     background-color: var( --fds-color-primary-1 );
-
   }
 }
-
 @mixin background-color-hover-primary-2 {
   &:hover {
     background-color: var( --fds-color-primary-2 );
-
   }
 }
-
 @mixin background-color-hover-primary-3 {
   &:hover {
     background-color: var( --fds-color-primary-3 );
-
   }
 }
-
 @mixin background-color-hover-primary-4 {
   &:hover {
     background-color: var( --fds-color-primary-4 );
-
   }
 }
-
 @mixin background-color-hover-primary-5 {
   &:hover {
     background-color: var( --fds-color-primary-5 );
-
   }
 }
-
 @mixin background-color-hover-primary {
   &:hover {
     background-color: var( --fds-color-primary );
-
   }
 }
-
 @mixin background-color-hover-primary-6 {
   &:hover {
     background-color: var( --fds-color-primary-6 );
-
   }
 }
-
 @mixin background-color-hover-primary-7 {
   &:hover {
     background-color: var( --fds-color-primary-7 );
-
   }
 }
-
 @mixin background-color-hover-primary-8 {
   &:hover {
     background-color: var( --fds-color-primary-8 );
-
   }
 }
-
 @mixin background-color-hover-primary-9 {
   &:hover {
     background-color: var( --fds-color-primary-9 );
-
   }
 }
-
 @mixin background-color-hover-bonkers-lightest {
   &:hover {
     background-color: var( --fds-color-bonkers-lightest );
-
   }
 }
-
 @mixin background-color-hover-bonkers-lighter {
   &:hover {
     background-color: var( --fds-color-bonkers-lighter );
-
   }
 }
-
 @mixin background-color-hover-bonkers-light {
   &:hover {
     background-color: var( --fds-color-bonkers-light );
-
   }
 }
-
 @mixin background-color-hover-bonkers {
   &:hover {
     background-color: var( --fds-color-bonkers );
-
   }
 }
-
 @mixin background-color-hover-bonkers-dark {
   &:hover {
     background-color: var( --fds-color-bonkers-dark );
-
   }
 }
-
 @mixin background-color-hover-bonkers-darker {
   &:hover {
     background-color: var( --fds-color-bonkers-darker );
-
   }
 }
-
 @mixin background-color-hover-bonkers-darkest {
   &:hover {
     background-color: var( --fds-color-bonkers-darkest );
-
   }
 }
-
 @mixin color-primary-1 {
   --color: var( --fds-color-primary-1 );
   color: var( --color );
 }
-
 @mixin color-primary-2 {
   --color: var( --fds-color-primary-2 );
   color: var( --color );
 }
-
 @mixin color-primary-3 {
   --color: var( --fds-color-primary-3 );
   color: var( --color );
 }
-
 @mixin color-primary-4 {
   --color: var( --fds-color-primary-4 );
   color: var( --color );
 }
-
 @mixin color-primary-5 {
   --color: var( --fds-color-primary-5 );
   color: var( --color );
 }
-
 @mixin color-primary {
   --color: var( --fds-color-primary );
   color: var( --color );
 }
-
 @mixin color-primary-6 {
   --color: var( --fds-color-primary-6 );
   color: var( --color );
 }
-
 @mixin color-primary-7 {
   --color: var( --fds-color-primary-7 );
   color: var( --color );
 }
-
 @mixin color-primary-8 {
   --color: var( --fds-color-primary-8 );
   color: var( --color );
 }
-
 @mixin color-primary-9 {
   --color: var( --fds-color-primary-9 );
   color: var( --color );
 }
-
 @mixin color-bonkers-lightest {
   --color: var( --fds-color-bonkers-lightest );
   color: var( --color );
 }
-
 @mixin color-bonkers-lighter {
   --color: var( --fds-color-bonkers-lighter );
   color: var( --color );
 }
-
 @mixin color-bonkers-light {
   --color: var( --fds-color-bonkers-light );
   color: var( --color );
 }
-
 @mixin color-bonkers {
   --color: var( --fds-color-bonkers );
   color: var( --color );
 }
-
 @mixin color-bonkers-dark {
   --color: var( --fds-color-bonkers-dark );
   color: var( --color );
 }
-
 @mixin color-bonkers-darker {
   --color: var( --fds-color-bonkers-darker );
   color: var( --color );
 }
-
 @mixin color-bonkers-darkest {
   --color: var( --fds-color-bonkers-darkest );
   color: var( --color );
 }
-
 @mixin color-hover-primary-1 {
   &:hover {
     color: var( --fds-color-primary-1 );
-
   }
 }
-
 @mixin color-hover-primary-2 {
   &:hover {
     color: var( --fds-color-primary-2 );
-
   }
 }
-
 @mixin color-hover-primary-3 {
   &:hover {
     color: var( --fds-color-primary-3 );
-
   }
 }
-
 @mixin color-hover-primary-4 {
   &:hover {
     color: var( --fds-color-primary-4 );
-
   }
 }
-
 @mixin color-hover-primary-5 {
   &:hover {
     color: var( --fds-color-primary-5 );
-
   }
 }
-
 @mixin color-hover-primary {
   &:hover {
     color: var( --fds-color-primary );
-
   }
 }
-
 @mixin color-hover-primary-6 {
   &:hover {
     color: var( --fds-color-primary-6 );
-
   }
 }
-
 @mixin color-hover-primary-7 {
   &:hover {
     color: var( --fds-color-primary-7 );
-
   }
 }
-
 @mixin color-hover-primary-8 {
   &:hover {
     color: var( --fds-color-primary-8 );
-
   }
 }
-
 @mixin color-hover-primary-9 {
   &:hover {
     color: var( --fds-color-primary-9 );
-
   }
 }
-
 @mixin color-hover-bonkers-lightest {
   &:hover {
     color: var( --fds-color-bonkers-lightest );
-
   }
 }
-
 @mixin color-hover-bonkers-lighter {
   &:hover {
     color: var( --fds-color-bonkers-lighter );
-
   }
 }
-
 @mixin color-hover-bonkers-light {
   &:hover {
     color: var( --fds-color-bonkers-light );
-
   }
 }
-
 @mixin color-hover-bonkers {
   &:hover {
     color: var( --fds-color-bonkers );
-
   }
 }
-
 @mixin color-hover-bonkers-dark {
   &:hover {
     color: var( --fds-color-bonkers-dark );
-
   }
 }
-
 @mixin color-hover-bonkers-darker {
   &:hover {
     color: var( --fds-color-bonkers-darker );
-
   }
 }
-
 @mixin color-hover-bonkers-darkest {
   &:hover {
     color: var( --fds-color-bonkers-darkest );
-
   }
 }
-
 @mixin border-color-primary-1 {
   border-color: var( --fds-color-primary-1 );
 }
-
 @mixin border-color-primary-2 {
   border-color: var( --fds-color-primary-2 );
 }
-
 @mixin border-color-primary-3 {
   border-color: var( --fds-color-primary-3 );
 }
-
 @mixin border-color-primary-4 {
   border-color: var( --fds-color-primary-4 );
 }
-
 @mixin border-color-primary-5 {
   border-color: var( --fds-color-primary-5 );
 }
-
 @mixin border-color-primary {
   border-color: var( --fds-color-primary );
 }
-
 @mixin border-color-primary-6 {
   border-color: var( --fds-color-primary-6 );
 }
-
 @mixin border-color-primary-7 {
   border-color: var( --fds-color-primary-7 );
 }
-
 @mixin border-color-primary-8 {
   border-color: var( --fds-color-primary-8 );
 }
-
 @mixin border-color-primary-9 {
   border-color: var( --fds-color-primary-9 );
 }
-
 @mixin border-color-bonkers-lightest {
   border-color: var( --fds-color-bonkers-lightest );
 }
-
 @mixin border-color-bonkers-lighter {
   border-color: var( --fds-color-bonkers-lighter );
 }
-
 @mixin border-color-bonkers-light {
   border-color: var( --fds-color-bonkers-light );
 }
-
 @mixin border-color-bonkers {
   border-color: var( --fds-color-bonkers );
 }
-
 @mixin border-color-bonkers-dark {
   border-color: var( --fds-color-bonkers-dark );
 }
-
 @mixin border-color-bonkers-darker {
   border-color: var( --fds-color-bonkers-darker );
 }
-
 @mixin border-color-bonkers-darkest {
   border-color: var( --fds-color-bonkers-darkest );
 }
-
 @mixin border-primary-1 {
   border: 1px solid var( --fds-color-primary-1 );
 }
-
 @mixin border-primary-2 {
   border: 1px solid var( --fds-color-primary-2 );
 }
-
 @mixin border-primary-3 {
   border: 1px solid var( --fds-color-primary-3 );
 }
-
 @mixin border-primary-4 {
   border: 1px solid var( --fds-color-primary-4 );
 }
-
 @mixin border-primary-5 {
   border: 1px solid var( --fds-color-primary-5 );
 }
-
 @mixin border-primary {
   border: 1px solid var( --fds-color-primary );
 }
-
 @mixin border-primary-6 {
   border: 1px solid var( --fds-color-primary-6 );
 }
-
 @mixin border-primary-7 {
   border: 1px solid var( --fds-color-primary-7 );
 }
-
 @mixin border-primary-8 {
   border: 1px solid var( --fds-color-primary-8 );
 }
-
 @mixin border-primary-9 {
   border: 1px solid var( --fds-color-primary-9 );
 }
-
 @mixin border-bonkers-lightest {
   border: 1px solid var( --fds-color-bonkers-lightest );
 }
-
 @mixin border-bonkers-lighter {
   border: 1px solid var( --fds-color-bonkers-lighter );
 }
-
 @mixin border-bonkers-light {
   border: 1px solid var( --fds-color-bonkers-light );
 }
-
 @mixin border-bonkers {
   border: 1px solid var( --fds-color-bonkers );
 }
-
 @mixin border-bonkers-dark {
   border: 1px solid var( --fds-color-bonkers-dark );
 }
-
 @mixin border-bonkers-darker {
   border: 1px solid var( --fds-color-bonkers-darker );
 }
-
 @mixin border-bonkers-darkest {
   border: 1px solid var( --fds-color-bonkers-darkest );
 }
-
 @mixin border-top-primary-1 {
   border-top: 1px solid var( --fds-color-primary-1 );
 }
-
 @mixin border-top-primary-2 {
   border-top: 1px solid var( --fds-color-primary-2 );
 }
-
 @mixin border-top-primary-3 {
   border-top: 1px solid var( --fds-color-primary-3 );
 }
-
 @mixin border-top-primary-4 {
   border-top: 1px solid var( --fds-color-primary-4 );
 }
-
 @mixin border-top-primary-5 {
   border-top: 1px solid var( --fds-color-primary-5 );
 }
-
 @mixin border-top-primary {
   border-top: 1px solid var( --fds-color-primary );
 }
-
 @mixin border-top-primary-6 {
   border-top: 1px solid var( --fds-color-primary-6 );
 }
-
 @mixin border-top-primary-7 {
   border-top: 1px solid var( --fds-color-primary-7 );
 }
-
 @mixin border-top-primary-8 {
   border-top: 1px solid var( --fds-color-primary-8 );
 }
-
 @mixin border-top-primary-9 {
   border-top: 1px solid var( --fds-color-primary-9 );
 }
-
 @mixin border-top-bonkers-lightest {
   border-top: 1px solid var( --fds-color-bonkers-lightest );
 }
-
 @mixin border-top-bonkers-lighter {
   border-top: 1px solid var( --fds-color-bonkers-lighter );
 }
-
 @mixin border-top-bonkers-light {
   border-top: 1px solid var( --fds-color-bonkers-light );
 }
-
 @mixin border-top-bonkers {
   border-top: 1px solid var( --fds-color-bonkers );
 }
-
 @mixin border-top-bonkers-dark {
   border-top: 1px solid var( --fds-color-bonkers-dark );
 }
-
 @mixin border-top-bonkers-darker {
   border-top: 1px solid var( --fds-color-bonkers-darker );
 }
-
 @mixin border-top-bonkers-darkest {
   border-top: 1px solid var( --fds-color-bonkers-darkest );
 }
-
 @mixin border-bottom-primary-1 {
   border-bottom: 1px solid var( --fds-color-primary-1 );
 }
-
 @mixin border-bottom-primary-2 {
   border-bottom: 1px solid var( --fds-color-primary-2 );
 }
-
 @mixin border-bottom-primary-3 {
   border-bottom: 1px solid var( --fds-color-primary-3 );
 }
-
 @mixin border-bottom-primary-4 {
   border-bottom: 1px solid var( --fds-color-primary-4 );
 }
-
 @mixin border-bottom-primary-5 {
   border-bottom: 1px solid var( --fds-color-primary-5 );
 }
-
 @mixin border-bottom-primary {
   border-bottom: 1px solid var( --fds-color-primary );
 }
-
 @mixin border-bottom-primary-6 {
   border-bottom: 1px solid var( --fds-color-primary-6 );
 }
-
 @mixin border-bottom-primary-7 {
   border-bottom: 1px solid var( --fds-color-primary-7 );
 }
-
 @mixin border-bottom-primary-8 {
   border-bottom: 1px solid var( --fds-color-primary-8 );
 }
-
 @mixin border-bottom-primary-9 {
   border-bottom: 1px solid var( --fds-color-primary-9 );
 }
-
 @mixin border-bottom-bonkers-lightest {
   border-bottom: 1px solid var( --fds-color-bonkers-lightest );
 }
-
 @mixin border-bottom-bonkers-lighter {
   border-bottom: 1px solid var( --fds-color-bonkers-lighter );
 }
-
 @mixin border-bottom-bonkers-light {
   border-bottom: 1px solid var( --fds-color-bonkers-light );
 }
-
 @mixin border-bottom-bonkers {
   border-bottom: 1px solid var( --fds-color-bonkers );
 }
-
 @mixin border-bottom-bonkers-dark {
   border-bottom: 1px solid var( --fds-color-bonkers-dark );
 }
-
 @mixin border-bottom-bonkers-darker {
   border-bottom: 1px solid var( --fds-color-bonkers-darker );
 }
-
 @mixin border-bottom-bonkers-darkest {
   border-bottom: 1px solid var( --fds-color-bonkers-darkest );
 }
-
 @mixin border-left-primary-1 {
   border-left: 1px solid var( --fds-color-primary-1 );
 }
-
 @mixin border-left-primary-2 {
   border-left: 1px solid var( --fds-color-primary-2 );
 }
-
 @mixin border-left-primary-3 {
   border-left: 1px solid var( --fds-color-primary-3 );
 }
-
 @mixin border-left-primary-4 {
   border-left: 1px solid var( --fds-color-primary-4 );
 }
-
 @mixin border-left-primary-5 {
   border-left: 1px solid var( --fds-color-primary-5 );
 }
-
 @mixin border-left-primary {
   border-left: 1px solid var( --fds-color-primary );
 }
-
 @mixin border-left-primary-6 {
   border-left: 1px solid var( --fds-color-primary-6 );
 }
-
 @mixin border-left-primary-7 {
   border-left: 1px solid var( --fds-color-primary-7 );
 }
-
 @mixin border-left-primary-8 {
   border-left: 1px solid var( --fds-color-primary-8 );
 }
-
 @mixin border-left-primary-9 {
   border-left: 1px solid var( --fds-color-primary-9 );
 }
-
 @mixin border-left-bonkers-lightest {
   border-left: 1px solid var( --fds-color-bonkers-lightest );
 }
-
 @mixin border-left-bonkers-lighter {
   border-left: 1px solid var( --fds-color-bonkers-lighter );
 }
-
 @mixin border-left-bonkers-light {
   border-left: 1px solid var( --fds-color-bonkers-light );
 }
-
 @mixin border-left-bonkers {
   border-left: 1px solid var( --fds-color-bonkers );
 }
-
 @mixin border-left-bonkers-dark {
   border-left: 1px solid var( --fds-color-bonkers-dark );
 }
-
 @mixin border-left-bonkers-darker {
   border-left: 1px solid var( --fds-color-bonkers-darker );
 }
-
 @mixin border-left-bonkers-darkest {
   border-left: 1px solid var( --fds-color-bonkers-darkest );
 }
-
 @mixin border-right-primary-1 {
   border-right: 1px solid var( --fds-color-primary-1 );
 }
-
 @mixin border-right-primary-2 {
   border-right: 1px solid var( --fds-color-primary-2 );
 }
-
 @mixin border-right-primary-3 {
   border-right: 1px solid var( --fds-color-primary-3 );
 }
-
 @mixin border-right-primary-4 {
   border-right: 1px solid var( --fds-color-primary-4 );
 }
-
 @mixin border-right-primary-5 {
   border-right: 1px solid var( --fds-color-primary-5 );
 }
-
 @mixin border-right-primary {
   border-right: 1px solid var( --fds-color-primary );
 }
-
 @mixin border-right-primary-6 {
   border-right: 1px solid var( --fds-color-primary-6 );
 }
-
 @mixin border-right-primary-7 {
   border-right: 1px solid var( --fds-color-primary-7 );
 }
-
 @mixin border-right-primary-8 {
   border-right: 1px solid var( --fds-color-primary-8 );
 }
-
 @mixin border-right-primary-9 {
   border-right: 1px solid var( --fds-color-primary-9 );
 }
-
 @mixin border-right-bonkers-lightest {
   border-right: 1px solid var( --fds-color-bonkers-lightest );
 }
-
 @mixin border-right-bonkers-lighter {
   border-right: 1px solid var( --fds-color-bonkers-lighter );
 }
-
 @mixin border-right-bonkers-light {
   border-right: 1px solid var( --fds-color-bonkers-light );
 }
-
 @mixin border-right-bonkers {
   border-right: 1px solid var( --fds-color-bonkers );
 }
-
 @mixin border-right-bonkers-dark {
   border-right: 1px solid var( --fds-color-bonkers-dark );
 }
-
 @mixin border-right-bonkers-darker {
   border-right: 1px solid var( --fds-color-bonkers-darker );
 }
-
 @mixin border-right-bonkers-darkest {
   border-right: 1px solid var( --fds-color-bonkers-darkest );
 }
-
 @mixin font-text-10 {
   font: var( --fds-type-text-10 );
 }
-
 @mixin font-text-9 {
   font: var( --fds-type-text-9 );
 }
-
 @mixin font-text-8 {
   font: var( --fds-type-text-8 );
 }
-
 @mixin font-text-7 {
   font: var( --fds-type-text-7 );
 }
-
 @mixin font-text-6 {
   font: var( --fds-type-text-6 );
 }
-
 @mixin font-text-5 {
   font: var( --fds-type-text-5 );
 }
-
 @mixin font-text {
   font: var( --fds-type-text );
 }
-
 @mixin font-text-4 {
   font: var( --fds-type-text-4 );
 }
-
 @mixin font-text-3 {
   font: var( --fds-type-text-3 );
 }
-
 @mixin font-text-2 {
   font: var( --fds-type-text-2 );
 }
-
 @mixin font-text-1 {
   font: var( --fds-type-text-1 );
+}
+@mixin fds-element {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+}
+@mixin fds-layout {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+}
+@mixin fds-text {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: inline-block;
+}
+@mixin fds-stack {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+  @include fds-stack-children;
+  @include fds-stack-last-child;
+}
+@mixin fds-stack-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
+}
+@mixin fds-stack-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-layout {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+  @include fds-layout-children;
+  @include fds-layout-last-child;
+}
+@mixin fds-layout-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
+}
+@mixin fds-layout-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-flex-h {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  /* flex element */
+  position: relative;
+  box-sizing: border-box;
+  --align-items: initial;
+  --justify-content: initial;
+  align-items: var( --align-items , var( --ai-int, flex-start ) );
+  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+  display: flex;
+  flex-flow: row nowrap;
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-int: var( --ai-h, initial );
+  --jc-int: var( --jc-h, initial );
+  @include fds-flex-h-children;
+  @include fds-flex-h-last-child;
+}
+@mixin fds-flex-h-children {
+  & > *:nth-child(n) {
+    --gap-h-int: var( --gap , var( --gap-h, initial ));
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-flex-h-last-child {
+  & > *:last-child {
+    --gap-h-int: 0px;
+  }
+}
+@mixin fds-flex-v {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  /* flex element */
+  position: relative;
+  box-sizing: border-box;
+  --align-items: initial;
+  --justify-content: initial;
+  align-items: var( --align-items , var( --ai-int, flex-start ) );
+  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+  display: flex;
+  flex-flow: column nowrap;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+  --ai-int: var( --ai-v, initial );
+  --jc-int: var( --jc-v, initial );
+  @include fds-flex-v-children;
+  @include fds-flex-v-last-child;
+}
+@mixin fds-flex-v-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
+}
+@mixin fds-flex-v-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-center {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  /* flex element */
+  position: relative;
+  box-sizing: border-box;
+  --align-items: initial;
+  --justify-content: initial;
+  align-items: var( --align-items , var( --ai-int, flex-start ) );
+  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+  display: flex;
+  flex-flow: column nowrap;
+  --ai-v: center;
+  --jc-v: center;
+  --ai-int: var( --ai-v, initial );
+  --jc-int: var( --jc-v, initial );
+  @include fds-center-children;
+  @include fds-center-last-child;
+}
+@mixin fds-center-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
+}
+@mixin fds-center-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-float {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+  @include fds-float-children;
+  @include fds-float-last-child;
+  @include fds-float-after;
+}
+@mixin fds-float-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: auto;
+    float: left;
+    clear: left;
+  }
+}
+@mixin fds-float-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-float-after {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+[style~="--fds-float-left:"] {
+  float: left;
+}
+[style~="--fds-float-right:"] {
+  float: right;
+}
+[style~="--fds-float-clear-left:"] {
+  clear: left;
+  float: left;
+}
+[style~="--fds-float-clear-right:"] {
+  clear: right;
+  float: right;
+}
+[style~="--fds-fill-children:"] > * {
+  flex: 1;
+}
+[style~="--fds-children-fill:"] > * {
+  flex: 1;
+}
+[style~="--fds-hide:"] {
+  display: none;
 }
 @mixin alignment-center-sm {
   @media screen  and (max-width: 599px) {
@@ -1538,143 +1581,108 @@
   }
 }
 
-
 @mixin background-color-sm-primary-1 {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary-1 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-primary-2 {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary-2 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-primary-3 {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary-3 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-primary-4 {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary-4 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-primary-5 {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary-5 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-primary {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-primary-6 {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary-6 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-primary-7 {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary-7 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-primary-8 {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary-8 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-primary-9 {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-primary-9 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-bonkers-lightest );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-bonkers-lighter );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-bonkers-light );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-bonkers {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-bonkers );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-bonkers-dark );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-bonkers-darker );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
-
     --background-color: var( --fds-color-bonkers-darkest );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-hover-sm-primary-1 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1682,7 +1690,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-primary-2 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1690,7 +1697,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-primary-3 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1698,7 +1704,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-primary-4 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1706,7 +1711,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-primary-5 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1714,7 +1718,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-primary {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1722,7 +1725,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-primary-6 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1730,7 +1732,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-primary-7 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1738,7 +1739,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-primary-8 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1746,7 +1746,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-primary-9 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1754,7 +1753,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1762,7 +1760,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1770,7 +1767,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1778,7 +1774,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-bonkers {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1786,7 +1781,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1794,7 +1788,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1802,7 +1795,6 @@
     }
   }
 }
-
 @mixin background-color-hover-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1810,143 +1802,108 @@
     }
   }
 }
-
 @mixin color-sm-primary-1 {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary-1 );
     color: var( --color );
   }
 }
-
 @mixin color-sm-primary-2 {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary-2 );
     color: var( --color );
   }
 }
-
 @mixin color-sm-primary-3 {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary-3 );
     color: var( --color );
   }
 }
-
 @mixin color-sm-primary-4 {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary-4 );
     color: var( --color );
   }
 }
-
 @mixin color-sm-primary-5 {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary-5 );
     color: var( --color );
   }
 }
-
 @mixin color-sm-primary {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary );
     color: var( --color );
   }
 }
-
 @mixin color-sm-primary-6 {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary-6 );
     color: var( --color );
   }
 }
-
 @mixin color-sm-primary-7 {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary-7 );
     color: var( --color );
   }
 }
-
 @mixin color-sm-primary-8 {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary-8 );
     color: var( --color );
   }
 }
-
 @mixin color-sm-primary-9 {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-primary-9 );
     color: var( --color );
   }
 }
-
 @mixin color-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-bonkers-lightest );
     color: var( --color );
   }
 }
-
 @mixin color-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-bonkers-lighter );
     color: var( --color );
   }
 }
-
 @mixin color-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-bonkers-light );
     color: var( --color );
   }
 }
-
 @mixin color-sm-bonkers {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-bonkers );
     color: var( --color );
   }
 }
-
 @mixin color-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-bonkers-dark );
     color: var( --color );
   }
 }
-
 @mixin color-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-bonkers-darker );
     color: var( --color );
   }
 }
-
 @mixin color-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
-
     --color: var( --fds-color-bonkers-darkest );
     color: var( --color );
   }
 }
-
 @mixin color-hover-sm-primary-1 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1954,7 +1911,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-primary-2 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1962,7 +1918,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-primary-3 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1970,7 +1925,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-primary-4 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1978,7 +1932,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-primary-5 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1986,7 +1939,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-primary {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -1994,7 +1946,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-primary-6 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2002,7 +1953,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-primary-7 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2010,7 +1960,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-primary-8 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2018,7 +1967,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-primary-9 {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2026,7 +1974,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2034,7 +1981,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2042,7 +1988,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2050,7 +1995,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-bonkers {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2058,7 +2002,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2066,7 +2009,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2074,7 +2016,6 @@
     }
   }
 }
-
 @mixin color-hover-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
     &:hover {
@@ -2082,784 +2023,781 @@
     }
   }
 }
-
 @mixin border-color-sm-primary-1 {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-color-sm-primary-2 {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-color-sm-primary-3 {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-color-sm-primary-4 {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-color-sm-primary-5 {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-color-sm-primary {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary );
   }
 }
-
 @mixin border-color-sm-primary-6 {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-color-sm-primary-7 {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-color-sm-primary-8 {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-color-sm-primary-9 {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-color-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-color-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-color-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-color-sm-bonkers {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-bonkers );
   }
 }
-
 @mixin border-color-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-color-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-color-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
-
     border-color: var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-sm-primary-1 {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-sm-primary-2 {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-sm-primary-3 {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-sm-primary-4 {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-sm-primary-5 {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-sm-primary {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-sm-primary-6 {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-sm-primary-7 {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-sm-primary-8 {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-sm-primary-9 {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-sm-bonkers {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
-
     border: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-top-sm-primary-1 {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-top-sm-primary-2 {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-top-sm-primary-3 {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-top-sm-primary-4 {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-top-sm-primary-5 {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-top-sm-primary {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-top-sm-primary-6 {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-top-sm-primary-7 {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-top-sm-primary-8 {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-top-sm-primary-9 {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-top-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-top-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-top-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-top-sm-bonkers {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-top-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-top-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-top-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
-
     border-top: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-bottom-sm-primary-1 {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-bottom-sm-primary-2 {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-bottom-sm-primary-3 {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-bottom-sm-primary-4 {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-bottom-sm-primary-5 {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-bottom-sm-primary {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-bottom-sm-primary-6 {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-bottom-sm-primary-7 {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-bottom-sm-primary-8 {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-bottom-sm-primary-9 {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-bottom-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-bottom-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-bottom-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-bottom-sm-bonkers {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-bottom-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-bottom-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-bottom-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-left-sm-primary-1 {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-left-sm-primary-2 {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-left-sm-primary-3 {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-left-sm-primary-4 {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-left-sm-primary-5 {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-left-sm-primary {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-left-sm-primary-6 {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-left-sm-primary-7 {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-left-sm-primary-8 {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-left-sm-primary-9 {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-left-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-left-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-left-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-left-sm-bonkers {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-left-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-left-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-left-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
-
     border-left: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-right-sm-primary-1 {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-right-sm-primary-2 {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-right-sm-primary-3 {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-right-sm-primary-4 {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-right-sm-primary-5 {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-right-sm-primary {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-right-sm-primary-6 {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-right-sm-primary-7 {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-right-sm-primary-8 {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-right-sm-primary-9 {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-right-sm-bonkers-lightest {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-right-sm-bonkers-lighter {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-right-sm-bonkers-light {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-right-sm-bonkers {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-right-sm-bonkers-dark {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-right-sm-bonkers-darker {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-right-sm-bonkers-darkest {
   @media screen  and (max-width: 599px) {
-
     border-right: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin font-sm-text-10 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-10 );
   }
 }
-
 @mixin font-sm-text-9 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-9 );
   }
 }
-
 @mixin font-sm-text-8 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-8 );
   }
 }
-
 @mixin font-sm-text-7 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-7 );
   }
 }
-
 @mixin font-sm-text-6 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-6 );
   }
 }
-
 @mixin font-sm-text-5 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-5 );
   }
 }
-
 @mixin font-sm-text {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text );
   }
 }
-
 @mixin font-sm-text-4 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-4 );
   }
 }
-
 @mixin font-sm-text-3 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-3 );
   }
 }
-
 @mixin font-sm-text-2 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-2 );
   }
 }
-
 @mixin font-sm-text-1 {
   @media screen  and (max-width: 599px) {
     font: var( --fds-type-text-1 );
+  }
+}
+@mixin fds-element-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-layout-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-text-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
+}
+@mixin fds-stack-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-stack-children;
+    @include fds-stack-last-child;
+  }
+}
+@mixin fds-layout-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-layout-children;
+    @include fds-layout-last-child;
+  }
+}
+@mixin fds-flex-h-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+    @include fds-flex-h-children;
+    @include fds-flex-h-last-child;
+  }
+}
+@mixin fds-flex-v-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-flex-v-children;
+    @include fds-flex-v-last-child;
+  }
+}
+@mixin fds-center-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-center-children;
+    @include fds-center-last-child;
+  }
+}
+@mixin fds-float-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-float-children;
+    @include fds-float-last-child;
+    @include fds-float-after;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-float-left-sm:"] {
+    float: left;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-float-right-sm:"] {
+    float: right;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-float-clear-left-sm:"] {
+    clear: left;
+    float: left;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-float-clear-right-sm:"] {
+    clear: right;
+    float: right;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-fill-children-sm:"] > * {
+    flex: 1;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-children-fill-sm:"] > * {
+    flex: 1;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-hide-sm:"] {
+    display: none;
   }
 }
 @mixin alignment-center-md {
@@ -3262,143 +3200,108 @@
   }
 }
 
-
 @mixin background-color-md-primary-1 {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary-1 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-primary-2 {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary-2 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-primary-3 {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary-3 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-primary-4 {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary-4 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-primary-5 {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary-5 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-primary {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-primary-6 {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary-6 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-primary-7 {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary-7 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-primary-8 {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary-8 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-primary-9 {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-primary-9 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-bonkers-lightest );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-bonkers-lighter );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-bonkers-light {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-bonkers-light );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-bonkers {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-bonkers );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-bonkers-dark {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-bonkers-dark );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-bonkers-darker {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-bonkers-darker );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
-
     --background-color: var( --fds-color-bonkers-darkest );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-hover-md-primary-1 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3406,7 +3309,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-primary-2 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3414,7 +3316,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-primary-3 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3422,7 +3323,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-primary-4 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3430,7 +3330,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-primary-5 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3438,7 +3337,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-primary {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3446,7 +3344,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-primary-6 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3454,7 +3351,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-primary-7 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3462,7 +3358,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-primary-8 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3470,7 +3365,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-primary-9 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3478,7 +3372,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3486,7 +3379,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3494,7 +3386,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-bonkers-light {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3502,7 +3393,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-bonkers {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3510,7 +3400,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-bonkers-dark {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3518,7 +3407,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-bonkers-darker {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3526,7 +3414,6 @@
     }
   }
 }
-
 @mixin background-color-hover-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3534,143 +3421,108 @@
     }
   }
 }
-
 @mixin color-md-primary-1 {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary-1 );
     color: var( --color );
   }
 }
-
 @mixin color-md-primary-2 {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary-2 );
     color: var( --color );
   }
 }
-
 @mixin color-md-primary-3 {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary-3 );
     color: var( --color );
   }
 }
-
 @mixin color-md-primary-4 {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary-4 );
     color: var( --color );
   }
 }
-
 @mixin color-md-primary-5 {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary-5 );
     color: var( --color );
   }
 }
-
 @mixin color-md-primary {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary );
     color: var( --color );
   }
 }
-
 @mixin color-md-primary-6 {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary-6 );
     color: var( --color );
   }
 }
-
 @mixin color-md-primary-7 {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary-7 );
     color: var( --color );
   }
 }
-
 @mixin color-md-primary-8 {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary-8 );
     color: var( --color );
   }
 }
-
 @mixin color-md-primary-9 {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-primary-9 );
     color: var( --color );
   }
 }
-
 @mixin color-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-bonkers-lightest );
     color: var( --color );
   }
 }
-
 @mixin color-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-bonkers-lighter );
     color: var( --color );
   }
 }
-
 @mixin color-md-bonkers-light {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-bonkers-light );
     color: var( --color );
   }
 }
-
 @mixin color-md-bonkers {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-bonkers );
     color: var( --color );
   }
 }
-
 @mixin color-md-bonkers-dark {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-bonkers-dark );
     color: var( --color );
   }
 }
-
 @mixin color-md-bonkers-darker {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-bonkers-darker );
     color: var( --color );
   }
 }
-
 @mixin color-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
-
     --color: var( --fds-color-bonkers-darkest );
     color: var( --color );
   }
 }
-
 @mixin color-hover-md-primary-1 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3678,7 +3530,6 @@
     }
   }
 }
-
 @mixin color-hover-md-primary-2 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3686,7 +3537,6 @@
     }
   }
 }
-
 @mixin color-hover-md-primary-3 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3694,7 +3544,6 @@
     }
   }
 }
-
 @mixin color-hover-md-primary-4 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3702,7 +3551,6 @@
     }
   }
 }
-
 @mixin color-hover-md-primary-5 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3710,7 +3558,6 @@
     }
   }
 }
-
 @mixin color-hover-md-primary {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3718,7 +3565,6 @@
     }
   }
 }
-
 @mixin color-hover-md-primary-6 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3726,7 +3572,6 @@
     }
   }
 }
-
 @mixin color-hover-md-primary-7 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3734,7 +3579,6 @@
     }
   }
 }
-
 @mixin color-hover-md-primary-8 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3742,7 +3586,6 @@
     }
   }
 }
-
 @mixin color-hover-md-primary-9 {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3750,7 +3593,6 @@
     }
   }
 }
-
 @mixin color-hover-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3758,7 +3600,6 @@
     }
   }
 }
-
 @mixin color-hover-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3766,7 +3607,6 @@
     }
   }
 }
-
 @mixin color-hover-md-bonkers-light {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3774,7 +3614,6 @@
     }
   }
 }
-
 @mixin color-hover-md-bonkers {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3782,7 +3621,6 @@
     }
   }
 }
-
 @mixin color-hover-md-bonkers-dark {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3790,7 +3628,6 @@
     }
   }
 }
-
 @mixin color-hover-md-bonkers-darker {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3798,7 +3635,6 @@
     }
   }
 }
-
 @mixin color-hover-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
     &:hover {
@@ -3806,784 +3642,781 @@
     }
   }
 }
-
 @mixin border-color-md-primary-1 {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-color-md-primary-2 {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-color-md-primary-3 {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-color-md-primary-4 {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-color-md-primary-5 {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-color-md-primary {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary );
   }
 }
-
 @mixin border-color-md-primary-6 {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-color-md-primary-7 {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-color-md-primary-8 {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-color-md-primary-9 {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-color-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-color-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-color-md-bonkers-light {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-color-md-bonkers {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-bonkers );
   }
 }
-
 @mixin border-color-md-bonkers-dark {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-color-md-bonkers-darker {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-color-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
-
     border-color: var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-md-primary-1 {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-md-primary-2 {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-md-primary-3 {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-md-primary-4 {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-md-primary-5 {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-md-primary {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-md-primary-6 {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-md-primary-7 {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-md-primary-8 {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-md-primary-9 {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-md-bonkers-light {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-md-bonkers {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-md-bonkers-dark {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-md-bonkers-darker {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
-
     border: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-top-md-primary-1 {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-top-md-primary-2 {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-top-md-primary-3 {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-top-md-primary-4 {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-top-md-primary-5 {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-top-md-primary {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-top-md-primary-6 {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-top-md-primary-7 {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-top-md-primary-8 {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-top-md-primary-9 {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-top-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-top-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-top-md-bonkers-light {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-top-md-bonkers {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-top-md-bonkers-dark {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-top-md-bonkers-darker {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-top-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
-
     border-top: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-bottom-md-primary-1 {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-bottom-md-primary-2 {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-bottom-md-primary-3 {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-bottom-md-primary-4 {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-bottom-md-primary-5 {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-bottom-md-primary {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-bottom-md-primary-6 {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-bottom-md-primary-7 {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-bottom-md-primary-8 {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-bottom-md-primary-9 {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-bottom-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-bottom-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-bottom-md-bonkers-light {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-bottom-md-bonkers {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-bottom-md-bonkers-dark {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-bottom-md-bonkers-darker {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-bottom-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-left-md-primary-1 {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-left-md-primary-2 {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-left-md-primary-3 {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-left-md-primary-4 {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-left-md-primary-5 {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-left-md-primary {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-left-md-primary-6 {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-left-md-primary-7 {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-left-md-primary-8 {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-left-md-primary-9 {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-left-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-left-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-left-md-bonkers-light {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-left-md-bonkers {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-left-md-bonkers-dark {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-left-md-bonkers-darker {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-left-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
-
     border-left: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-right-md-primary-1 {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-right-md-primary-2 {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-right-md-primary-3 {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-right-md-primary-4 {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-right-md-primary-5 {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-right-md-primary {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-right-md-primary-6 {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-right-md-primary-7 {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-right-md-primary-8 {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-right-md-primary-9 {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-right-md-bonkers-lightest {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-right-md-bonkers-lighter {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-right-md-bonkers-light {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-right-md-bonkers {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-right-md-bonkers-dark {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-right-md-bonkers-darker {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-right-md-bonkers-darkest {
   @media screen and (min-width: 600px) {
-
     border-right: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin font-md-text-10 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-10 );
   }
 }
-
 @mixin font-md-text-9 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-9 );
   }
 }
-
 @mixin font-md-text-8 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-8 );
   }
 }
-
 @mixin font-md-text-7 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-7 );
   }
 }
-
 @mixin font-md-text-6 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-6 );
   }
 }
-
 @mixin font-md-text-5 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-5 );
   }
 }
-
 @mixin font-md-text {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text );
   }
 }
-
 @mixin font-md-text-4 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-4 );
   }
 }
-
 @mixin font-md-text-3 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-3 );
   }
 }
-
 @mixin font-md-text-2 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-2 );
   }
 }
-
 @mixin font-md-text-1 {
   @media screen and (min-width: 600px) {
     font: var( --fds-type-text-1 );
+  }
+}
+@mixin fds-element-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-layout-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-text-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
+}
+@mixin fds-stack-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-stack-children;
+    @include fds-stack-last-child;
+  }
+}
+@mixin fds-layout-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-layout-children;
+    @include fds-layout-last-child;
+  }
+}
+@mixin fds-flex-h-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+    @include fds-flex-h-children;
+    @include fds-flex-h-last-child;
+  }
+}
+@mixin fds-flex-v-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-flex-v-children;
+    @include fds-flex-v-last-child;
+  }
+}
+@mixin fds-center-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-center-children;
+    @include fds-center-last-child;
+  }
+}
+@mixin fds-float-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-float-children;
+    @include fds-float-last-child;
+    @include fds-float-after;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-float-left-md:"] {
+    float: left;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-float-right-md:"] {
+    float: right;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-float-clear-left-md:"] {
+    clear: left;
+    float: left;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-float-clear-right-md:"] {
+    clear: right;
+    float: right;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-fill-children-md:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-children-fill-md:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-hide-md:"] {
+    display: none;
   }
 }
 @mixin alignment-center-lg {
@@ -4986,143 +4819,108 @@
   }
 }
 
-
 @mixin background-color-lg-primary-1 {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary-1 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-primary-2 {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary-2 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-primary-3 {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary-3 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-primary-4 {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary-4 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-primary-5 {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary-5 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-primary {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-primary-6 {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary-6 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-primary-7 {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary-7 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-primary-8 {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary-8 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-primary-9 {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-primary-9 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-bonkers-lightest );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-bonkers-lighter );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-bonkers-light {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-bonkers-light );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-bonkers {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-bonkers );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-bonkers-dark );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-bonkers-darker );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
-
     --background-color: var( --fds-color-bonkers-darkest );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-hover-lg-primary-1 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5130,7 +4928,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-primary-2 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5138,7 +4935,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-primary-3 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5146,7 +4942,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-primary-4 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5154,7 +4949,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-primary-5 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5162,7 +4956,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-primary {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5170,7 +4963,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-primary-6 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5178,7 +4970,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-primary-7 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5186,7 +4977,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-primary-8 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5194,7 +4984,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-primary-9 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5202,7 +4991,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5210,7 +4998,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5218,7 +5005,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-bonkers-light {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5226,7 +5012,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-bonkers {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5234,7 +5019,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5242,7 +5026,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5250,7 +5033,6 @@
     }
   }
 }
-
 @mixin background-color-hover-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5258,143 +5040,108 @@
     }
   }
 }
-
 @mixin color-lg-primary-1 {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary-1 );
     color: var( --color );
   }
 }
-
 @mixin color-lg-primary-2 {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary-2 );
     color: var( --color );
   }
 }
-
 @mixin color-lg-primary-3 {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary-3 );
     color: var( --color );
   }
 }
-
 @mixin color-lg-primary-4 {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary-4 );
     color: var( --color );
   }
 }
-
 @mixin color-lg-primary-5 {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary-5 );
     color: var( --color );
   }
 }
-
 @mixin color-lg-primary {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary );
     color: var( --color );
   }
 }
-
 @mixin color-lg-primary-6 {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary-6 );
     color: var( --color );
   }
 }
-
 @mixin color-lg-primary-7 {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary-7 );
     color: var( --color );
   }
 }
-
 @mixin color-lg-primary-8 {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary-8 );
     color: var( --color );
   }
 }
-
 @mixin color-lg-primary-9 {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-primary-9 );
     color: var( --color );
   }
 }
-
 @mixin color-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-bonkers-lightest );
     color: var( --color );
   }
 }
-
 @mixin color-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-bonkers-lighter );
     color: var( --color );
   }
 }
-
 @mixin color-lg-bonkers-light {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-bonkers-light );
     color: var( --color );
   }
 }
-
 @mixin color-lg-bonkers {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-bonkers );
     color: var( --color );
   }
 }
-
 @mixin color-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-bonkers-dark );
     color: var( --color );
   }
 }
-
 @mixin color-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-bonkers-darker );
     color: var( --color );
   }
 }
-
 @mixin color-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
-
     --color: var( --fds-color-bonkers-darkest );
     color: var( --color );
   }
 }
-
 @mixin color-hover-lg-primary-1 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5402,7 +5149,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-primary-2 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5410,7 +5156,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-primary-3 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5418,7 +5163,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-primary-4 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5426,7 +5170,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-primary-5 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5434,7 +5177,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-primary {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5442,7 +5184,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-primary-6 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5450,7 +5191,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-primary-7 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5458,7 +5198,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-primary-8 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5466,7 +5205,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-primary-9 {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5474,7 +5212,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5482,7 +5219,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5490,7 +5226,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-bonkers-light {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5498,7 +5233,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-bonkers {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5506,7 +5240,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5514,7 +5247,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5522,7 +5254,6 @@
     }
   }
 }
-
 @mixin color-hover-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
     &:hover {
@@ -5530,784 +5261,781 @@
     }
   }
 }
-
 @mixin border-color-lg-primary-1 {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-color-lg-primary-2 {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-color-lg-primary-3 {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-color-lg-primary-4 {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-color-lg-primary-5 {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-color-lg-primary {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary );
   }
 }
-
 @mixin border-color-lg-primary-6 {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-color-lg-primary-7 {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-color-lg-primary-8 {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-color-lg-primary-9 {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-color-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-color-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-color-lg-bonkers-light {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-color-lg-bonkers {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-bonkers );
   }
 }
-
 @mixin border-color-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-color-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-color-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
-
     border-color: var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-lg-primary-1 {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-lg-primary-2 {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-lg-primary-3 {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-lg-primary-4 {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-lg-primary-5 {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-lg-primary {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-lg-primary-6 {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-lg-primary-7 {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-lg-primary-8 {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-lg-primary-9 {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-lg-bonkers-light {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-lg-bonkers {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
-
     border: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-top-lg-primary-1 {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-top-lg-primary-2 {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-top-lg-primary-3 {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-top-lg-primary-4 {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-top-lg-primary-5 {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-top-lg-primary {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-top-lg-primary-6 {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-top-lg-primary-7 {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-top-lg-primary-8 {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-top-lg-primary-9 {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-top-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-top-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-top-lg-bonkers-light {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-top-lg-bonkers {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-top-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-top-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-top-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
-
     border-top: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-bottom-lg-primary-1 {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-bottom-lg-primary-2 {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-bottom-lg-primary-3 {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-bottom-lg-primary-4 {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-bottom-lg-primary-5 {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-bottom-lg-primary {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-bottom-lg-primary-6 {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-bottom-lg-primary-7 {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-bottom-lg-primary-8 {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-bottom-lg-primary-9 {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-bottom-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-bottom-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-bottom-lg-bonkers-light {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-bottom-lg-bonkers {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-bottom-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-bottom-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-bottom-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-left-lg-primary-1 {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-left-lg-primary-2 {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-left-lg-primary-3 {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-left-lg-primary-4 {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-left-lg-primary-5 {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-left-lg-primary {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-left-lg-primary-6 {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-left-lg-primary-7 {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-left-lg-primary-8 {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-left-lg-primary-9 {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-left-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-left-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-left-lg-bonkers-light {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-left-lg-bonkers {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-left-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-left-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-left-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
-
     border-left: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-right-lg-primary-1 {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-right-lg-primary-2 {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-right-lg-primary-3 {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-right-lg-primary-4 {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-right-lg-primary-5 {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-right-lg-primary {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-right-lg-primary-6 {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-right-lg-primary-7 {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-right-lg-primary-8 {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-right-lg-primary-9 {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-right-lg-bonkers-lightest {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-right-lg-bonkers-lighter {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-right-lg-bonkers-light {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-right-lg-bonkers {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-right-lg-bonkers-dark {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-right-lg-bonkers-darker {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-right-lg-bonkers-darkest {
   @media screen and (min-width: 900px) {
-
     border-right: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin font-lg-text-10 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-10 );
   }
 }
-
 @mixin font-lg-text-9 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-9 );
   }
 }
-
 @mixin font-lg-text-8 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-8 );
   }
 }
-
 @mixin font-lg-text-7 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-7 );
   }
 }
-
 @mixin font-lg-text-6 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-6 );
   }
 }
-
 @mixin font-lg-text-5 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-5 );
   }
 }
-
 @mixin font-lg-text {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text );
   }
 }
-
 @mixin font-lg-text-4 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-4 );
   }
 }
-
 @mixin font-lg-text-3 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-3 );
   }
 }
-
 @mixin font-lg-text-2 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-2 );
   }
 }
-
 @mixin font-lg-text-1 {
   @media screen and (min-width: 900px) {
     font: var( --fds-type-text-1 );
+  }
+}
+@mixin fds-element-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-layout-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-text-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
+}
+@mixin fds-stack-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-stack-children;
+    @include fds-stack-last-child;
+  }
+}
+@mixin fds-layout-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-layout-children;
+    @include fds-layout-last-child;
+  }
+}
+@mixin fds-flex-h-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+    @include fds-flex-h-children;
+    @include fds-flex-h-last-child;
+  }
+}
+@mixin fds-flex-v-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-flex-v-children;
+    @include fds-flex-v-last-child;
+  }
+}
+@mixin fds-center-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-center-children;
+    @include fds-center-last-child;
+  }
+}
+@mixin fds-float-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-float-children;
+    @include fds-float-last-child;
+    @include fds-float-after;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-float-left-lg:"] {
+    float: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-float-right-lg:"] {
+    float: right;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-float-clear-left-lg:"] {
+    clear: left;
+    float: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-float-clear-right-lg:"] {
+    clear: right;
+    float: right;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-fill-children-lg:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-children-fill-lg:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-hide-lg:"] {
+    display: none;
   }
 }
 @mixin alignment-center-xlg {
@@ -6710,143 +6438,108 @@
   }
 }
 
-
 @mixin background-color-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary-1 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary-2 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary-3 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary-4 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary-5 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-primary {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary-6 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary-7 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary-8 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-primary-9 );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-bonkers-lightest );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-bonkers-lighter );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-bonkers-light );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-bonkers {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-bonkers );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-bonkers-dark );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-bonkers-darker );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
-
     --background-color: var( --fds-color-bonkers-darkest );
     background-color: var( --background-color );
   }
 }
-
 @mixin background-color-hover-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6854,7 +6547,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6862,7 +6554,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6870,7 +6561,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6878,7 +6568,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6886,7 +6575,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-primary {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6894,7 +6582,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6902,7 +6589,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6910,7 +6596,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6918,7 +6603,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6926,7 +6610,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6934,7 +6617,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6942,7 +6624,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6950,7 +6631,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-bonkers {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6958,7 +6638,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6966,7 +6645,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6974,7 +6652,6 @@
     }
   }
 }
-
 @mixin background-color-hover-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -6982,143 +6659,108 @@
     }
   }
 }
-
 @mixin color-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary-1 );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary-2 );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary-3 );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary-4 );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary-5 );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-primary {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary-6 );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary-7 );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary-8 );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-primary-9 );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-bonkers-lightest );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-bonkers-lighter );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-bonkers-light );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-bonkers {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-bonkers );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-bonkers-dark );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-bonkers-darker );
     color: var( --color );
   }
 }
-
 @mixin color-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
-
     --color: var( --fds-color-bonkers-darkest );
     color: var( --color );
   }
 }
-
 @mixin color-hover-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7126,7 +6768,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7134,7 +6775,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7142,7 +6782,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7150,7 +6789,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7158,7 +6796,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-primary {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7166,7 +6803,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7174,7 +6810,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7182,7 +6817,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7190,7 +6824,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7198,7 +6831,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7206,7 +6838,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7214,7 +6845,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7222,7 +6852,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-bonkers {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7230,7 +6859,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7238,7 +6866,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7246,7 +6873,6 @@
     }
   }
 }
-
 @mixin color-hover-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
     &:hover {
@@ -7254,783 +6880,780 @@
     }
   }
 }
-
 @mixin border-color-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-color-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-color-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-color-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-color-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-color-xlg-primary {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary );
   }
 }
-
 @mixin border-color-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-color-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-color-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-color-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-color-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-color-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-color-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-color-xlg-bonkers {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-bonkers );
   }
 }
-
 @mixin border-color-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-color-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-color-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
-
     border-color: var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-xlg-primary {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-xlg-bonkers {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
-
     border: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-top-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-top-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-top-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-top-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-top-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-top-xlg-primary {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-top-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-top-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-top-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-top-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-top-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-top-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-top-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-top-xlg-bonkers {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-top-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-top-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-top-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
-
     border-top: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-bottom-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-bottom-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-bottom-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-bottom-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-bottom-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-bottom-xlg-primary {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-bottom-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-bottom-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-bottom-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-bottom-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-bottom-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-bottom-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-bottom-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-bottom-xlg-bonkers {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-bottom-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-bottom-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-bottom-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
-
     border-bottom: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-left-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-left-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-left-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-left-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-left-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-left-xlg-primary {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-left-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-left-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-left-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-left-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-left-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-left-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-left-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-left-xlg-bonkers {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-left-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-left-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-left-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
-
     border-left: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin border-right-xlg-primary-1 {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary-1 );
   }
 }
-
 @mixin border-right-xlg-primary-2 {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary-2 );
   }
 }
-
 @mixin border-right-xlg-primary-3 {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary-3 );
   }
 }
-
 @mixin border-right-xlg-primary-4 {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary-4 );
   }
 }
-
 @mixin border-right-xlg-primary-5 {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary-5 );
   }
 }
-
 @mixin border-right-xlg-primary {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary );
   }
 }
-
 @mixin border-right-xlg-primary-6 {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary-6 );
   }
 }
-
 @mixin border-right-xlg-primary-7 {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary-7 );
   }
 }
-
 @mixin border-right-xlg-primary-8 {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary-8 );
   }
 }
-
 @mixin border-right-xlg-primary-9 {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-primary-9 );
   }
 }
-
 @mixin border-right-xlg-bonkers-lightest {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-bonkers-lightest );
   }
 }
-
 @mixin border-right-xlg-bonkers-lighter {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-bonkers-lighter );
   }
 }
-
 @mixin border-right-xlg-bonkers-light {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-bonkers-light );
   }
 }
-
 @mixin border-right-xlg-bonkers {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-bonkers );
   }
 }
-
 @mixin border-right-xlg-bonkers-dark {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-bonkers-dark );
   }
 }
-
 @mixin border-right-xlg-bonkers-darker {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-bonkers-darker );
   }
 }
-
 @mixin border-right-xlg-bonkers-darkest {
   @media screen and (min-width: 1200px) {
-
     border-right: 1px solid var( --fds-color-bonkers-darkest );
   }
 }
-
 @mixin font-xlg-text-10 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-10 );
   }
 }
-
 @mixin font-xlg-text-9 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-9 );
   }
 }
-
 @mixin font-xlg-text-8 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-8 );
   }
 }
-
 @mixin font-xlg-text-7 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-7 );
   }
 }
-
 @mixin font-xlg-text-6 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-6 );
   }
 }
-
 @mixin font-xlg-text-5 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-5 );
   }
 }
-
 @mixin font-xlg-text {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text );
   }
 }
-
 @mixin font-xlg-text-4 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-4 );
   }
 }
-
 @mixin font-xlg-text-3 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-3 );
   }
 }
-
 @mixin font-xlg-text-2 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-2 );
   }
 }
-
 @mixin font-xlg-text-1 {
   @media screen and (min-width: 1200px) {
     font: var( --fds-type-text-1 );
+  }
+}
+@mixin fds-element-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-layout-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-text-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
+}
+@mixin fds-stack-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-stack-children;
+    @include fds-stack-last-child;
+  }
+}
+@mixin fds-layout-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-layout-children;
+    @include fds-layout-last-child;
+  }
+}
+@mixin fds-flex-h-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+    @include fds-flex-h-children;
+    @include fds-flex-h-last-child;
+  }
+}
+@mixin fds-flex-v-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-flex-v-children;
+    @include fds-flex-v-last-child;
+  }
+}
+@mixin fds-center-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-center-children;
+    @include fds-center-last-child;
+  }
+}
+@mixin fds-float-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-float-children;
+    @include fds-float-last-child;
+    @include fds-float-after;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-float-left-xlg:"] {
+    float: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-float-right-xlg:"] {
+    float: right;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-float-clear-left-xlg:"] {
+    clear: left;
+    float: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-float-clear-right-xlg:"] {
+    clear: right;
+    float: right;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-fill-children-xlg:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-children-fill-xlg:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-hide-xlg:"] {
+    display: none;
   }
 }
