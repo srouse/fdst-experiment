@@ -14,16 +14,24 @@ export default function style(
   dsysStyles: FDSProp,
   otherStyles: CSS.Properties = {},
 ) : string {
+  const toKebab =
+    (str) => str.replace(/([a-z0–9])([A-Z])/g, "$1-$2").toLowerCase();
   return `style="${
     Object.entries(dsysStyles).map((entry) => {
-      if (entry[1] === true) {
-        return `--fds-${entry[0]}: 1;`;
+      const name = toKebab(entry[0]);
+      const value = entry[1];
+      if (value === true) {
+        return `--fds-${name}: 1;`;
+      }else if (!isNaN(value as any)) {
+        return `--fds-${name}: ${value};`;
       }else{
-        return `--fds-${entry[0]}: var( --fds-${entry[1]} );`;
+        return `--fds-${name}: var( --fds-${value]} );`;
       }
     }).join('\n  ')}${
     Object.entries(otherStyles).map((entry) => {
-      return `${entry[0]}: ${entry[1]};`;
+      if (!entry[0]) return '';
+      const name = toKebab(entry[0]);
+      return `${name}: ${entry[1]};`;
     }).join('\n  ')
   }"`;
 }
