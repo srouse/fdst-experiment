@@ -514,10 +514,10 @@
             "dsys.styleId": "S:1d4f331ca6e0d4fa8ed61b1b22a59069fd1d5e88,"
           },
           "$value": {
-            "fontFamily": "Inter",
+            "fontFamily": "Jomhuria",
             "fontStyle": "normal",
             "figmaFontObj": {
-              "family": "Inter",
+              "family": "Jomhuria",
               "style": "Regular"
             },
             "fontWeight": 400,
