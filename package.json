@@ -1,9 +1,9 @@
 {
   "name": "@srouse/fdst-experiment",
-  "version": "v1.0.98",
+  "version": "v1.0.99",
   "main": "index.js",
   "repository": "git@github.com:srouse/fdst-experiment.git",
-  "devDependencies": {
+  "dependencies": {
     "csstype": "^3.1.1"
   }
 }
