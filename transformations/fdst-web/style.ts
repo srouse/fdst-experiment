@@ -25,7 +25,7 @@ export default function style(
       }else if (!isNaN(value as any)) {
         return `--fds-${name}: ${value};`;
       }else{
-        return `--fds-${name}: var( --fds-${value]} );`;
+        return `--fds-${name}: var( --fds-${value} );`;
       }
     }).join('\n  ')}${
     Object.entries(otherStyles).map((entry) => {
