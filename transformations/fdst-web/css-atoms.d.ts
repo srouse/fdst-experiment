@@ -3,7 +3,7 @@ import {
   FDSTypeValue,
   FDSEffectValue,
   FDSSpacingValue,
-} from './css-vars.d.ts';
+} from './css-vars';
 
 export type FDSProp = {
   alignmentCenter?: true,
