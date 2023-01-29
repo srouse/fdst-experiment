@@ -47,12 +47,6 @@ const template = document.createElement('template');
         case 'cube' :
           svg = await import('./icons/cube.js');
           break;
-        case 'default' :
-          svg = await import('./icons/default.js');
-          break;
-        case 'hand-middle-finger' :
-          svg = await import('./icons/hand-middle-finger.js');
-          break;
         case 'water-ladder' :
           svg = await import('./icons/water-ladder.js');
           break;
