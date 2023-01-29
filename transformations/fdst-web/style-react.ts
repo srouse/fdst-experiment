@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { FDSProp } from "./css-atoms.d.ts";
+import { FDSProp } from "./css-atoms";
 import type * as CSS from 'csstype';
 
 /**
