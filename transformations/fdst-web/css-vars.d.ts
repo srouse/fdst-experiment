@@ -1,3 +1,49 @@
+export type FDSColorValue =
+  'color-primary-1' |
+  'color-primary-2' |
+  'color-primary-3' |
+  'color-primary-4' |
+  'color-primary-5' |
+  'color-primary' |
+  'color-primary-6' |
+  'color-primary-7' |
+  'color-primary-8' |
+  'color-primary-9' |
+  'color-bonkers-lightest' |
+  'color-bonkers-lighter' |
+  'color-bonkers-light' |
+  'color-bonkers' |
+  'color-bonkers-dark' |
+  'color-bonkers-darker' |
+  'color-bonkers-darkest';
+
+export type FDSTypeValue =
+  'type-text-10' |
+  'type-text-9' |
+  'type-text-8' |
+  'type-text-7' |
+  'type-text-6' |
+  'type-text-5' |
+  'type-text' |
+  'type-text-4' |
+  'type-text-3' |
+  'type-text-2' |
+  'type-text-1';
+
+export type FDSEffectValue =
+  'effect-shadow-shadow' |
+  'effect-blur-blur-radius';
+
+export type FDSBreakpointValue =
+  'breakpoint-sm-down' |
+  'breakpoint-xlg-up' |
+  'breakpoint-lg-up' |
+  'breakpoint-md-up';
+
+export type FDSCustomValue =
+  'custom-nice' |
+  'custom-turkey';
+
 export type FDSSpacingValue =
   'spacing-0' |
   'spacing-0-3' |
@@ -85,56 +131,10 @@ export type FDSSpacingValue =
   'spacing-colvw-11' |
   'spacing-colvw-12';
 
-export type FDSColorValue =
-  'color-primary-1' |
-  'color-primary-2' |
-  'color-primary-3' |
-  'color-primary-4' |
-  'color-primary-5' |
-  'color-primary' |
-  'color-primary-6' |
-  'color-primary-7' |
-  'color-primary-8' |
-  'color-primary-9' |
-  'color-bonkers-lightest' |
-  'color-bonkers-lighter' |
-  'color-bonkers-light' |
-  'color-bonkers' |
-  'color-bonkers-dark' |
-  'color-bonkers-darker' |
-  'color-bonkers-darkest';
-
-export type FDSTypeValue =
-  'type-text-10' |
-  'type-text-9' |
-  'type-text-8' |
-  'type-text-7' |
-  'type-text-6' |
-  'type-text-5' |
-  'type-text' |
-  'type-text-4' |
-  'type-text-3' |
-  'type-text-2' |
-  'type-text-1';
-
-export type FDSEffectValue =
-  'effect-shadow-shadow' |
-  'effect-blur-blur-radius';
-
-export type FDSBreakpointValue =
-  'breakpoint-sm-down' |
-  'breakpoint-xlg-up' |
-  'breakpoint-lg-up' |
-  'breakpoint-md-up';
-
-export type FDSCustomValue =
-  'custom-nice' |
-  'custom-turkey';
-
 export type FDSValue =
-  FDSSpacingValue |
   FDSColorValue |
   FDSTypeValue |
   FDSEffectValue |
   FDSBreakpointValue |
-  FDSCustomValue;
+  FDSCustomValue |
+  FDSSpacingValue;
