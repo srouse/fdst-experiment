@@ -44,6 +44,9 @@ const template = document.createElement('template');
         case 'frog' :
           svg = await import('./icons/frog.js');
           break;
+        case 'solar-panel' :
+          svg = await import('./icons/solar-panel.js');
+          break;
         case 'cube' :
           svg = await import('./icons/cube.js');
           break;
