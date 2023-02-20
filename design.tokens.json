@@ -42,7 +42,7 @@
             "dsys.styleId": "S:3f89500d8b01e446925451162d2b04d3bb3e8228,"
           },
           "$value": {
-            "hex": "#99f2be",
+            "hex": "#8df2b7",
             "alpha": 1
           },
           "$type": "color"
@@ -94,7 +94,7 @@
             "dsys.styleId": "S:a4a1a4d1580dec212e05872fe45c3b53dfead0d4,"
           },
           "$value": {
-            "hex": "#1b7a43",
+            "hex": "#20ba60",
             "alpha": 1
           },
           "$type": "color"
@@ -107,7 +107,7 @@
             "dsys.styleId": "S:5aa148369d94032070403a0bed0247677838bda7,"
           },
           "$value": {
-            "hex": "#11ab51",
+            "hex": "#12a650",
             "alpha": 1
           },
           "$type": "color"
@@ -181,7 +181,7 @@
             "dsys.styleId": "S:bf652094d58cebfb9d535601a597423233b4aab5,"
           },
           "$value": {
-            "hex": "#fcd395",
+            "hex": "#fcd595",
             "alpha": 1
           },
           "$type": "color"
@@ -194,7 +194,7 @@
             "dsys.styleId": "S:02cc5748ed0a4426c03d8f8691a6084c38471415,"
           },
           "$value": {
-            "hex": "#ffbd59",
+            "hex": "#ffbf59",
             "alpha": 1
           },
           "$type": "color"
@@ -207,7 +207,7 @@
             "dsys.styleId": "S:8920d2255f20513f18289dea0ba750981c4d15f8,"
           },
           "$value": {
-            "hex": "#ff9900",
+            "hex": "#ff9d00",
             "alpha": 1
           },
           "$type": "color"
@@ -220,7 +220,7 @@
             "dsys.styleId": "S:5e70ff0216ed2740299e92fffbdb235c604f59b4,"
           },
           "$value": {
-            "hex": "#cc7a00",
+            "hex": "#cc7e00",
             "alpha": 1
           },
           "$type": "color"
@@ -233,7 +233,7 @@
             "dsys.styleId": "S:a6ec893a528d745b05686f55ea595bfee48f4005,"
           },
           "$value": {
-            "hex": "#824e00",
+            "hex": "#825000",
             "alpha": 1
           },
           "$type": "color"
@@ -246,7 +246,7 @@
             "dsys.styleId": "S:6b3d7d3be96b40366ccc19fc7fb2cfc854f26caa,"
           },
           "$value": {
-            "hex": "#301d00",
+            "hex": "#301e00",
             "alpha": 1
           },
           "$type": "color"
