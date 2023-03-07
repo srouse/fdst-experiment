@@ -28,7 +28,7 @@ template.innerHTML = `
 </div>
 `;
 
-class default extends HTMLElement {
+class FDSdefault extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -36,4 +36,4 @@ class default extends HTMLElement {
   }
 }
 
-window.customElements.define('default', default);
+window.customElements.define('fds-default', FDSdefault);
