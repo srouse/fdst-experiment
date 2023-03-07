@@ -35,7 +35,7 @@ template.innerHTML = `
 </div>
 `;
 
-class waterLadder extends HTMLElement {
+class FDSwaterLadder extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -43,4 +43,4 @@ class waterLadder extends HTMLElement {
   }
 }
 
-window.customElements.define('water-ladder', waterLadder);
+window.customElements.define('fds-water-ladder', FDSwaterLadder);
