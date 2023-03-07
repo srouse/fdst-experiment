@@ -1,0 +1,2626 @@
+@mixin alignment-center {
+  --ai-h: center;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: center;
+}
+@mixin alignment-center-center {
+  --ai-h: center;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: center;
+}
+@mixin alignment-center-left {
+  --ai-h: center;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: center;
+}
+@mixin alignment-left-center {
+  --ai-h: center;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: center;
+}
+@mixin alignment-center-right {
+  --ai-h: center;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: center;
+}
+@mixin alignment-right-center {
+  --ai-h: center;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: center;
+}
+@mixin alignment-top {
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-top-left {
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-left-top {
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-left {
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-top-center {
+  --ai-h: flex-start;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-start;
+}
+@mixin alignment-center-top {
+  --ai-h: flex-start;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-start;
+}
+@mixin alignment-top-right {
+  --ai-h: flex-start;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-start;
+}
+@mixin alignment-right-top {
+  --ai-h: flex-start;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-start;
+}
+@mixin alignment-right {
+  --ai-h: flex-start;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-start;
+}
+@mixin alignment-bottom-left {
+  --ai-h: flex-end;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-end;
+}
+@mixin alignment-left-bottom {
+  --ai-h: flex-end;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-end;
+}
+@mixin alignment-bottom {
+  --ai-h: flex-end;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-end;
+}
+@mixin alignment-bottom-center {
+  --ai-h: flex-end;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-end;
+}
+@mixin alignment-center-bottom {
+  --ai-h: flex-end;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-end;
+}
+@mixin alignment-bottom-right {
+  --ai-h: flex-end;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-end;
+}
+@mixin alignment-right-bottom {
+  --ai-h: flex-end;
+  --jc-h: flex-end;
+  --ai-v: flex-end;
+  --jc-v: flex-end;
+}
+@mixin alignment-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-stretch-left {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-left-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-stretch-top {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-top-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-start;
+  --ai-v: stretch;
+  --jc-v: flex-start;
+}
+@mixin alignment-stretch-right {
+  --ai-h: stretch;
+  --jc-h: flex-end;
+  --ai-v: stretch;
+  --jc-v: flex-end;
+}
+@mixin alignment-right-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-end;
+  --ai-v: stretch;
+  --jc-v: flex-end;
+}
+@mixin alignment-stretch-bottom {
+  --ai-h: stretch;
+  --jc-h: flex-end;
+  --ai-v: stretch;
+  --jc-v: flex-end;
+}
+@mixin alignment-bottom-stretch {
+  --ai-h: stretch;
+  --jc-h: flex-end;
+  --ai-v: stretch;
+  --jc-v: flex-end;
+}
+@mixin alignment-stretch-center {
+  --ai-h: stretch;
+  --jc-h: center;
+  --ai-v: stretch;
+  --jc-v: center;
+}
+@mixin alignment-center-stretch {
+  --ai-h: stretch;
+  --jc-h: center;
+  --ai-v: stretch;
+  --jc-v: center;
+}
+@mixin baseline {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-baseline-left {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-left-baseline {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-baseline-right {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-right-baseline {
+  --ai-h: baseline;
+  --jc-h: flex-start;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+}
+@mixin alignment-baseline-center {
+  --ai-h: baseline;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-start;
+}
+@mixin alignment-center-baseline {
+  --ai-h: baseline;
+  --jc-h: center;
+  --ai-v: center;
+  --jc-v: flex-start;
+}
+@mixin fds-element {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+}
+@mixin fds-layout {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+}
+@mixin fds-text {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: inline-block;
+}
+@mixin fds-stack {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+  @include fds-stack-children;
+  @include fds-stack-last-child;
+}
+@mixin fds-stack-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
+}
+@mixin fds-stack-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-layout {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+  @include fds-layout-children;
+  @include fds-layout-last-child;
+}
+@mixin fds-layout-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: 100%;
+  }
+}
+@mixin fds-layout-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-flex-h {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  /* flex element */
+  position: relative;
+  box-sizing: border-box;
+  --align-items: initial;
+  --justify-content: initial;
+  align-items: var( --align-items , var( --ai-int, flex-start ) );
+  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+  display: flex;
+  flex-flow: row nowrap;
+  --ai-h: flex-start;
+  --jc-h: flex-start;
+  --ai-int: var( --ai-h, initial );
+  --jc-int: var( --jc-h, initial );
+  @include fds-flex-h-children;
+  @include fds-flex-h-last-child;
+}
+@mixin fds-flex-h-children {
+  & > *:nth-child(n) {
+    --gap-h-int: var( --gap , var( --gap-h, initial ));
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-flex-h-last-child {
+  & > *:last-child {
+    --gap-h-int: 0px;
+  }
+}
+@mixin fds-flex-v {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  /* flex element */
+  position: relative;
+  box-sizing: border-box;
+  --align-items: initial;
+  --justify-content: initial;
+  align-items: var( --align-items , var( --ai-int, flex-start ) );
+  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+  display: flex;
+  flex-flow: column nowrap;
+  --ai-v: flex-start;
+  --jc-v: flex-start;
+  --ai-int: var( --ai-v, initial );
+  --jc-int: var( --jc-v, initial );
+  @include fds-flex-v-children;
+  @include fds-flex-v-last-child;
+}
+@mixin fds-flex-v-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
+}
+@mixin fds-flex-v-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-center {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  /* flex element */
+  position: relative;
+  box-sizing: border-box;
+  --align-items: initial;
+  --justify-content: initial;
+  align-items: var( --align-items , var( --ai-int, flex-start ) );
+  justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+  display: flex;
+  flex-flow: column nowrap;
+  --ai-v: center;
+  --jc-v: center;
+  --ai-int: var( --ai-v, initial );
+  --jc-int: var( --jc-v, initial );
+  @include fds-center-children;
+  @include fds-center-last-child;
+}
+@mixin fds-center-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+  }
+}
+@mixin fds-center-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-float {
+  /* element */
+  position: relative;
+  box-sizing: border-box;
+  --margin-right: initial;
+  --margin-bottom: initial;
+  --gap-h-int: initial;
+  --gap-v-int: initial;
+  margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+  margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+  display: block;
+  @include fds-float-children;
+  @include fds-float-last-child;
+  @include fds-float-after;
+}
+@mixin fds-float-children {
+  & > *:nth-child(n) {
+    --gap-h-int: 0px;
+    --gap-v-int: var( --gap, var( --gap-v, initial ));
+    width: auto;
+    float: left;
+    clear: left;
+  }
+}
+@mixin fds-float-last-child {
+  & > *:last-child {
+    --gap-v-int: 0px;
+  }
+}
+@mixin fds-float-after {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+[style~="--fds-float-left:"] {
+  float: left;
+}
+[style~="--fds-float-right:"] {
+  float: right;
+}
+[style~="--fds-float-clear-left:"] {
+  clear: left;
+  float: left;
+}
+[style~="--fds-float-clear-right:"] {
+  clear: right;
+  float: right;
+}
+[style~="--fds-fill-children:"] > * {
+  flex: 1;
+}
+[style~="--fds-children-fill:"] > * {
+  flex: 1;
+}
+[style~="--fds-hide:"] {
+  display: none;
+}
+@mixin alignment-center-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: center;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-center-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: center;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-left-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: center;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: center;
+  }
+}
+@mixin alignment-left-center-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: center;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-right-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: center;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: center;
+  }
+}
+@mixin alignment-right-center-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: center;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: center;
+  }
+}
+@mixin alignment-top-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-left-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-top-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-center-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-start;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-center-top-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-start;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-right-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-top-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-bottom-left-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-left-bottom-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-center-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-end;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-center-bottom-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-end;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-right-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-end;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-right-bottom-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: flex-end;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-left-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-stretch-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-top-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-stretch-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-right-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-right-stretch-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-bottom-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-stretch-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-center-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: center;
+    --ai-v: stretch;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-stretch-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: stretch;
+    --jc-h: center;
+    --ai-v: stretch;
+    --jc-v: center;
+  }
+}
+@mixin baseline-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-left-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-baseline-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-right-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-baseline-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-center-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: baseline;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-center-baseline-sm {
+  @media screen  and (max-width: 599px) {
+    --ai-h: baseline;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin fds-element-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-layout-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-text-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
+}
+@mixin fds-stack-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-stack-children;
+    @include fds-stack-last-child;
+  }
+}
+@mixin fds-layout-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-layout-children;
+    @include fds-layout-last-child;
+  }
+}
+@mixin fds-flex-h-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+    @include fds-flex-h-children;
+    @include fds-flex-h-last-child;
+  }
+}
+@mixin fds-flex-v-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-flex-v-children;
+    @include fds-flex-v-last-child;
+  }
+}
+@mixin fds-center-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-center-children;
+    @include fds-center-last-child;
+  }
+}
+@mixin fds-float-sm {
+  @media screen  and (max-width: 599px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-float-children;
+    @include fds-float-last-child;
+    @include fds-float-after;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-float-left-sm:"] {
+    float: left;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-float-right-sm:"] {
+    float: right;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-float-clear-left-sm:"] {
+    clear: left;
+    float: left;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-float-clear-right-sm:"] {
+    clear: right;
+    float: right;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-fill-children-sm:"] > * {
+    flex: 1;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-children-fill-sm:"] > * {
+    flex: 1;
+  }
+}
+@media screen  and (max-width: 599px) {
+  [style~="--fds-hide-sm:"] {
+    display: none;
+  }
+}
+@mixin alignment-center-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: center;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-center-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: center;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-left-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: center;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: center;
+  }
+}
+@mixin alignment-left-center-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: center;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-right-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: center;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: center;
+  }
+}
+@mixin alignment-right-center-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: center;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: center;
+  }
+}
+@mixin alignment-top-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-left-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-top-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-center-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-start;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-center-top-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-start;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-right-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-top-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-bottom-left-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-left-bottom-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-center-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-end;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-center-bottom-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-end;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-right-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-end;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-right-bottom-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: flex-end;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-left-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-stretch-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-top-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-stretch-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-right-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-right-stretch-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-bottom-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-stretch-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-center-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: center;
+    --ai-v: stretch;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-stretch-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: stretch;
+    --jc-h: center;
+    --ai-v: stretch;
+    --jc-v: center;
+  }
+}
+@mixin baseline-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-left-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-baseline-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-right-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-baseline-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-center-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: baseline;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-center-baseline-md {
+  @media screen and (min-width: 600px) {
+    --ai-h: baseline;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin fds-element-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-layout-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-text-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
+}
+@mixin fds-stack-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-stack-children;
+    @include fds-stack-last-child;
+  }
+}
+@mixin fds-layout-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-layout-children;
+    @include fds-layout-last-child;
+  }
+}
+@mixin fds-flex-h-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+    @include fds-flex-h-children;
+    @include fds-flex-h-last-child;
+  }
+}
+@mixin fds-flex-v-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-flex-v-children;
+    @include fds-flex-v-last-child;
+  }
+}
+@mixin fds-center-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-center-children;
+    @include fds-center-last-child;
+  }
+}
+@mixin fds-float-md {
+  @media screen and (min-width: 600px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-float-children;
+    @include fds-float-last-child;
+    @include fds-float-after;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-float-left-md:"] {
+    float: left;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-float-right-md:"] {
+    float: right;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-float-clear-left-md:"] {
+    clear: left;
+    float: left;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-float-clear-right-md:"] {
+    clear: right;
+    float: right;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-fill-children-md:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-children-fill-md:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 600px) {
+  [style~="--fds-hide-md:"] {
+    display: none;
+  }
+}
+@mixin alignment-center-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: center;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-center-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: center;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-left-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: center;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: center;
+  }
+}
+@mixin alignment-left-center-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: center;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-right-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: center;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: center;
+  }
+}
+@mixin alignment-right-center-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: center;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: center;
+  }
+}
+@mixin alignment-top-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-left-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-top-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-center-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-start;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-center-top-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-start;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-right-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-top-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-bottom-left-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-left-bottom-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-center-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-end;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-center-bottom-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-end;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-right-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-end;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-right-bottom-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: flex-end;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-left-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-stretch-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-top-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-stretch-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-right-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-right-stretch-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-bottom-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-stretch-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-center-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: center;
+    --ai-v: stretch;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-stretch-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: stretch;
+    --jc-h: center;
+    --ai-v: stretch;
+    --jc-v: center;
+  }
+}
+@mixin baseline-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-left-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-baseline-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-right-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-baseline-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-center-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: baseline;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-center-baseline-lg {
+  @media screen and (min-width: 900px) {
+    --ai-h: baseline;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin fds-element-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-layout-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-text-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
+}
+@mixin fds-stack-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-stack-children;
+    @include fds-stack-last-child;
+  }
+}
+@mixin fds-layout-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-layout-children;
+    @include fds-layout-last-child;
+  }
+}
+@mixin fds-flex-h-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+    @include fds-flex-h-children;
+    @include fds-flex-h-last-child;
+  }
+}
+@mixin fds-flex-v-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-flex-v-children;
+    @include fds-flex-v-last-child;
+  }
+}
+@mixin fds-center-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-center-children;
+    @include fds-center-last-child;
+  }
+}
+@mixin fds-float-lg {
+  @media screen and (min-width: 900px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-float-children;
+    @include fds-float-last-child;
+    @include fds-float-after;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-float-left-lg:"] {
+    float: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-float-right-lg:"] {
+    float: right;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-float-clear-left-lg:"] {
+    clear: left;
+    float: left;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-float-clear-right-lg:"] {
+    clear: right;
+    float: right;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-fill-children-lg:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-children-fill-lg:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 900px) {
+  [style~="--fds-hide-lg:"] {
+    display: none;
+  }
+}
+@mixin alignment-center-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: center;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-center-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: center;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-left-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: center;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: center;
+  }
+}
+@mixin alignment-left-center-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: center;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-right-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: center;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: center;
+  }
+}
+@mixin alignment-right-center-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: center;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: center;
+  }
+}
+@mixin alignment-top-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-left-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-top-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-center-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-start;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-center-top-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-start;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-right-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-top-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-start;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-bottom-left-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-left-bottom-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-end;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-center-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-end;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-center-bottom-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-end;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-right-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-end;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-right-bottom-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: flex-end;
+    --jc-h: flex-end;
+    --ai-v: flex-end;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-left-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-stretch-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-top-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-top-stretch-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: flex-start;
+    --ai-v: stretch;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-stretch-right-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-right-stretch-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-bottom-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-bottom-stretch-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: flex-end;
+    --ai-v: stretch;
+    --jc-v: flex-end;
+  }
+}
+@mixin alignment-stretch-center-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: center;
+    --ai-v: stretch;
+    --jc-v: center;
+  }
+}
+@mixin alignment-center-stretch-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: stretch;
+    --jc-h: center;
+    --ai-v: stretch;
+    --jc-v: center;
+  }
+}
+@mixin baseline-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-left-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-left-baseline-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-right-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-right-baseline-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: baseline;
+    --jc-h: flex-start;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-baseline-center-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: baseline;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin alignment-center-baseline-xlg {
+  @media screen and (min-width: 1200px) {
+    --ai-h: baseline;
+    --jc-h: center;
+    --ai-v: center;
+    --jc-v: flex-start;
+  }
+}
+@mixin fds-element-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-layout-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+  }
+}
+@mixin fds-text-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: inline-block;
+  }
+}
+@mixin fds-stack-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-stack-children;
+    @include fds-stack-last-child;
+  }
+}
+@mixin fds-layout-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-layout-children;
+    @include fds-layout-last-child;
+  }
+}
+@mixin fds-flex-h-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: row nowrap;
+    --ai-h: flex-start;
+    --jc-h: flex-start;
+    --ai-int: var( --ai-h, initial );
+    --jc-int: var( --jc-h, initial );
+    @include fds-flex-h-children;
+    @include fds-flex-h-last-child;
+  }
+}
+@mixin fds-flex-v-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: flex-start;
+    --jc-v: flex-start;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-flex-v-children;
+    @include fds-flex-v-last-child;
+  }
+}
+@mixin fds-center-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    /* flex element */
+    position: relative;
+    box-sizing: border-box;
+    --align-items: initial;
+    --justify-content: initial;
+    align-items: var( --align-items , var( --ai-int, flex-start ) );
+    justify-content: var( --justify-content , var( --jc-int, flex-start ) );
+    display: flex;
+    flex-flow: column nowrap;
+    --ai-v: center;
+    --jc-v: center;
+    --ai-int: var( --ai-v, initial );
+    --jc-int: var( --jc-v, initial );
+    @include fds-center-children;
+    @include fds-center-last-child;
+  }
+}
+@mixin fds-float-xlg {
+  @media screen and (min-width: 1200px) {
+    /* element */
+    position: relative;
+    box-sizing: border-box;
+    --margin-right: initial;
+    --margin-bottom: initial;
+    --gap-h-int: initial;
+    --gap-v-int: initial;
+    margin-right: var( --margin-right, var( --gap-h-int, initial ) );
+    margin-bottom: var( --margin-bottom, var( --gap-v-int, initial ) );
+    display: block;
+    @include fds-float-children;
+    @include fds-float-last-child;
+    @include fds-float-after;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-float-left-xlg:"] {
+    float: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-float-right-xlg:"] {
+    float: right;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-float-clear-left-xlg:"] {
+    clear: left;
+    float: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-float-clear-right-xlg:"] {
+    clear: right;
+    float: right;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-fill-children-xlg:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-children-fill-xlg:"] > * {
+    flex: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  [style~="--fds-hide-xlg:"] {
+    display: none;
+  }
+}
