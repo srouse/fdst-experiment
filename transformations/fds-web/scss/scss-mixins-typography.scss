@@ -1,0 +1,253 @@
+@mixin font-text-10 {
+  font: var( --fds-type-text-10 );
+}
+@mixin font-text-9 {
+  font: var( --fds-type-text-9 );
+}
+@mixin font-text-8 {
+  font: var( --fds-type-text-8 );
+}
+@mixin font-text-7 {
+  font: var( --fds-type-text-7 );
+}
+@mixin font-text-6 {
+  font: var( --fds-type-text-6 );
+}
+@mixin font-text-5 {
+  font: var( --fds-type-text-5 );
+}
+@mixin font-text {
+  font: var( --fds-type-text );
+}
+@mixin font-text-4 {
+  font: var( --fds-type-text-4 );
+}
+@mixin font-text-3 {
+  font: var( --fds-type-text-3 );
+}
+@mixin font-text-2 {
+  font: var( --fds-type-text-2 );
+}
+@mixin font-text-1 {
+  font: var( --fds-type-text-1 );
+}
+@mixin font-sm-text-10 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-10 );
+  }
+}
+@mixin font-sm-text-9 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-9 );
+  }
+}
+@mixin font-sm-text-8 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-8 );
+  }
+}
+@mixin font-sm-text-7 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-7 );
+  }
+}
+@mixin font-sm-text-6 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-6 );
+  }
+}
+@mixin font-sm-text-5 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-5 );
+  }
+}
+@mixin font-sm-text {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text );
+  }
+}
+@mixin font-sm-text-4 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-4 );
+  }
+}
+@mixin font-sm-text-3 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-3 );
+  }
+}
+@mixin font-sm-text-2 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-2 );
+  }
+}
+@mixin font-sm-text-1 {
+  @media screen  and (max-width: 599px) {
+    font: var( --fds-type-text-1 );
+  }
+}
+@mixin font-md-text-10 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-10 );
+  }
+}
+@mixin font-md-text-9 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-9 );
+  }
+}
+@mixin font-md-text-8 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-8 );
+  }
+}
+@mixin font-md-text-7 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-7 );
+  }
+}
+@mixin font-md-text-6 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-6 );
+  }
+}
+@mixin font-md-text-5 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-5 );
+  }
+}
+@mixin font-md-text {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text );
+  }
+}
+@mixin font-md-text-4 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-4 );
+  }
+}
+@mixin font-md-text-3 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-3 );
+  }
+}
+@mixin font-md-text-2 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-2 );
+  }
+}
+@mixin font-md-text-1 {
+  @media screen and (min-width: 600px) {
+    font: var( --fds-type-text-1 );
+  }
+}
+@mixin font-lg-text-10 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-10 );
+  }
+}
+@mixin font-lg-text-9 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-9 );
+  }
+}
+@mixin font-lg-text-8 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-8 );
+  }
+}
+@mixin font-lg-text-7 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-7 );
+  }
+}
+@mixin font-lg-text-6 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-6 );
+  }
+}
+@mixin font-lg-text-5 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-5 );
+  }
+}
+@mixin font-lg-text {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text );
+  }
+}
+@mixin font-lg-text-4 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-4 );
+  }
+}
+@mixin font-lg-text-3 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-3 );
+  }
+}
+@mixin font-lg-text-2 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-2 );
+  }
+}
+@mixin font-lg-text-1 {
+  @media screen and (min-width: 900px) {
+    font: var( --fds-type-text-1 );
+  }
+}
+@mixin font-xlg-text-10 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-10 );
+  }
+}
+@mixin font-xlg-text-9 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-9 );
+  }
+}
+@mixin font-xlg-text-8 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-8 );
+  }
+}
+@mixin font-xlg-text-7 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-7 );
+  }
+}
+@mixin font-xlg-text-6 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-6 );
+  }
+}
+@mixin font-xlg-text-5 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-5 );
+  }
+}
+@mixin font-xlg-text {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text );
+  }
+}
+@mixin font-xlg-text-4 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-4 );
+  }
+}
+@mixin font-xlg-text-3 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-3 );
+  }
+}
+@mixin font-xlg-text-2 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-2 );
+  }
+}
+@mixin font-xlg-text-1 {
+  @media screen and (min-width: 1200px) {
+    font: var( --fds-type-text-1 );
+  }
+}
