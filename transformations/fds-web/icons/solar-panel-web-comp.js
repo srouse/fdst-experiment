@@ -35,7 +35,7 @@ template.innerHTML = `
 </div>
 `;
 
-class solarPanel extends HTMLElement {
+class FDSsolarPanel extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -43,4 +43,4 @@ class solarPanel extends HTMLElement {
   }
 }
 
-window.customElements.define('solar-panel', solarPanel);
+window.customElements.define('fds-solar-panel', FDSsolarPanel);
