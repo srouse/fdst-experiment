@@ -28,7 +28,7 @@ template.innerHTML = `
 </div>
 `;
 
-class cube extends HTMLElement {
+class FDScube extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -36,4 +36,4 @@ class cube extends HTMLElement {
   }
 }
 
-window.customElements.define('cube', cube);
+window.customElements.define('fds-cube', FDScube);
