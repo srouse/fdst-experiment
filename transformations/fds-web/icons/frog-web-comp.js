@@ -35,7 +35,7 @@ template.innerHTML = `
 </div>
 `;
 
-class frog extends HTMLElement {
+class FDSfrog extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
@@ -43,4 +43,4 @@ class frog extends HTMLElement {
   }
 }
 
-window.customElements.define('frog', frog);
+window.customElements.define('fds-frog', FDSfrog);
